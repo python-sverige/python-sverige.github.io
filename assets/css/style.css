@@ -1,12 +1,19 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+
 }
+
 .header,
 .marketing,
 .footer {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.header {
+  margin-bottom: 20px;
 }
 
 .nav {
@@ -20,16 +27,26 @@ body {
 .nav>li>a:hover, .nav>li>a:focus {
   background-color: #FECA3A;
 }
+
 .footer {
   padding-top: 19px;
   color: #777;
 }
+
+h1, h2 {
+  font-family: 'Lobster', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
 a, a:hover, a:focus {
   color: #33589F;
 }
+
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 960px;
   }
 }
 .container-narrow > hr {
@@ -37,18 +54,36 @@ a, a:hover, a:focus {
 }
 .hero {
   text-align: center;
+  background: transparent url('../images/stockholm_city_hall.jpg') top right no-repeat;
+  height: 578px;
+  padding-top: 120px;
+  margin-bottom: 20px;
+  color: #FFF;
+  text-shadow: 1px 1px #666;
 }
-.hero .btn {
-  font-size: 26px;
-  font-weight: bold;
-  padding: 14px 24px;
+
+.hero p {
+  padding: 10px 0;
+}
+
+.btn {
   background-color: #33589F;
   border: none;
 }
-.hero .btn:hover, .hero .btn:focus {
+
+.btn-lg {
+  font-weight: bold;
+}
+
+.btn:hover, .btn:focus {
   background-color: #FECA3A;
   color: #33589F;
 }
+
+.center {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .header,
   .marketing,
