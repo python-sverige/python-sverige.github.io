@@ -29,8 +29,9 @@ body {
 }
 
 .footer {
-  padding-top: 19px;
+  padding-top: 50px;
   color: #777;
+  padding-bottom: 620px;
 }
 
 h1, h2 {
@@ -93,6 +94,11 @@ ul.social {
 ul.social li {
   float: left;
   width: 110px;
+}
+
+.sponsors {
+  text-align: center;
+  padding-top: 50px;
 }
 
 @media screen and (min-width: 768px) {
