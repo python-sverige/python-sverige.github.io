@@ -34,6 +34,10 @@ body {
   padding-bottom: 620px;
 }
 
+.lead {
+  max-width: 700px;
+  margin: 0 auto;
+}
 h1, h2 {
   font-family: 'Lobster', sans-serif;
 }
@@ -86,14 +90,15 @@ a, a:hover, a:focus {
 }
 
 ul.social {
-  width: 380px;
+  width: 280px;
   margin: 0 auto;
   height: 50px;
+  list-style: none;
 }
 
 ul.social li {
-  float: left;
-  width: 110px;
+  width: 250px;
+  margin: 0 auto;
 }
 
 .sponsors {
@@ -111,4 +116,26 @@ ul.social li {
   .header {
     margin-bottom: 30px;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .header {
+    margin-bottom: 30px;
+  }
+  ul.social {
+    width: 380px;
+  }
+
+  ul.social li {
+    float: left;
+    margin: 10px 0;
+    width: 110px;
+  }
+
 }
