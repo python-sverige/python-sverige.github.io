@@ -94,8 +94,9 @@ a, a:hover, a:focus {
 ul.social {
   width: 280px;
   margin: 0 auto;
-  height: 50px;
+  height: 80px;
   list-style: none;
+  text-align: left;
 }
 
 ul.social li {
@@ -105,7 +106,7 @@ ul.social li {
 
 .sponsors {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 15px;
 }
 
 .follow {
@@ -146,8 +147,12 @@ ul.social li {
   .header {
     margin-bottom: 30px;
   }
+  .sponsors {
+    padding-top: 50px;
+  }
   ul.social {
     width: 380px;
+    height: 50px;
   }
   ul.social li {
     float: left;
