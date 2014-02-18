@@ -123,7 +123,8 @@ ul.social li {
     padding-top: 120px;
   }
   ul.social {
-    padding-left: 0;
+    text-align: center;
+    padding-left: 40px;
     width: 380px;
     height: 50px;
   }
