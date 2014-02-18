@@ -14,10 +14,12 @@ body {
 
 .header {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .nav {
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .nav>li>a {
@@ -98,7 +100,7 @@ ul.social {
 
 ul.social li {
   width: 250px;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
 .sponsors {
@@ -107,13 +109,29 @@ ul.social li {
 }
 
 .follow {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
-@media screen and (min-width: 480px) {
+.form-inline {
+  display: inline-block;
+}
+
+@media screen and (min-width: 457px) {
   .hero {
     padding-top: 120px;
   }
+  .follow {
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 497px) {
+  .nav {
+    padding-bottom: 0;
+  }
+  .header {
+    text-align: left;
+  }
+
 }
 @media screen and (min-width: 768px) {
   .container {
