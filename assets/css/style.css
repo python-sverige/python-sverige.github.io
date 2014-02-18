@@ -49,11 +49,6 @@ a, a:hover, a:focus {
   color: #33589F;
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 960px;
-  }
-}
 .container-narrow > hr {
   margin: 30px 0;
 }
@@ -61,7 +56,7 @@ a, a:hover, a:focus {
   text-align: center;
   background: transparent url('../images/stockholm_city_hall.jpg') top right no-repeat;
   height: 578px;
-  padding-top: 120px;
+  padding-top: 20px;
   margin-bottom: 20px;
   color: #FFF;
   text-shadow: 1px 1px #666;
@@ -70,6 +65,11 @@ a, a:hover, a:focus {
 .hero p {
   padding: 10px 0;
 }
+
+.hero a {
+  color: #FFF;
+}
+
 
 .btn {
   background-color: #33589F;
@@ -106,19 +106,19 @@ ul.social li {
   padding-top: 50px;
 }
 
-@media screen and (min-width: 768px) {
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .header {
-    margin-bottom: 30px;
-  }
+.follow {
+  margin-top: 50px;
 }
 
+@media screen and (min-width: 480px) {
+  .hero {
+    padding-top: 120px;
+  }
+}
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 960px;
+  }
   .header,
   .marketing,
   .footer {
@@ -131,11 +131,9 @@ ul.social li {
   ul.social {
     width: 380px;
   }
-
   ul.social li {
     float: left;
     margin: 10px 0;
     width: 110px;
   }
-
 }
