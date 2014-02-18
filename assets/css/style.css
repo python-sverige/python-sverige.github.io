@@ -97,6 +97,7 @@ ul.social {
   height: 80px;
   list-style: none;
   text-align: left;
+  padding-left: 110px;
 }
 
 ul.social li {
@@ -120,6 +121,16 @@ ul.social li {
 @media screen and (min-width: 457px) {
   .hero {
     padding-top: 120px;
+  }
+  ul.social {
+    padding-left: 0;
+    width: 380px;
+    height: 50px;
+  }
+  ul.social li {
+    float: left;
+    margin: 10px 0;
+    width: 110px;
   }
   .follow {
     margin-top: 50px;
@@ -149,14 +160,5 @@ ul.social li {
   }
   .sponsors {
     padding-top: 50px;
-  }
-  ul.social {
-    width: 380px;
-    height: 50px;
-  }
-  ul.social li {
-    float: left;
-    margin: 10px 0;
-    width: 110px;
   }
 }
