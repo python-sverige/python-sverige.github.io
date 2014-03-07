@@ -40,13 +40,18 @@ body {
   max-width: 700px;
   margin: 0 auto;
 }
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Lobster', sans-serif;
 }
 
 h1 {
   font-size: 48px;
 }
+
+h3 {
+  font-size: 20px;
+}
+
 a, a:hover, a:focus {
   color: #33589F;
 }
