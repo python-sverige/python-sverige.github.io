@@ -126,8 +126,10 @@ ul.social li {
 }
 
 .sponsor-heading {
-  color: #999;
+  color: #BBB;
+  font-weight: normal;
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 457px) {
