@@ -125,6 +125,11 @@ ul.social li {
   padding-bottom: 10px;
 }
 
+.sponsors .list-inline>li {
+  padding-left: 12px;
+  padding-bottom: 20px;
+}
+
 .sponsor-heading {
   color: #BBB;
   font-weight: normal;
