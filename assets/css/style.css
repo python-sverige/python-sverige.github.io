@@ -121,6 +121,22 @@ ul.social li {
   display: inline-block;
 }
 
+.sponsors {
+  padding-bottom: 10px;
+}
+
+.sponsors .list-inline>li {
+  padding-left: 12px;
+  padding-bottom: 20px;
+}
+
+.sponsor-heading {
+  color: #BBB;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 457px) {
   .hero {
     padding-top: 120px;
@@ -161,6 +177,8 @@ ul.social li {
     margin-bottom: 30px;
   }
   .sponsors {
-    padding-top: 50px;
-  }
+  padding-bottom: 20px;
+}
+
+
 }
