@@ -137,6 +137,10 @@ ul.social li {
   margin-bottom: 20px;
 }
 
+.speaker-photo {
+  padding-bottom: 30px;
+}
+
 @media screen and (min-width: 457px) {
   .hero {
     padding-top: 120px;
