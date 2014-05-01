@@ -18,8 +18,8 @@ body {
 }
 
 .nav {
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 10px;
 }
 
 .nav>li>a {
@@ -40,6 +40,7 @@ body {
   max-width: 700px;
   margin: 0 auto;
 }
+
 h1, h2, h3 {
   font-family: 'Lobster', sans-serif;
 }
@@ -59,6 +60,7 @@ a, a:hover, a:focus {
 .container-narrow > hr {
   margin: 30px 0;
 }
+
 .hero {
   text-align: center;
   background: transparent url('../images/stockholm_city_hall.jpg') top right no-repeat;
@@ -75,8 +77,8 @@ a, a:hover, a:focus {
 
 .hero a {
   color: #FFF;
+  text-decoration: underline;
 }
-
 
 .btn {
   background-color: #33589F;
@@ -84,7 +86,7 @@ a, a:hover, a:focus {
 }
 
 .btn-lg {
-  font-size: 36px;
+  font-size: 32px;
   padding: 12px 24px;
 }
 
@@ -121,13 +123,9 @@ ul.social li {
   display: inline-block;
 }
 
-.sponsors {
-  padding-bottom: 10px;
-}
-
 .sponsors .list-inline>li {
-  padding-left: 12px;
-  padding-bottom: 20px;
+  padding-left: 7px;
+  padding-bottom: 25px;
 }
 
 .sponsor-heading {
@@ -160,6 +158,7 @@ ul.social li {
 }
 @media screen and (min-width: 497px) {
   .nav {
+    padding-top: 10px;
     padding-bottom: 0;
   }
   .header {
@@ -180,9 +179,11 @@ ul.social li {
   .header {
     margin-bottom: 30px;
   }
-  .sponsors {
-  padding-bottom: 20px;
-}
-
-
+  .btn-lg {
+    font-size: 36px;
+  }
+  .sponsors .list-inline>li {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
