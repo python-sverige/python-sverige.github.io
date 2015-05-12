@@ -67,6 +67,12 @@ table.schedule th {
   text-align: center;
 }
 
+table.schedule a {
+  color: #000;
+  text-decoration: underline;
+}
+
+
 table.schedule th.room {
   width: 45%;
 }
