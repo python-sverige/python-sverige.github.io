@@ -57,6 +57,58 @@ a, a:hover, a:focus {
   color: #33589F;
 }
 
+table.schedule {
+  border: 1px solid #aaa;
+}
+
+
+table.schedule th {
+  font-weight: bold;
+  text-align: center;
+}
+
+table.schedule a {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+table.schedule th.room {
+  width: 45%;
+}
+
+table.schedule td {
+  background-color: #FFF2CC;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+
+.table-bordered>thead>tr>th, 
+.table-bordered>tbody>tr>th, 
+.table-bordered>thead>tr>td, 
+.table-bordered>tbody>tr>td {
+  border: 1px solid #aaa;
+}
+
+table.schedule td.blue {
+  background-color: #C9DBF8;
+}
+
+table.schedule td.red {
+  background-color: #F4CCCC;
+}
+
+table.schedule td.green {
+  background-color: #D9EBD3;
+}
+
+table.schedule td.grey {
+  background-color: #EFEFEF;
+  font-style: italic;
+}
+
+
 .container-narrow > hr {
   margin: 30px 0;
 }
@@ -187,3 +239,5 @@ ul.social li {
     padding-right: 40px;
   }
 }
+
+
