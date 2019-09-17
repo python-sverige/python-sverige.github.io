@@ -1,0 +1,33 @@
+        <section id="about" class="bg-white" style="padding-bottom: 0px;padding-top: 20px;">
+            <div class="container">
+                <div class="row justify-content-center pb-4">
+                    <div class="col-lg-9 pb-lg-4 text-center">
+                        <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">About Pycon Sweden</h3>
+                        <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+                    </div>
+                    <!-- //.col-lg-9 -->
+                </div>
+                <div class="row justify-content-center ">
+                    <div class="col-lg-9 pb-lg-4 ">
+                    <p>
+                      PyCon Sweden is arranged by Python Sverige, a registered nonprofit
+                      organization (SE Org. ID 802476-3792).
+                    </p>
+                    <ul>
+                      <li><a href="/assets/docs/stadgar.pdf" target="_new">Organization bylaws (in Swedish)</a></li>
+                      <li><a href="https://github.com/python-sverige/protokoll">Meeting minutes GitHub repository (in Swedish)</a></li>
+                    </ul>
+                    <h3>Code of Conduct</h3>
+                    <p>
+                      <a href="/assets/docs/code_of_conduct.pdf" target="_new">View the Code of Conduct for the conference</a>
+                    </p>
+                    <h3>Become a member</h3>
+                    <p>
+                      <a href="http://goo.gl/forms/B4qzi58Lf6">Python Sverige membership signup form</a> (membership is free)
+                    </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+

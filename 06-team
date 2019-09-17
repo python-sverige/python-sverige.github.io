@@ -1,0 +1,113 @@
+        <!-- Section - Team Start -->
+        <section id="team" class="bg-white" style="padding-top: 30px;">
+            <div class="container">
+                <div class="row justify-content-center pb-4">
+                    <div class="col-lg-6 pb-lg-4 text-center">
+                        <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">PyCon Sweden Board</h3>
+                        <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+                    </div>
+                    <!-- //.col-lg-9 -->
+                </div>
+                <!-- //.row -->
+                
+                <div class="row justify-content-center ">
+                    <div class="col-md-3 col-lg-2 ">
+                        <figure class="team-block rounded">
+                            <img src="assets/images/team-1.jpg" alt="" class="img-fluid ease rounded">
+                            
+                            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
+                                <div class="d-table h-100 position-relative px-4 w-100">
+                                    <div class="d-table-cell align-middle text-center">
+                                        <span class="d-block font-alt letter-spacing-2 title-small text-white">Anna K. Lindegren</span>
+                                        <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
+                                        <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Chairwoman</span>
+                                    </div>
+                                    <!-- //.d-table-cell -->
+                                </div>
+                                <!-- //.d-table -->
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- //.col-md-6 -->
+                    
+                    <div class="col-md-3 col-lg-2">
+                        <figure class="team-block rounded">
+                            <img src="assets/images/team-2.jpg" alt="" class="img-fluid ease rounded">
+                            
+                            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
+                                <div class="d-table h-100 position-relative px-4 w-100">
+                                    <div class="d-table-cell align-middle text-center">
+                                        <span class="d-block font-alt letter-spacing-2 title-small text-white">Helio Loureiro</span>
+                                        <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
+                                        <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Board Member</span>
+                                    </div>
+                                    <!-- //.d-table-cell -->
+                                </div>
+                                <!-- //.d-table -->
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- //.col-md-6 -->
+                    
+                    
+                    <div class="col-md-3 col-lg-2">
+                        <figure class="team-block rounded">
+                            <img src="assets/images/team-4.jpg" alt="" class="img-fluid ease rounded">
+                            
+                            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
+                                <div class="d-table h-100 position-relative px-4 w-100">
+                                    <div class="d-table-cell align-middle text-center">
+                                        <span class="d-block font-alt letter-spacing-2 title-small text-white">Michael Dovgal</span>
+                                        <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
+                                        <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Board Member</span>
+                                    </div>
+                                    <!-- //.d-table-cell -->
+                                </div>
+                                <!-- //.d-table -->
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- //.col-md-6 -->
+
+                    <div class="col-md-3 col-lg-2">
+                        <figure class="team-block rounded">
+                            <img src="assets/images/team-5.png" alt="" class="img-fluid ease rounded">
+                            
+                            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
+                                <div class="d-table h-100 position-relative px-4 w-100">
+                                    <div class="d-table-cell align-middle text-center">
+                                        <span class="d-block font-alt letter-spacing-2 title-small text-white">Wei Der Chien</span>
+                                        <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
+                                        <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Board Member</span>
+                                    </div>
+                                    <!-- //.d-table-cell -->
+                                </div>
+                                <!-- //.d-table -->
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2">
+                        <figure class="team-block rounded">
+                            <img src="assets/images/team-6.png" alt="" class="img-fluid ease rounded">
+                            
+                            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
+                                <div class="d-table h-100 position-relative px-4 w-100">
+                                    <div class="d-table-cell align-middle text-center">
+                                        <span class="d-block font-alt letter-spacing-2 title-small text-white">Negin Asghari</span>
+                                        <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
+                                        <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Board Member</span>
+                                    </div>
+                                    <!-- //.d-table-cell -->
+                                </div>
+                                <!-- //.d-table -->
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <!-- //.row -->
+            </div>
+            <!-- //.container -->
+        </section>
+        <!-- //Section - Team End -->
+
