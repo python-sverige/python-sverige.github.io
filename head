@@ -38,7 +38,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 navbar-header">
-                        <a class="navbar-brand page-scroll" href="#page-top">
+                        <a class="navbar-brand page-scroll" href="index.html#page-top">
                             <img src="assets/images/logo-pycon.png" alt="" class="logo-text-light">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,6 +53,9 @@
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
                                         <a class="nav-link page-scroll" href="sponsorship.html">Sponsoring</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link page-scroll" href="jobs.html">Jobs</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link page-scroll" href="index.html#about">About</a>

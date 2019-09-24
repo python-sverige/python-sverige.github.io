@@ -13,7 +13,7 @@
                 <div class="row justify-content-center ">
                     <div class="col-md-3 col-lg-2 ">
                         <figure class="team-block rounded">
-                            <img src="assets/images/team-1.jpg" alt="" class="img-fluid ease rounded">
+                            <img src="assets/images/Anna.jpg" alt="" class="img-fluid ease rounded">
                             
                             <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
                                 <div class="d-table h-100 position-relative px-4 w-100">
@@ -32,7 +32,7 @@
                     
                     <div class="col-md-3 col-lg-2">
                         <figure class="team-block rounded">
-                            <img src="assets/images/team-2.jpg" alt="" class="img-fluid ease rounded">
+                            <img src="assets/images/Helio.jpg" alt="" class="img-fluid ease rounded">
                             
                             <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
                                 <div class="d-table h-100 position-relative px-4 w-100">
@@ -52,7 +52,7 @@
                     
                     <div class="col-md-3 col-lg-2">
                         <figure class="team-block rounded">
-                            <img src="assets/images/team-4.jpg" alt="" class="img-fluid ease rounded">
+                            <img src="assets/images/Michael.jpg" alt="" class="img-fluid ease rounded">
                             
                             <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
                                 <div class="d-table h-100 position-relative px-4 w-100">
@@ -68,10 +68,10 @@
                         </figure>
                     </div>
                     <!-- //.col-md-6 -->
-
+ 
                     <div class="col-md-3 col-lg-2">
                         <figure class="team-block rounded">
-                            <img src="assets/images/team-5.png" alt="" class="img-fluid ease rounded">
+                            <img src="assets/images/Steve.png" alt="" class="img-fluid ease rounded">
                             
                             <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
                                 <div class="d-table h-100 position-relative px-4 w-100">
@@ -89,12 +89,12 @@
 
                     <div class="col-md-3 col-lg-2">
                         <figure class="team-block rounded">
-                            <img src="assets/images/team-6.png" alt="" class="img-fluid ease rounded">
+                            <img src="assets/images/Nuo.jpg" alt="" class="img-fluid ease rounded">
                             
                             <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
                                 <div class="d-table h-100 position-relative px-4 w-100">
                                     <div class="d-table-cell align-middle text-center">
-                                        <span class="d-block font-alt letter-spacing-2 title-small text-white">Negin Asghari</span>
+                                        <span class="d-block font-alt letter-spacing-2 title-small text-white">Xu Nuo</span>
                                         <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
                                         <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Board Member</span>
                                     </div>
@@ -104,6 +104,45 @@
                             </figcaption>
                         </figure>
                     </div>
+
+                    <div class="col-md-3 col-lg-2">
+                        <figure class="team-block rounded">
+                            <img src="assets/images/Christine_Winter.jpg" alt="" class="img-fluid ease rounded">
+                            
+                            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
+                                <div class="d-table h-100 position-relative px-4 w-100">
+                                    <div class="d-table-cell align-middle text-center">
+                                        <span class="d-block font-alt letter-spacing-2 title-small text-white">Christine Winter</span>
+                                        <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
+                                        <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Board Member</span>
+                                    </div>
+                                    <!-- //.d-table-cell -->
+                                </div>
+                                <!-- //.d-table -->
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2">
+                        <figure class="team-block rounded">
+                            <img src="assets/images/Slavik.jpg" alt="" class="img-fluid ease rounded">
+                            
+                            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
+                                <div class="d-table h-100 position-relative px-4 w-100">
+                                    <div class="d-table-cell align-middle text-center">
+                                        <span class="d-block font-alt letter-spacing-2 title-small text-white">Vyacheslav Olshevsky (Slavik)</span>
+                                        <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
+                                        <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Board Member</span>
+                                    </div>
+                                    <!-- //.d-table-cell -->
+                                </div>
+                                <!-- //.d-table -->
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                    <!-- end of profiles -->
                 </div>
                 <!-- //.row -->
             </div>
