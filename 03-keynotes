@@ -62,6 +62,36 @@
                         <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
                     </div>
                 </div>
+                
+
+                <div class="row" class="pb-3" style="display: flex; justify-content: center; align-items: center">
+                    <div class="col-lg-9 pb-lg-4 text-center">
+                        <h4 class="font-alt font-w-400 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Errol Koolmeister</h4>
+                    </div>
+                    <div class="col-lg-4">
+                        <div data-pagedots="true" data-draggable="false" data-autoplay="5000">
+                                <img src="assets/images/errol.png" alt="" class="img-fluid box-shadow-shallow rounded"/>
+                        </div>
+                    </div>
+                    <!-- //.col-lg-6 -->
+                    <div class="col-lg-8">
+                        <div class="pl-lg-4 pt-5 pt-lg-0">
+                            <p class="font-alt text-extra-large">
+                            Errol is the head of AI tech & architecture at H&M group and acting head of Data Science.</p>
+                            <p class="font-alt text-extra-large">
+                            In his role he is responsible for overseeing and coordinating the AI projects run at H&M.
+                            He has spent the last 10+ years in different 
+                            industries such as banking, telecom and consulting and his main focus has during this time 
+                            been setting up and scaling AI and big data projects.
+                            </p>
+                    </div>
+                        <!-- //.pl-lg-4 -->
+                </div>
+                <div class="row pb-4">
+                    <div class="col-lg-9 pb-lg-4">
+                        <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+                    </div>
+                </div>
 
             </div>
                 <!-- //.row -->
