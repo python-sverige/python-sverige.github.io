@@ -1,4 +1,4 @@
-MAIN := 01-coming-soon 02-sponsors 03-keynotes 03.1-talks 03.2-speakers 04-about 05-venue 06-team 07-contact
+MAIN := 01-coming-soon 02-sponsors 03-keynotes 03.1-talks 03.2-speakers 03.3-panel 04-about 05-venue 06-team 07-contact
 
 DATE = $(shell date +"%Y%m%d")
 
