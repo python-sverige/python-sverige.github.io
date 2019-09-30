@@ -10,9 +10,9 @@
                 <!-- //.row -->
                 <div class="row justify-content-center" >
                     <div class="col-md-4 text-center">
-                            <div>
+                            <a href="https://hmgroup.com/" target="_blank">
                                 <img src="assets/images/LogotypeH&MGroup.jpg" alt="" class="img-fluid rounded"/>
-                            </div>
+                            </a>
                         <!-- //.features-block -->
                     </div>
                     <!-- //.col-md-4 -->
