@@ -23,16 +23,7 @@
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
             <p class="font-alt text-extra-large">
-              PyMacaron is a microservice framework
-              integrating Flask with swagger specifications
-              to spawn REST apis with minimal code
-              overhead. It comes with a deployment
-              pipeline towards docker and amazon Beanstalk,
-              support asynchronous tasks out of the box,
-              and plays well with DynamoDB. PyMacaron is
-              live and powering the backend of a couple
-              of Swedish startups, including ksting.com
-              and bazardelux.com.
+              PyMacaron is a microservice framework integrating Flask with swagger specifications to spawn REST apis with minimal code overhead. It comes with a deployment pipeline towards docker and amazon Beanstalk, support asynchronous tasks out of the box, and plays well with DynamoDB. PyMacaron is live and powering the backend of a couple of Swedish startups, including ksting.com and bazardelux.com.
             </p>
             <p class="font-alt text-extra-large">
               Author: Erwan Lemonnier
@@ -55,33 +46,12 @@
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
             <p class="font-alt text-extra-large">
-              Test Fast, Fix More – Property based in
-              Python testing with Hypothesis
-              Did you ever miss that corner case bug? Maybe
-              it was a negative integer, strange timezone
-              conversion behaviour, off by one error or
-              something entirely else. These subtle bugs
-              are often hard to catch and are easily missed
-              in test cases. You like me have probably
-              ran into plenty of code utilising only happy
-              path testing, only to later discover subtle
-              bugs which are easily fixed once pointed
-              out. This is where property based testing
-              comes into the picture.
+              Test Fast, Fix More – Property based in Python testing with Hypothesis
+            <p class="font-alt text-extra-large">
+              Did you ever miss that corner case bug? Maybe it was a negative integer, strange timezone conversion behaviour, off by one error or something entirely else. These subtle bugs are often hard to catch and are easily missed in test cases. You like me have probably ran into plenty of code utilising only happy path testing, only to later discover subtle bugs which are easily fixed once pointed out. This is where property based testing comes into the picture.
             </p>
             <p class="font-alt text-extra-large">
-              In this talk I will focus on a wonderful
-              Python library called Hypothesis but
-              the concepts apply to other languages
-              as well. Hypethesis is based on the same
-              concept as the famous QuickCheck library for
-              Haskell, which in turn have been ported a
-              large number of languages. Hypothesis uses a
-              wide range of input to find edge cases that
-              you could otherwise easily miss, once it
-              finds these cases it narrows down the input
-              to the minimal breaking example to provide
-              failures which are easier to understand.
+              In this talk I will focus on a wonderful Python library called Hypothesis but the concepts apply to other languages as well. Hypethesis is based on the same concept as the famous QuickCheck library for Haskell, which in turn have been ported a large number of languages. Hypothesis uses a wide range of input to find edge cases that you could otherwise easily miss, once it finds these cases it narrows down the input to the minimal breaking example to provide failures which are easier to understand.
             </p>
             <p class="font-alt text-extra-large">
               Author: Alexander Hultnér
@@ -130,14 +100,7 @@
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
             <p class="font-alt text-extra-large">
-              Adding resources to speed up processes isn't
-              always feasible. This talk will present a
-              simple problem and how to achieve >10^15x
-              speedups on a regular laptop. Be warned, as
-              overall time is reduced, minuscule overheads
-              become gigantic -- some optimisations make
-              more sense in lower-level coding context
-              (e.g. C).
+              The goal of this talk is to empower people with over a dozen optimisation techniques which may be effectively used in a wide variety of situations, even beyond Python.  I will present best practices, typical pitfalls and common tools, but the main focus will be on a practical approach. I will showcase a small problem and a naive solution, just a few lines of Python, so that it's easily understood. Iteratively I will apply each optimisation, explain the reasoning behind it and note how execution time is reduced. By the end of the talk, one will see how the code evolved from something that would take >1 billion years to compute to < 1 second on a regular laptop.  I will also compare running times between Python, PyPy and C++ implementations (one being just a few milliseconds), and show how the techniques may achieve vastly different speedups from the python versions.
             </p>
             <p class="font-alt text-extra-large">
               Author: Isaac Bernat
@@ -160,13 +123,9 @@
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
             <p class="font-alt text-extra-large">
-              Python has matured enough to allow developers
-              to write predominantly pure-Python with
-              some optimized code which can compete with
-              compiled languages such as C and C++. The
-              talk presents the current state of the art in
-              terms of writing extensions, and introduces
-              a new package called Transonic (https://transonic.readthedocs.io).
+              Python has matured enough to allow developers to write predominantly
+pure-Python with some optimized code which can compete with compiled languages such as C and C++. The talk presents the current state of the art in terms of writing extensions, and introduces a new package called Transonic
+(https://transonic.readthedocs.io).
             </p>
             <p class="font-alt text-extra-large">
               Author: Ashwin Vishnu Mohanan
@@ -189,12 +148,7 @@
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
             <p class="font-alt text-extra-large">
-              Asyncio is a fairly new technology in the
-              Python ecosystem, which enables us to write
-              faster and more cost-efficient code. In this
-              talk, we are going to get an overview of
-              its features and see how it truly performs
-              in the wild.
+              Asyncio is a fairly new technology in the Python ecosystem, which enables us to write faster and more cost-efficient code. In this talk, we are going to get an overview of its features and see how it truly performs in the wild.
             </p>
             <p class="font-alt text-extra-large">
               Author: Akos Hochrein
@@ -217,14 +171,7 @@
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
             <p class="font-alt text-extra-large">
-              PySpark is a great tool for doing big data
-              ETL pipeline. While designing a big data
-              pipeline, which is easy to maintain with a
-              holistic view, simple to spot bottleneck is
-              difficult. Not to say enable analytics on
-              ETL pipelines. Rockie Yang will share his
-              experiences on build effective ETL pipeline
-              with PySpark.
+              PySpark is a great tool for doing big data ETL pipeline. While designing a big data pipeline, which is easy to maintain with a holistic view, simple to spot bottleneck is difficult. Not to say enable analytics on ETL pipelines. Rockie Yang will share his experiences on build effective ETL pipeline with PySpark.
             </p>
             <p class="font-alt text-extra-large">
               Author: Rockie Yang
@@ -247,12 +194,7 @@
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
             <p class="font-alt text-extra-large">
-              Python is huge in finance, from banks to
-              hedge-funds to day-traders. This talk gives
-              an overview, highlights some libraries
-              (Pandas!) that make you super productive
-              and finishes up with a small demo of how
-              you can simulate the stock market.
+              Python is huge in finance, from banks to hedge-funds to day-traders; it is often the go-to tool to get things done. This talk dives into 'why?'. First looking at several areas where Python is big, what kind of work is involved, and the challenges for developers? Then at what libraries/language aspects make Python particularly suited. Pandas gets particular attention as it is incredibly useful and can make you super productive. We finish up with a demo of how you can use Monte Carlo techniques to build a mini stock market simulation and test out your own trading ideas. After the talk, you should have a better feel for what it's like working with Python in finance and also a good set of starting point if you want to start experimenting.
             </p>
             <p class="font-alt text-extra-large">
               Author: Daniel Roos
@@ -275,14 +217,7 @@
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
             <p class="font-alt text-extra-large">
-              The common performance bottleneck in
-              Python is the CPU bound. In this talk,
-              I will introduce all the modern tools you
-              can equip to resolve the CPU bound problem,
-              from numpy / pandas to static compilation,
-              e.g. cython and pybind11. I will approach
-              and compare cython and pybind11 especially
-              in large scale software development.
+              Developing Python applications is handy and rapid, but its performance is always concerned, especially on the CPU bound problems. We will go through the common tricks and tips to archive the best performance on the Python level. Then the two reputable libraries, Cython and Pybind11, will be visited to archive the compiled language performance and compared with their implementation, flexibility and performance.
             </p>
             <p class="font-alt text-extra-large">
               Author: Gavin Chan
@@ -305,18 +240,10 @@
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
             <p class="font-alt text-extra-large">
-              With an explosion of computation power
-              and modern algorithms more and more people
-              are interested in AI, Analytics and Data
-              Science. The Python ecosystem has been one
-              of the most important driver for developing
-              new tools and Python holds the power of
-              modern analytics, but knowing the tools is not
-              enough. Drawing conclusions from data is easy;
-              getting the right conclusions is hard. Causal
-              Inference is the art of drawing robust
-              conclusions from nonexperimental data. This
-              session will be an introduction to the field.
+              With an explosion of computation power and modern algorithms more and more people are interested in AI, Analytics and Data Science. The Python ecosystem has been one of the most important driver for developing new tools and
+            </p>
+            <p class="font-alt text-extra-large">
+              Python holds the power of modern analytics, but knowing the tools is not enough. Drawing conclusions from data is easy; getting the right conclusions is hard. Causal Inference is the art of drawing robust conclusions from nonexperimental data. This session will be an introduction to the field.
             </p>
             <p class="font-alt text-extra-large">
               Author: Ludvig Hult
@@ -339,13 +266,7 @@
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
             <p class="font-alt text-extra-large">
-              Even the most sophisticated machine learning
-              models are not reliable if you can't interpret
-              them. This talk will cover SHAP, an essential
-              tool for your data science toolbox. It breaks
-              down how the model works for an individual
-              prediction. We will see its application on
-              a real-world data science problem.
+              Extracting insights from a complex machine learning model is not easy hence for many people machine learning models are in a sense black box. This is a problem especially in high stake sectors like banking and healthcare. In this talk we will discuss how we can increase transparency, auditability, and stability of the model using valuable insights we can get from SHAP and explain reasoning behind individual predictions and how this can be aggregated into powerful model-level insights. We will also see the code to calculate SHAP values.
             </p>
             <p class="font-alt text-extra-large">
               Author: Ravi Singh
@@ -368,22 +289,7 @@
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
             <p class="font-alt text-extra-large">
-              Oftentimes when we set out to learn
-              something, we do so in a way that is
-              ineffective and wastes time. Or perhaps
-              we're able to retain the information for a
-              short time, but it never makes its way into
-              our long-term memory.
-            </p>
-
-            <p class="font-alt text-extra-large">
-              The good news is that there are better ways to
-              learn that will help you retain information
-              long-term. We'll cover what research has
-              taught us about learning effectively, tools
-              that will help you learn better, and how we
-              can apply these to expanding our knowledge
-              of Python.
+              When we're learning something new - even something as friendly as Python - it can be difficult to make details stick long-term. This talk will give you some tips to help you learn Python - or anything else - more effectively. Although Python beginners will benefit the most from applying these concepts to Python, this talk is for anyone who wants to hack into their potential to learn more efficiently.
             </p>
             <p class="font-alt text-extra-large">
               Author: Jessica Shortz
@@ -405,13 +311,8 @@
 
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
-            <pp class="font-alt text-extra-large">
-              In this talk we are gonna explore launching
-              and maintaining highly scalable data pipelines
-              using Kubernetes. We are gonna go through the
-              process of setting up a Pachyderm cluster
-              and deploying Python-based data processing
-              workloads.
+            <p class="font-alt text-extra-large">
+              In this talk we are gonna explore launching and maintaining highly scalable data pipelines using Kubernetes. We are gonna go through the process of setting up a Pachyderm cluster and deploying Python-based data processing workloads. This setup enables teams to develop and maintain very robust data pipelines, with the benefits of autoscaling clusters and quick code iteration.
             </p>
             <p class="font-alt text-extra-large">
               Author: Guilherme Caminha
@@ -422,6 +323,53 @@
         <!-- //.col-lg-8 -->
       </div>
       <!-- //.row -->
+
+      <div class="row" class="pb-3" style="display: flex; justify-content: center; align-items: center">
+        <div class="col-lg-9 pb-lg-4 text-center">
+          <h4 class="font-alt font-w-400 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2" id=sculpting>
+            Volumetric sculpting - Shaping a dynamic chisel
+          </h4>
+        </div>
+        <!-- //.col-lg-9 -->
+
+        <div class="col-lg-8">
+          <div class="pl-lg-4 pt-5 pt-lg-0">
+            <p class="font-alt text-extra-large">
+              The shape of the tool determines the outcome of the result. A story about developing a volumetric 3D modeling and animation tool for creating virtual and physical sculptures using VTK, Numpy and PyQt told through the tool itself.
+            </p>
+            <p class="font-alt text-extra-large">
+              Author: Victor Nyberg
+            </p>
+          </div>
+          <!-- //.pl-lg-4 -->
+        </div>
+        <!-- //.col-lg-8 -->
+      </div>
+      <!-- //.row -->
+
+      <div class="row" class="pb-3" style="display: flex; justify-content: center; align-items: center">
+        <div class="col-lg-9 pb-lg-4 text-center">
+          <h4 class="font-alt font-w-400 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2" id=dathena>
+            Born to adapt: How Dathena solves the industry diversity problem
+          </h4>
+        </div>
+        <!-- //.col-lg-9 -->
+
+        <div class="col-lg-8">
+          <div class="pl-lg-4 pt-5 pt-lg-0">
+            <p class="font-alt text-extra-large">
+              How adjust your AI solution to the new domain? How retrain your model on new industry-specific data? How to increase labeled dataset for minimum cost? Do oracles exist? We will look at these problems from the data protection point of view and bring possible solutions. We will talk about methods, which discuss how to adapt NLP and CV solutions to any type of industry.
+            </p>
+            <p class="font-alt text-extra-large">
+              Author: Tetiana Kodliuk
+            </p>
+          </div>
+          <!-- //.pl-lg-4 -->
+        </div>
+        <!-- //.col-lg-8 -->
+      </div>
+      <!-- //.row -->
+
 
       <div class="row justify-content-center pb-3">
         <div class="row pb-5">
