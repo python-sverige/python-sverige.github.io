@@ -46,8 +46,6 @@
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
             <p class="font-alt text-extra-large">
-              Test Fast, Fix More – Property based in Python testing with Hypothesis
-            <p class="font-alt text-extra-large">
               Did you ever miss that corner case bug? Maybe it was a negative integer, strange timezone conversion behaviour, off by one error or something entirely else. These subtle bugs are often hard to catch and are easily missed in test cases. You like me have probably ran into plenty of code utilising only happy path testing, only to later discover subtle bugs which are easily fixed once pointed out. This is where property based testing comes into the picture.
             </p>
             <p class="font-alt text-extra-large">
