@@ -4,7 +4,7 @@ DATE = $(shell date +"%Y%m%d")
 
 all: index.html blog.html jobs.html
 
-index.html: head $(MAIN) tail
+index.html: header $(MAIN) footer
 	@if [ -f $@ ]; then \
 		echo "Moving $@ to $@.$(DATE)"; \
 		mv $@ $@.$(DATE); \
@@ -16,7 +16,7 @@ index.html: head $(MAIN) tail
 	@echo "$@ has been generated"
 
 
-blog.html: head 01-coming-soon blog tail
+blog.html: header 01-coming-soon blog footer
 	@if [ -f $@ ]; then \
 		echo "Moving $@ to $@.$(DATE)"; \
 		mv $@ $@.$(DATE); \
@@ -27,7 +27,7 @@ blog.html: head 01-coming-soon blog tail
 	done
 	@echo "$@ has been generated"
 
-jobs.html: head 01-coming-soon jobs tail
+jobs.html: header 01-coming-soon jobs footer
 	@if [ -f $@ ]; then \
 		echo "Moving $@ to $@.$(DATE)"; \
 		mv $@ $@.$(DATE); \
