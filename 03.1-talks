@@ -397,7 +397,7 @@
 
       <div class="row" class="pb-3" style="display: flex; justify-content: center; align-items: center">
         <div class="col-lg-9 pb-lg-4 text-center">
-          <h4 class="font-alt font-w-200 text-uppercase title-xs-small title-extra-large-1" id=kubernetes>
+          <h4 class="font-alt font-w-400 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2" id=kubernetes>
             Writing highly scalable and provenanceable data pipelines with Kubernetes and Python
           </h4>
         </div>
@@ -405,7 +405,7 @@
 
         <div class="col-lg-8">
           <div class="pl-lg-4 pt-5 pt-lg-0">
-            <p>
+            <pp class="font-alt text-extra-large">
               In this talk we are gonna explore launching
               and maintaining highly scalable data pipelines
               using Kubernetes. We are gonna go through the
@@ -413,7 +413,7 @@
               and deploying Python-based data processing
               workloads.
             </p>
-            <p>
+            <p class="font-alt text-extra-large">
               Author: Guilherme Caminha
             </p>
           </div>
