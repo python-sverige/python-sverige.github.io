@@ -2,7 +2,7 @@ MAIN := 01-coming-soon 02-sponsors 03-keynotes 03.1-talks 03.2-speakers 03.3-pan
 
 DATE = $(shell date +"%Y%m%d")
 
-all: index.html blog.html jobs.html
+all: index.html blog.html jobs.html sponsorship.html
 
 index.html: header $(MAIN) footer
 	@if [ -f $@ ]; then \
@@ -37,3 +37,14 @@ jobs.html: header 01-coming-soon jobs footer
 	cat $$block >> $@ ; \
 	done
 	@echo "$@ has been generated"
+
+sponsorship.html: header 01-coming-soon sponsorship footer
+		@if [ -f $@ ]; then \
+			echo "Moving $@ to $@.$(DATE)"; \
+			mv $@ $@.$(DATE); \
+		fi
+		@for block in $^; \
+			do echo " $$block to $@ " ; \
+		cat $$block >> $@ ; \
+		done
+		@echo "$@ has been generated"

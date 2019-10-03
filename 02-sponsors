@@ -1,15 +1,14 @@
   <!-- //Section - Sponsors Begin -->
   <section id="sponsors" class="bg-white" style="padding-top:30px;">
     <div class="container">
+
       <div class="row justify-content-center pb-4">
         <div class="col-lg-9 pb-lg-4 text-center">
-          <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Sponsored by</h3>
+          <h3 class="font-alt font-w-300 letter-spacing-1 text-uppercase title-xs-small title-medium">Sponsored by</h3>
           <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
         </div>
         <!-- //.col-lg-9 -->
-      </div>
-      <!-- //.row -->
-      <div class="row justify-content-center" >
+
         <div class="col-md-4 text-center">
           <a href="https://hmgroup.com/" target="_blank">
             <img src="assets/images/LogotypeH&MGroup.jpg" alt="" class="img-fluid rounded"/>
@@ -17,16 +16,7 @@
           <!-- //.features-block -->
         </div>
         <!-- //.col-md-4 -->
-      </div>
-      <!-- //.row -->
-      <div class="row justify-content-center" >
-        <div class="row pb-5">
-          <div class="col-lg-9 pb-lg-4 text-center">
-            <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center" >
+
         <div class="col-md-4 text-center">
           <a href="https://www.jetbrains.com/pycharm/" target="_blank">
             <img src="assets/images/jetbrains.svg" alt="" class="img-fluid rounded"/>
@@ -34,8 +24,33 @@
           <!-- //.features-block -->
         </div>
         <!-- //.col-md-4 -->
+
+        <div class="col-md-4 text-center">
+          <a href="https://plot.ly/" target="_blank">
+            <img src="assets/images/Plotly.png" alt="" class="img-fluid rounded"/>
+          </a>
+          <!-- //.features-block -->
+        </div>
+        <!-- //.col-md-4 -->
+
+        <div class="col-md-4 text-center">
+          <a href="https://46elks.se/" target="_blank">
+            <img src="assets/images/46elks-logo-blue.png" alt="" class="img-fluid rounded"/>
+          </a>
+          <!-- //.features-block -->
+        </div>
+        <!-- //.col-md-4 -->
       </div>
       <!-- //.row -->
+
+      <div class="row justify-content-center" >
+        <div class="row pb-5">
+          <div class="col-lg-9 pb-lg-4 text-center">
+            <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+          </div><!-- //.col-lg-9 -->
+        </div><!-- //.row -->
+      </div><!-- //.row -->
+
     </div>
     <!-- //.container -->
   </section>
