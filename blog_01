@@ -1,17 +1,10 @@
        <!-- blog start -->
        <section id="template-change-me-here" class="bg-white" style="padding-bottom: 0px;padding-top: 40px;">
             <div class="container">
-                <div class="row justify-content-center pb-3">
-                    <div class="col-lg-9 pb-lg-3 text-center">
-                        <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Blog</h3>
-                        <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-                    </div>
-                    <!-- //.col-lg-9 -->
-                </div>
                 <!-- //.row -->
-                <div class="row" class="pb-3" style="display: flex; justify-content: center; align-items: center">
+                <div class="row" class="pb-3" style="displayblog post: flex; justify-content: center; align-items: center">
                     <div class="col-lg-9 pb-lg-4 text-center">
-                        <h4 class="font-alt font-w-400 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Interview with our keynote Tess Ferrandez</h4>
+                        <h4 class="font-alt font-w-400 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Interview with our keynote Tess Ferrandez</h4><p>2019-09-12</p>
                     </div>
                     <div class="col-lg-4">
                         <div data-pagedots="true" data-draggable="false" data-autoplay="5000">
@@ -35,7 +28,7 @@
                       and what makes the heart of an engineer beat faster.
                     </p>
                     <p>
-                      <b>Christine:</b> Can you give some hints about the topic of your talk?
+                      <b>Christine: Can you give some hints about the topic of your talk?</b>
                     </p>
                     <p>
                       <b>Tess:</b> I discussed a little with Anna (Anna Kazakova Lindegren, chairwoman of PyCon Sweden), and I have 
@@ -45,8 +38,8 @@
                             and that it was ok to keep it pretty technical as well (given the crowd) rather than only inspirational. 
                     </p>
                     <p>
-                       <b>Christine:</b> Of the material and resources that you share online, which one would be a good first step 
-                                  towards machine learning?
+                       <b>Christine: Of the material and resources that you share online, which one would be a good first step
+                                  towards machine learning?</b>
                     </p>
                     <p>
                        <b>Tess:</b> My two favourite starter resources for deep learning are Francois Chollets book 
@@ -65,7 +58,7 @@
                              from the Andrew Ng course to use as a companion for his video series.  
                     </p>
                     <p>
-                       <b>Christine:</b> Which Python libraries do you use regularly and which ones would you recommend?
+                       <b>Christine:Which Python libraries do you use regularly and which ones would you recommend?</b>
                     </p>
                     <p>
                        <b>Tess:</b>  Apart from the obvious, numpy and pandas, I frequently use keras + tensorflow for deep 
@@ -74,7 +67,7 @@
                                      a functional library (with pipes) for speedy processing of large amounts of videos and images. 
                     </p>
                     <p>
-                       <b>Christine:</b> Which projects do you like working with and what excites you about them?
+                       <b>Christine: Which projects do you like working with and what excites you about them?</b>
                     </p>
                     <p>
                        <b>Tess:</b>  I am an engineer at heart, was an .net dev for a long time before starting with python and 
@@ -85,8 +78,8 @@
                                      how we combine engineering and deep learning. 
                     </p>
                     <p>
-                       <b>Christine:</b> Did you become a better soccer player from teaching an algorithm about it? 
-                                         (What can we learn from teaching machine learning algorithms and it’s outcomes?)
+                       <b>Christine: Did you become a better soccer player from teaching an algorithm about it?
+                                         (What can we learn from teaching machine learning algorithms and it’s outcomes?)</b>
                     </p>
                     <p>
                        <b>Tess:</b>   Interesting question, and one that I am personally thinking about a lot. While 
@@ -98,8 +91,8 @@
                                       you need your models to be you may need to make different choices. 
                     </p>
                     <p>
-                       <b>Christine:</b> Where do you see current challenges for machine learning and artificial intelligence 
-                                         in production?
+                       <b>Christine: Where do you see current challenges for machine learning and artificial intelligence
+                                         in production?</b>
                     </p>
                     <p>
                        <b>Tess:</b>   The question of interpretability is a major one. If we don't know how the model makes its 
@@ -112,7 +105,7 @@
                                       Making the model more robust is a hard challenge, and sometimes also a security problem.  
                     </p>
                     <p>
-                       <b>Christine:</b> What subjects do you want to look into more in the future? 
+                       <b>Christine: What subjects do you want to look into more in the future? </b>
                     </p>
                     <p>
                        <b>Tess:</b>   The subjects of interpretability, robustness and ethics are some of the areas I find most 
@@ -130,7 +123,7 @@
                         <a href="https://www.instagram.com/pycon_sweden/" > Instagram <a/> to receive 
                         updates about the event. 
                     </p>
-                    <p>Author: Christine Winter, software developer & PyCon Sweden volunteer               
+                    <p>Author: Christine Winter, software developer at Ivbar & PyCon Sweden volunteer
                     </p>
                 </div>
             </div>

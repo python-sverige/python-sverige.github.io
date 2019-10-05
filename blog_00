@@ -1,0 +1,11 @@
+       <!-- blog start -->
+       <section id="template-change-me-here" class="bg-white" style="padding-bottom: 0px;padding-top: 40px;">
+            <div class="container">
+                <div class="row justify-content-center pb-3">
+                    <div class="col-lg-9 pb-lg-3 text-center">
+                        <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Blog</h3>
+                        <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+                    </div>
+                    <!-- //.col-lg-9 -->
+                </div>
+       </section>

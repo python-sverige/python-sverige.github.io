@@ -17,8 +17,9 @@ index.html: header $(MAIN) footer
 	done
 	@echo "$@ has been generated"
 
+BLOG := blog_00 blog_02 blog_01
 
-blog.html: header 01-coming-soon blog footer
+blog.html: header 01-coming-soon $(BLOG) footer
 	@if [ -f $@ ]; then \
 		echo "Moving $@ to $@.$(DATE)"; \
 		mv $@ $@.$(DATE); \
