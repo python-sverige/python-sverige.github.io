@@ -1128,8 +1128,6 @@
     <!-- //.container -->
   </section>
   <!-- //Section - about End -->
-
-
   <!-- Section - Team Begin -->
   <section id="team" class="bg-white" style="padding-top: 80px;">
     <div class="container">
@@ -1315,8 +1313,7 @@
       </div>
     </div>
   </section>
-  <!-- //Section - contact End -->
-  <!-- Footer Start -->
+  <!-- //Section - contact End -->  <!-- Footer Start -->
   <footer class="bg-white py-5">
     <div class="container">
       <div class="row align-items-center pb-5">

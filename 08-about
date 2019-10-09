@@ -1,5 +1,5 @@
   <!-- //Section - about Begin -->
-  <section id="about" class="bg-white" style="padding-bottom: 0px;padding-top: 20px;">
+  <section id="about" class="bg-white" style="padding-bottom: 0px;padding-top: 80px;">
     <div class="container">
 
       <div class="row justify-content-center pb-4">
@@ -37,3 +37,5 @@
     <!-- //.container -->
   </section>
   <!-- //Section - about End -->
+
+

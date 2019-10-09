@@ -1,48 +1,49 @@
-        <section id="jobs" class="bg-white" style="padding-bottom: 0px;padding-top: 40px;">
-            <div class="container">
-                <div class="row justify-content-center pb-3">
-                    <div class="col-lg-9 pb-lg-3 text-center">
-                        <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Job opportunities for Python programmers</h3>
-                        <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-                    </div>
-                    <!-- //.col-lg-9 -->
-                </div>
-                <!-- //.row -->
-                <div class="row" class="pb-3" style="display: flex; justify-content: center; align-items: center">
-                    <div class="col-lg-9 pb-lg-4 text-center">
-                        <h4 class="font-alt font-w-400 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">
-                        <!-- NAME HERE -->
-                       </h4>
-                    </div>
-                    <div class="col-lg-4">
-                        <div data-pagedots="true" data-draggable="false" data-autoplay="5000">
-                                <!-- img src="assets/images/PICTURE-HERE.JPG" alt="" class="img-fluid box-shadow-shallow rounded"/ -->
-                        </div>
-                    </div>
-                    <!-- //.col-lg-6 -->
-
-                    <div class="col-lg-8">
-                        <div class="pl-lg-4 pt-5 pt-lg-0">
-                            <p class="font-alt text-extra-large">
-                            <!-- ADD YOUR TEXT HERE. -->
-                            </p>
-                            <p class="font-alt text-extra-large">
-                            <!-- MORE TEXT HERE  -->
-                            </p>
-                    </div>
-                        <!-- //.pl-lg-4 -->
-                </div>
-                <div class="row pb-5">
-                    <div class="col-lg-9 pb-lg-4 text-center">
-                        <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-                    </div>
+<!-- //Section - jobs Start -->
+<section id="jobs" class="bg-white" style="padding-bottom: 0px;padding-top: 40px;">
+    <div class="container">
+        <div class="row justify-content-center pb-3">
+            <div class="col-lg-9 pb-lg-3 text-center">
+                <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Job opportunities for Python programmers</h3>
+                <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+            </div>
+            <!-- //.col-lg-9 -->
+        </div>
+        <!-- //.row -->
+        <div class="row" class="pb-3" style="display: flex; justify-content: center; align-items: center">
+            <div class="col-lg-9 pb-lg-4 text-center">
+                <h4 class="font-alt font-w-400 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">
+                <!-- NAME HERE -->
+               </h4>
+            </div>
+            <div class="col-lg-4">
+                <div data-pagedots="true" data-draggable="false" data-autoplay="5000">
+                        <!-- img src="assets/images/PICTURE-HERE.JPG" alt="" class="img-fluid box-shadow-shallow rounded"/ -->
                 </div>
             </div>
-            <!-- //.row -->
+            <!-- //.col-lg-6 -->
 
-
+            <div class="col-lg-8">
+                <div class="pl-lg-4 pt-5 pt-lg-0">
+                    <p class="font-alt text-extra-large">
+                    <!-- ADD YOUR TEXT HERE. -->
+                    </p>
+                    <p class="font-alt text-extra-large">
+                    <!-- MORE TEXT HERE  -->
+                    </p>
             </div>
-            <!-- //.container -->
-        </section>
-        <!-- //Section - jobs End -->
-        
+                <!-- //.pl-lg-4 -->
+        </div>
+        <div class="row pb-5">
+            <div class="col-lg-9 pb-lg-4 text-center">
+                <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+            </div>
+        </div>
+    </div>
+    <!-- //.row -->
+
+
+    </div>
+    <!-- //.container -->
+</section>
+<!-- //Section - jobs End -->
+

@@ -22,7 +22,6 @@
   <!-- Scroll to top -->
   <a href="#page-top" class="page-scroll scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
-
   <!-- Main JS -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/popper.min.js"></script>
@@ -44,5 +43,9 @@
   <!-- Theme JS -->
   <script src="assets/js/theme.js"></script>
 
-  </body>
-</html>
+  <!-- Mobile collapse menu after click -->
+  <script>
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    });
+  </script>

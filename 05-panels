@@ -1,7 +1,8 @@
   <!-- //Section - panel Begin -->
-  <section id="talks" class="bg-white" style="padding-bottom: 0px;padding-top: 20px;">
+  <section id="panels" class="bg-white" style="padding-bottom: 0px;padding-top: 20px;">
 
-    <div class="container">
+
+    <div class="container" id="career-panel">
       <div class="row justify-content-center pb-3">
         <div class="col-lg-9 pb-lg-3 text-center">
           <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">
@@ -28,7 +29,7 @@
               we invite talent seekers from different companies here in Stockholm. We will ask them
               to share their view about the talents they are missing to accelerate their development
               speed and what we as python developers can do, to make our CVs seen in the application
-               process. After the panel you have the chance to meet them person during the job fair.
+              process. After the panel you have the chance to meet them person during the job fair.
             </p>
             <p>
               Organizer: Christine Winter (Software developer at Ivbar, PyLadies Stockholm)
@@ -43,11 +44,11 @@
     </div>
     <!-- //.container -->
 
-    <div class="container">
+    <div class="container" id="education-panel">
       <div class="row justify-content-center pb-3">
       </div>
       <!-- //.row -->
-      <div class="row" class="pb-3" style="display: flex; justify-content: center; align-items: center">
+      <div class="row" class="pb-3" style="display: flex; justify-content: center; align-items: center; padding-top: 80px;">
         <div class="col-lg-9 pb-lg-4 text-center">
           <h4 class="font-alt font-w-400 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2" id=pymacaron>
             Learning python programming
@@ -89,16 +90,16 @@
               in the pharmaceutical sector before entering formal teaching for the next generation.
             </p>
             <p>
-              Organizer: Christine Winter (Software developer at Ivbar, PyLadies Stockholm)</p>
-            </p>
+            Organizer: Christine Winter (Software developer at Ivbar, PyLadies Stockholm)</p>
+          </p>
 
-          </div>
-          <!-- //.pl-lg-4 -->
         </div>
-
+        <!-- //.pl-lg-4 -->
       </div>
-      <!-- //.row -->
+
     </div>
-    <!-- //.container -->
-  </section>
+    <!-- //.row -->
+  </div>
+  <!-- //.container -->
+</section>
   <!-- //Section - panel End -->
