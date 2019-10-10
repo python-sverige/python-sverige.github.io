@@ -10,69 +10,74 @@
 	</div>
 	<div class="row justify-content-center align-items-center pb-4">
 		<div class="col-md-6">
-			<div class="row pb-4">
-				<div class="col-md-4 justify-content-center">
+			<div class="row pb-4 justify-content-center">
+				<div class="col-md-4">
 					<div class="row pb-4">
 						<div class="col-md-12">
-							<h3 class="font-alt font-w-200 letter-spacing-2 text-uppercase title-xs-large title-extra-large">Silver</h3>
+							<h3 class="font-alt font-w-200 letter-spacing-2 text-uppercase title-xs-large title-extra-small">Silver</h3>
 						</div>
 					</div>
-					<div class="row pb-4">
+					<div class="row pb-4 justify-content-center">
 						<div class="col-md-12">
 							<div class="row justify-content-center">
 								<div class="col-md-12 d-flex justify-content-center align-items-center ">
 									<a href="https://hmgroup.com/" target="_blank">
-                                        <img src="assets/images/LogotypeH&MGroup.jpg" alt="" class="img-responsive img-fluid rounded"/>
-                                	</a>
+                  	<img src="assets/images/LogotypeH&MGroup.jpg" width=400 alt="" class="img-responsive"/>
+                	</a>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div><!-- //.col-md-4 -->
+			</div><!-- //.row pb-4 -->
+		</div><!-- //.col-md-6 -->
+	</div><!-- //.row -->
+	<div class="row justify-content-center align-items-center pb-4">
+		<div class="col-md-6">
+			<div class="row pb-4 justify-content-center">
 				<div class="col-md-4 justify-content-center">
 					<div class="row justify-content-center pb-4">
 						<div class="col-md-12 d-flex align-items-center ">
-							<h3 class="font-alt font-w-200 letter-spacing-2 text-uppercase title-xs-large title-extra-large">Bronze</h3>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row justify-content-center pb-4">
-								<div class="col-md-12 d-flex justify-content-center align-items-center ">
-									<a href="https://funnel.io/" target="_blank">
-                                        <img src="assets/images/funnel-logo.png" alt="" class="img-responsive img-fluid rounded"/>
-                                	</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 justify-content-center">
-					<div class="row justify-content-center pb-4">
-						<div class="col-md-12">
-							<h3 class="font-alt font-w-200 letter-spacing-2 text-uppercase title-xs-large title-extra-large">Patron</h3>
+							<h3 class="font-alt font-w-200 letter-spacing-2 text-uppercase title-xs-large title-regular">Bronze</h3>
 						</div>
 					</div>
 					<div class="row justify-content-center">
 						<div class="col-md-12">
-							<div class="row pb-4">
-								<div class="col-md-4 d-flex justify-content-center align-items-center ">
-									<a href="https://www.jetbrains.com/pycharm/" target="_blank">
-                                        <img src="assets/images/jetbrains.svg" alt="" class="image-responsive align-item-center img-fluid"/>
-                                	</a>
-								</div>
-								<div class="col-md-4 d-flex justify-content-center align-items-center ">
-									<a href="https://plot.ly/" target="_blank">
-                                        <img src="assets/images/Plotly.png" alt="" class="img-responsive img-fluid rounded"/>
-                                	</a>
-								</div>
-								<div class="col-md-4 d-flex justify-content-center align-items-center ">
-									<a href="https://46elks.se/" target="_blank">
-                                        <img src="assets/images/46elks-logo-blue.png" alt="" class="img-responsive img-fluid rounded"/>
-                                	</a>
+							<div class="row justify-content-center pb-4">
+								<div class="col-md-12 d-flex justify-content-center align-items-center ">
+									<a href="https://funnel.io/" target="_blank">
+                  	<img src="assets/images/funnel-logo.png" width=300 alt="" class="img-responsive"/>
+                	</a>
 								</div>
 							</div>
 						</div>
+					</div>
+				</div><!-- //.col-md-4 -->
+			</div><!-- //.row pb-4 -->
+		</div><!-- //.col-md-6 -->
+	</div><!-- //.row -->
+	<div class="row justify-content-center align-items-center pb-4">
+		<div class="col-md-6">
+			<div class="row pb-4 justify-content-center">
+				<div class="col-md-4 justify-content-center">
+					<div class="row justify-content-center pb-4">
+						<div class="col-md-12">
+							<h3 class="font-alt font-w-200 letter-spacing-2 text-uppercase title-xs-large title-small">Patron</h3>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<a href="https://www.jetbrains.com/pycharm/" target="_blank">
+	          	<img src="assets/images/jetbrains.svg" width=100 alt="" class="image-responsive"/>
+	        	</a>
+						<a href="https://plot.ly/" target="_blank">
+	          	<img src="assets/images/Plotly.png" width=200 alt="" class="img-responsive"/>
+	        	</a>
+						<a href="https://46elks.se/" target="_blank">
+	          	<img src="assets/images/46elks-logo-blue.png" width=200 alt="" class="img-responsive"/>
+	        	</a>
+						<a href="https://www.manning.com/" target="_blank">
+							<img src="assets/images/Manninglogo.png" width=200 alt="" class="img-responsive"/>
+						</a>
 					</div>
 				</div>
 			</div>
