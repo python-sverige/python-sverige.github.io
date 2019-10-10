@@ -8,16 +8,16 @@
   <meta property="og:title" content="PyCon Sweden | Job for Python Programmers" />
   <meta property="og:description" content="Job opportunities for Python programmers" />
   <meta property="og:url" content="http://www.pycon.se/jobs.html" />
-  <meta property="og:image" content="http://www.pycon.se/assets/images/facebook-thumbnail-resize.png" />
-  <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:image" content="http://www.pycon.se/assets/images/twitter.jpg" />
+  <meta property="og:image:type" content="image/jpg" />
+  <meta property="og:image:width" content="4331" />
+  <meta property="og:image:height" content="2891" />
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@pyconse">
   <meta name="twitter:title" content="PyCon Sweden | Job opportunities for Python programmers">
   <meta name="twitter:description" content="Job opportunities for Python programmers">
-  <meta name="twitter:image" content="http://www.pycon.se/assets/images/facebook-thumbnail-resize.png">
+  <meta name="twitter:image" content="http://www.pycon.se/assets/images/twitter.jpg">
 
   <!-- Bootstrap CSS -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
