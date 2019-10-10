@@ -13,6 +13,12 @@
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@pyconse">
+  <meta name="twitter:title" content="PyCon Sweden 2019">
+  <meta name="twitter:description" content="PyCon Sweden 2019 will take place between October 31st - November 1st at Münchenbryggeriet in the center of Stockholm. Buy your ticket now!">
+  <meta name="twitter:image" content="http://www.pycon.se/assets/images/facebook-thumbnail-resize.png">
+
   <!-- Bootstrap CSS -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 

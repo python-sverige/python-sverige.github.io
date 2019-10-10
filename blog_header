@@ -13,6 +13,12 @@
   <meta property="og:image:width" content="1767" />
   <meta property="og:image:height" content="1414" />
 
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@pyconse">
+  <meta name="twitter:title" content="PyCon Sweden | Interview with our keynote Shammamah Hossain">
+  <meta name="twitter:description" content="Today our keynote Shammamah Hossain, a McGill University alumnus with a joint degree in physics and computer science and software engineer at Plotly tells us about the python community in Montreal, her experiences of working in research compared with software development and what we will learn about Plotly's products during the workshop at the 6th PyCon Sweden at Münchenbryggeriet in the center of Stockholm..">
+  <meta name="twitter:image" content="http://www.pycon.se/assets/images/shammamah_hossain.jpg">
+
   <!-- Bootstrap CSS -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
