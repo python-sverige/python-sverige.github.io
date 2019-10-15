@@ -19,7 +19,7 @@ index.html: index_header $(MAIN) html_footer
 	done
 	@echo "$@ has been generated"
 
-BLOG := blog_00 blog_02 blog_01
+BLOG := blog_00 blog_03 blog_02 blog_01
 
 blog.html: blog_header 01-menu 02-callout $(BLOG) 10-contact html_footer
 	@if [ -f $@ ]; then \
