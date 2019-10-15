@@ -7,11 +7,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta property="og:title" content="PyCon Sweden | Interview with keynotes" />
   <meta property="og:description" content="Meet Tess, Shammamah and Errol on stage at the 6th PyCon Sweden at Münchenbryggeriet from 31st October to 1st November 2019." />
-  <meta property="og:url" content="http://www.pycon.se/blog.html" />
-  <meta property="og:image" content="http://www.pycon.se/assets/images/PyCon_logo_2019.png" />
+  <meta property="og:url" content="www.pycon.se/blog.html" />
+  <meta property="og:image" content="www.pycon.se/assets/images/PyCon_logo_2019.png" />
   <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:width" content="1088" />
-  <meta property="og:image:height" content="1088" />
+  <meta property="og:image:width" content="1201" />
+  <meta property="og:image:height" content="1201" />
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@pyconse">
