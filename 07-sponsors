@@ -52,6 +52,18 @@
 							</div>
 						</div>
 					</div>
+					<div class="row justify-content-center">
+						<div class="col-md-12">
+							<div class="row justify-content-center pb-4">
+								<div class="col-md-12 d-flex justify-content-center align-items-center ">
+									<a href="https://www.klarna.com" target="_blank">
+                  	<img src="assets/images/Klarna_PaymentBadge_OutsideCheckout_Pink.png" width=300 alt="" class="img-responsive"/>
+                	</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
 				</div><!-- //.col-md-4 -->
 			</div><!-- //.row pb-4 -->
 		</div><!-- //.col-md-6 -->
