@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3 navbar-header">
-          <a class="navbar-brand page-scroll" href="index.html#page-top">
+          <a class="navbar-brand page-scroll" href="#page-top">
             <img src="assets/images/logo-pycon.png" alt="" class="logo-text-light">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation">
