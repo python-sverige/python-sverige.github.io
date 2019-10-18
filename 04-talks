@@ -81,7 +81,7 @@
                 </tr>
                 <tr>
                   <td class="tg-lboi">17:15-17:45</td>
-                  <td class="tg-lboi">Becoming Free</td>
+                  <td class="tg-lboi"><a href="#" data-toggle="modal" data-target="#Anna-Lindegren">Becoming Free</a></td>
                 </tr>
                 <tr>
                   <td class="tg-lboi">17:45-</td>
@@ -663,6 +663,32 @@
                     </div>
                   </div>
                 </div>
+
+               <div class="modal fade" id="Anna-Lindegren" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="talkLabel">Becoming Free</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body font-alt text-extra-large">
+                        Python has become the most widely used programming language. From time to time, employed professionals consider going on their own and become a freelancer. This talk will cover the most demanded Python based services for outsourcing. Anna will also talk about the freelancer mindset together with the legal and economical aspect of being self-employed in Sweden. After the talk, you will be able to see the full picture of freelancing and decide for yourself, if it is for you.
+                        <br>
+                        <br>
+                        Audience level: Novice
+                        <br>
+                        <br>
+                        Speaker: Anna Kazakova Lindegren, Data Scientist, IBM. Anna is a data scientist with a background in accounting and auditing. Before switching to data science in 2017 she had been providing these services to different IT consulting companies and self-employed freelancers for several years. Among her clients were Praqma AB, Tedx Stockholm, A59 and many others.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
 
               </section>
   <!-- //Section - talks End -->
