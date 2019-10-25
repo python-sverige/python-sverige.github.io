@@ -19,8 +19,8 @@
         </tr>
         <tr>
           <th width="5%" class="tg-lboi">TIME</td>
-            <th width="48%" class="tg-lboi">Main track</td>
-              <th width="48%" class="tg-lbio">Workshop/Panel</td>
+            <th width="48%" class="tg-lboi">Mälarsalen</td>
+              <th width="48%" class="tg-lbio">Lindgren</td>
               </tr>
               <tr>
                 <td class="tg-lboi">08:00-9:00</td>
@@ -72,7 +72,7 @@
                 </tr>
                 <tr>
                   <td class="tg-lboi">16:15-16:45</td>
-                  <td class="tg-lboi"><a href="#" data-toggle="modal" data-target="#Dalton-Sakthivadivel">Delivering Healthcare Using AI: Advancements and Opportunities for Python Devs</a></td>
+                  <td class="tg-lboi"><a href="#" data-toggle="modal" data-target="#Half-Scheidl">Expressive coding extravaganza: making art with code</a></td>
                   <td class="tg-lboi" rowspan="3">Plotly Workshop</td>
                 </tr>
                 <tr>
@@ -95,8 +95,8 @@
                 </tr>
                 <tr>
                   <th width="5%" class="tg-lboi">TIME</td>
-                    <th width="48%" class="tg-lboi">Main track</td>
-                      <th width="48%" class="tg-lboi">Workshop/Panel</td>
+                    <th width="48%" class="tg-lboi">Mälarsalen</td>
+                      <th width="48%" class="tg-lboi">Lindgren</td>
                       </tr>
                       <tr>
                         <td class="tg-lboi">9:00-9:45</td>
@@ -639,23 +639,23 @@
                   </div>
                 </div>
 
-                <div class="modal fade" id="Dalton-Sakthivadivel" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
+                <div class="modal fade" id="Half-Scheidl" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
                   <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Delivering Healthcare Using AI: Advancements and Opportunities for Python Devs</h5>
+                        <h5 class="modal-title" id="talkLabel">Expressive coding extravaganza: making art with code</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
                       <div class="modal-body font-alt text-extra-large">
-                        AI is now touching healthcare: it's being used in automation, analytics, healthcare technologies, and diagnostics. People in Computer Science and medical fields are taking interest in this, but it’s not at an advanced stage. I present advice from inside both fields on leveraging new opportunities where the most impact can be made.
+                        Generative art leverages computing power to produce elegant artwork, by skillfully controlling the location and magnitude of randomness in color, shape and position. Contemporary artists are more than ever using such principles in their creative workflow, to produce image, video and sound. This talk will give you an overview of the possibilities of using code in an expressive way, and inspire you to start drawing with Python.
                         <br>
                         <br>
                         Audience level: Advanced
                         <br>
                         <br>
-                        Speaker: Dalton A. R. Sakthivadivel
+                        Speaker: Half Scheidl works as a team lead and project manager in H&M Advanced Analytics, building world-class data platforms and machine learning services with cloud services and software engineering. He is an aspiring digital artist and guest lecturer at Beckmans Designhögskola in Stockholm, engaged in various activities related to digital art. His artwork combines code and technology to create illustrations, animations and interactive installations. Half is the organizer of the Creative Coding Stockholm Meetup group, and has recently exhibited in the Winter Festival at Harpa concert hall in Reykjavik.
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
