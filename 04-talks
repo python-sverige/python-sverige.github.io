@@ -599,7 +599,7 @@
                         </button>
                       </div>
                       <div class="modal-body font-alt text-extra-large">
-                        In a very practical form, we'll master how to work with Apache Kafka using Python. The workshop will include working with Avro-serialized messages and Confluent schema registry.
+                        Workshop participants will get hands-on experience working with Apache Kafka: running a single-broker Kafka cluster on their machine, and produce and consume Avro-encoded messages from Python, using official Python kafka library as well as a high-level wrapper library. We will run Kafka and our examples in Docker, so Docker engine as well as docker-compose should be installed.
                         <br>
                         <br>
                         Audience level: Intermediate
@@ -624,7 +624,7 @@
                         </button>
                       </div>
                       <div class="modal-body font-alt text-extra-large">
-                        A workshop for the Python application developer who doesn't want to have to do DevOps too. You will learn how to deploy your web projects, making use of Docker containerisation, and letting a Platform-as-a-service take care of the frightening and unfriendly parts. Workshop handbook: https://no-devops.readthedocs.io/en/latest/
+                        A workshop for the Python application developer who doesn't want to have to do DevOps too. You will learn how to deploy your web projects, making use of Docker containerisation, and letting a Platform-as-a-service take care of the frightening and unfriendly parts. Workshop handbook: <a href="https://no-devops.readthedocs.io/en/latest" target="_blank">https://no-devops.readthedocs.io/en/latest/</a>
                         <br>
                         <br>
                         Audience level: Intermediate
