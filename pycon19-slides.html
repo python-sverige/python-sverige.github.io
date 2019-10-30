@@ -13,6 +13,48 @@
 
     <link href="assets/css/impress-demo.css" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.png" />
+
+      <!-- Bootstrap CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Font Awesome CSS -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Include all css plugins (below), or include individual files as needed -->
+  <link href="assets/css/flickity.min.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/magnific-popup.css" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+  <!-- Color Scheme CSS -->
+  <link href="assets/css/color_blue2.css" rel="stylesheet" type="text/css">
+
+  <!-- table -->
+  <link href="assets/css/table.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+
+	body, html {
+	  height: 100%;
+	  margin: 0;
+	}
+
+	.bg {
+	  /* The image used */
+	  background-image: url("assets/images/pycon19-screen.png");
+
+	  /* Full height */
+	  height: 100%; 
+
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+
+	  background-size: contain;
+	}
+  </style>
 </head>
 
 <body class="impress-not-supported">
@@ -26,65 +68,191 @@
 <div id="impress" data-autoplay="7">
 
     <div id="pyconse19" class="step slide" data-x="-3000" data-y="-1500" data-autoplay="10">
-        <q><img src="assets/images/pycon19-screen.png" valign="center" align="center"></q>
+    	<div class="bg"></div>
     </div>
 
-    <div id="sponsors" class="step slide" data-x="0" data-y="-1500" data-z="200">
-        <div align="center">
-            <h1>Sponsored by</h1>
-            <h2>Silver</h2>
-            <img src="assets/images/LogotypeH&MGroup.jpg" width=500>
-            <img src="assets/images/psf-logo-372x84-alpha.png" width=500>
-            &nbsp;<br>
-            &nbsp;<br>
-            &nbsp;<br>
-            &nbsp;<br>
-            <h2>Bronze</h2>
-            <img src="assets/images/Klarna_PaymentBadge_OutsideCheckout_Pink.png" width=300>
-            <img src="assets/images/funnel-logo.png" width=400>
-            &nbsp;<br>
-            &nbsp;<br>
-            &nbsp;<br>
-            &nbsp;<br>
-            <h2>Patrons</h2>
-            <img src="assets/images/jetbrains.svg" width=100>
-            <img src="assets/images/Plotly.png" width=150>
-            <img src="assets/images/46elks-logo-blue.png" width=150>
-            <img src="assets/images/Manninglogo.png" width=200>
-        </div>
+    <div id="sponsors" class="step slide" data-x="0" data-y="1500">
+		<div class="row pb-4 d-flex justify-content-center" style="padding-bottom: 0px;padding-top: 40px;">
+			<div class="col-lg-9 pb-4 text-center">
+	        	<h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Sponsored By</h3>
+	        	<span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+			</div>
+		</div>
+		<div class="row pb-4 d-flex justify-content-center">
+			<div class="col-lg-9">
+				<div class="row pb-4 d-flex justify-content-center">
+					<div class="col-md-9 text-center">
+						<h3 class="font-alt font-w-200 letter-spacing-2 text-uppercase title-xs-large title-extra-small">Silver</h3>
+					</div>
+				</div>
+				<div class="row pb-4 d-flex justify-content-center">
+					<div class="col-md-12 text-center">
+						<div class="row pb-4 d-flex justify-content-center">
+							<div class="col-md-4 pb-4 d-flex justify-content-center align-items-center">
+								<a href="https://hmgroup.com/" target="_blank">
+	                  						<img src="assets/images/LogotypeH&amp;MGroup.jpg" alt="" class="img-responsive" width="300">
+	                					</a>
+							</div>
+							<div class="col-md-4 pb-4 d-flex justify-content-center align-items-center">
+								<a href="https://www.python.org/" target="_blank">
+	                  						<img src="assets/images/psf-logo-372x84-alpha.png" alt="" class="img-responsive" width="300">
+	                					</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row pb-4 d-flex justify-content-center">
+			<div class="col-lg-9">
+				<div class="row pb-4 d-flex justify-content-center">
+					<div class="col-md-12 text-center">
+						<h4 class="font-alt font-w-200 letter-spacing-2 text-uppercase title-xs-medium title-extra-small">Bronze</h4>
+					</div>
+				</div>
+				<div class="row pb-4 d-flex justify-content-center">
+					<div class="col-lg-12 text-center">
+						<div class="row pb-4 d-flex justify-content-center">
+							<div class="col-md-4 pb-4 d-flex justify-content-center align-items-center">
+								<a href="https://funnel.io/" target="_blank">
+	                  						<img src="assets/images/funnel-logo.png" alt="" class="img-responsive" width="200">
+	                					</a>
+							</div>
+							<div class="col-md-4 pb-4 d-flex justify-content-center align-items-center">
+								<a href="https://www.klarna.com" target="_blank">
+	                  				<img src="assets/images/Klarna_PaymentBadge_OutsideCheckout_Pink.png" alt="" class="img-responsive" width="200">
+	                			</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row pb-4 d-flex justify-content-center">
+			<div class="col-lg-9">
+				<div class="row pb-4 d-flex justify-content-center">
+					<div class="col-md-12 text-center">
+						<h5 class="font-alt font-w-200 letter-spacing-2 text-uppercase title-xs-small title-extra-small">Patron</h5>
+					</div>
+				</div>
+				<div class="row pb-4 d-flex justify-content-center">
+					<div class="col-lg-9 text-center">
+						<div class="row pb-4 d-flex justify-content-center">
+							<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
+								<a href="https://www.jetbrains.com/pycharm/" target="_blank">
+		          					<img src="assets/images/jetbrains.svg" alt="" class="image-responsive" width="100">
+		        				</a>
+							</div>
+							<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
+								<a href="https://plot.ly/" target="_blank">
+		          					<img src="assets/images/Plotly.png" alt="" class="img-responsive" width="150">
+		        				</a>
+							</div>
+							<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
+								<a href="https://46elks.se/" target="_blank">
+		          					<img src="assets/images/46elks-logo-blue.png" alt="" class="img-responsive" width="100">
+		        				</a>
+							</div>
+							<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
+								<a href="https://www.manning.com/" target="_blank">
+									<img src="assets/images/Manninglogo.png" alt="" class="img-responsive" width="150">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
     </div>
 
     <div id="socialmedia" class="step slide" data-x="5000" data-y="-1500">
-        &nbsp;<br>
-        &nbsp;<br>
-        <div style="padding-left: 400px;">
-            <img src="assets/images/facebook-icon.png" width=100 style="vertical-align: middle;">facebook.com/pyconse<br>
-        </div>
-        <div style="padding-left: 400px;">
-            <img src="assets/images/instagram-icon.png" width=100  style="vertical-align: middle;">pycon_sweden<br>
-        </div>
-        <div style="padding-left: 400px;">
-            <img src="assets/images/telegram-icon.png" width=100  style="vertical-align: middle;">t.me/pyconsverige<br>
-        </div>
-        <div style="padding-left: 400px;">
-            <img src="assets/images/twitter-icon.png" width=100  style="vertical-align: middle;">@pyconse<br>
-        </div>
-        <div align="center">
-            <q>#pyconse2019 #pyconse</q>
-        </div>
+    	<div class="row pb-4 d-flex justify-content-center" style="padding-bottom: 0px;padding-top: 40px;">
+			<div class="col-lg-9 pb-4 text-center">
+	        	<h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Follow Us</h3>
+	        	<span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+			</div>
+		</div>
+    	<div class="row pb-4 d-flex justify-content-center">
+    		<div class="col-md-1 pb-4 d-flex justify-content-center align-items-center">
+    			<img src="assets/images/facebook-icon.png" width=100 style="vertical-align: middle;">
+    		</div>
+    		<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
+    			<p>facebook.com/pyconse</p>
+    		</div>
+    	</div>
+    	<div class="row d-flex justify-content-center">
+    		<div class="col-md-1 pb-4 d-flex justify-content-center align-items-center">
+    			<img src="assets/images/instagram-icon.png" width=100 style="vertical-align: middle;">
+    		</div>
+    		<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
+    			<p>pycon_sweden</p>
+    		</div>
+    	</div>
+    	<div class="row d-flex justify-content-center">
+    		<div class="col-md-1 pb-4 d-flex justify-content-center align-items-center">
+    			<img src="assets/images/telegram-icon.png" width=100 style="vertical-align: middle;">
+    		</div>
+    		<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
+    			<p>t.me/pyconsverige</p>
+    		</div>
+    	</div>
+    	<div class="row d-flex justify-content-center">
+    		<div class="col-md-1 pb-4 d-flex justify-content-center align-items-center">
+    			<img src="assets/images/twitter-icon.png" width=100 style="vertical-align: middle;">
+    		</div>
+    		<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
+    			<p>@pyconse</p>
+    		</div>
+    	</div>
+    	<div class="row pb-4 d-flex justify-content-center">
+    		<div class="col-md-1 pb-4 d-flex justify-content-center align-items-center">
+    			<img src="assets/images/linkedin-icon.png" width=100 style="vertical-align: middle;">
+    		</div>
+    		<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
+    			<p>@pyconse</p>
+    		</div>
+    	</div>
+    	<div class="row pb-4 d-flex justify-content-center">
+    		<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
+    			<p>#pyconse2019</p>
+    		</div>
+    		<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
+    			<p>#pyconse</p>
+    		</div>
+    	</div>
     </div>
 
     <div id="discount" class="step slide" data-x="10000" data-y="-1500">
-        <q align="center">
-            &nbsp;<br>
-            &nbsp;<br>
-            <img src="assets/images/Manninglogo.png" width=500><br>
-            40% discount code:<br>
-            <b>ctwpys19</b><br>
-            https://www.manning.com/
-        </q>
-    </div>
+    	<div class="row pb-4 d-flex justify-content-center" style="padding-bottom: 0px;padding-top: 40px;">
+			<div class="col-lg-9 pb-4 text-center">
+	        	<h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Discount Code</h3>
+	        	<span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+			</div>
+		</div>
+    	<div class="row pb-4 d-flex justify-content-center">
+    		<div class="col-md-3 pb-4 d-flex justify-content-left align-items-center">
+    			<img src="assets/images/Manninglogo.png">
+    		</div>
+    	</div>
+    	<div class="row pb-4 d-flex justify-content-center">
+    		<div class="col-md-9 pb-4 d-flex justify-content-left align-items-center">
+    			<p class="font-alt mb-0 mt-3 title-extra-large-2">40% discount code on products:<br></p>
 
+    		</div>
+    	</div>
+    	<div class="row pb-4 d-flex justify-content-center">
+    		<div class="col-md-9 pb-4 d-flex justify-content-left align-items-center">
+    			<p class="font-alt mb-0 mt-3 title-extra-large-2"><b>ctwpys19</b><br></p>
+
+    		</div>
+    	</div>
+    	<div class="row pb-4 d-flex justify-content-center">
+    		<div class="col-md-9 pb-4 d-flex justify-content-left align-items-center">
+    			<p class="font-alt mb-0 mt-3 title-extra-large-2">Visit: https://www.manning.com/<br></p>
+
+    		</div>
+    	</div>
+    </div>
 </div>
 
 <div id="impress-toolbar"></div>
