@@ -46,7 +46,7 @@ time, mark, audio, video {
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline;
+    vertical-align: centered;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -165,8 +165,8 @@ a:focus {
 
 .step {
     position: relative;
-    width: 900px;
-    padding: 40px;
+    width: 1080px;
+    padding: 20px;
     margin: 20px auto;
 
     -webkit-box-sizing: border-box;
@@ -209,9 +209,9 @@ a:focus {
 .slide {
     display: block;
 
-    width: 900px;
-    height: 700px;
-    padding: 40px 60px;
+    width: 1920px;
+    height: 1080px;
+    padding: 100px 120px;
 
     background-color: white;
     border: 1px solid rgba(0, 0, 0, .3);
@@ -233,6 +233,7 @@ a:focus {
     line-height: 72px;
 
     margin-top: 100px;
+    margin-left: 100px;
 }
 
 .slide q strong {
