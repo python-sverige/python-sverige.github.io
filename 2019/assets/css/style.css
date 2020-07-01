@@ -1,0 +1,124 @@
+/*
+* Style
+*/
+
+
+/*
+* Google font
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto");
+
+
+/*
+* Section - Home
+*/
+
+/** BG Image */
+#home {
+    background-image: url("../images/bg-home-1.jpg");
+}
+
+/** BG Parallax */
+#home-bg-parallax > .bg-parallax {
+    background: url("../images/bg-parallax.jpg");
+}
+
+/** BG Slideshow */
+#home-bg-slideshow .slides > .bg-cover:nth-child(1) {
+    background: url("../images/bg-home-1.jpg");
+}
+#home-bg-slideshow .slides > .bg-cover:nth-child(2) {
+    background: url("../images/bg-home-2.jpg");
+}
+#home-bg-slideshow .slides > .bg-cover:nth-child(3) {
+    background: url("../images/bg-home-3.jpg");
+}
+#home-bg-slideshow > .position-absolute {
+    z-index: 20;
+}
+
+/** BG Video */
+#home-bg-video .player:before {
+    z-index: 15;
+}
+#home-bg-video .player.is-mobile {
+    display: none;
+}
+#home-bg-video .container {
+    position: relative;
+    z-index: 20;
+}
+
+
+/*
+* Section - Fun Facts
+*/
+
+#fun-facts {
+    background-image: url("../images/bg-fun-facts.jpg");
+}
+
+
+/*
+* Section - Skills
+*/
+
+#skills {
+    background-image: url("../images/bg-skills.jpg");
+}
+
+
+/*
+* Section - Quote
+*/
+
+#quote {
+    background-image: url("../images/bg-quote.jpg");
+}
+
+
+/*
+* Section - Keep In Touch
+*/
+
+#keep-in-touch {
+    background-image: url("../images/bg-keep-in-touch.jpg");
+}
+
+
+/*
+* Section - Coming Soon
+*/
+
+#coming-soon {
+    background-image: url("../images/sweden_stockholm.jpg");
+}
+
+/*
+* Footer
+*/
+
+.footer-logo {
+    max-height: 40px;
+}
+.footer-icon-social {
+    bottom: 10px;
+    position: relative;
+}
+
+.registration-open:before {
+    background-color: red !important;
+}
+
+.keynote-talk:before {
+    background-color: green !important;
+}
+
+.conference-talk:before {
+    background-color: #009cdb !important;
+}
+
+.conference-break:before {
+    background-color: grey !important;
+}

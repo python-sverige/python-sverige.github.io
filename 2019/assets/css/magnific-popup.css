@@ -1,4 +1,6 @@
 /* Magnific Popup CSS */
+.mfp-container * { transition-timing-function: none; -moz-transition-timing-function: none; -webkit-transition-timing-function: none; -o-transition-timing-function: none; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; }
+
 .mfp-bg {
   top: 0;
   left: 0;

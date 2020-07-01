@@ -1,1481 +1,652 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>PyCon Sweden</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta property="og:title" content="PyCon Sweden" />
-  <meta property="og:description" content="PyCon Sweden 2019 will take place between October 31st - November 1st at Münchenbryggeriet in the center of Stockholm. Buy your ticket now!" />
-  <meta property="og:image" content="http://www.pycon.se/assets/images/facebook-thumbnail-resize.png" />
-  <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="fb:admins" content="538208697" />
-  <meta property="og:site_name" content="PyCon Sweden" />
-  <meta property="og:type" content="website" />
-  <meta name="author" content="Python Sverige">
-  <meta name="keywords" content="python pycon django conference meetup">
-  <meta name="description" content="PyCon Sweden 2019 will take place between October 31st - November 1st at Münchenbryggeriet in the center of Stockholm. Buy your ticket now!" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Aria is a business focused HTML landing page template built with Bootstrap to help you create lead generation websites for companies and their services.">
+    <meta name="author" content="Inovatik">
 
-  <meta property="og:image" content="http://www.pycon.se/assets/images/linkedin-thumbnail.png" />
-  <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:width" content="180" />
-  <meta property="og:image:height" content="95" />
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="PyCon Sweden" /> <!-- website name -->
+	<meta property="og:site" content="www.pycon.se" /> <!-- website link -->
+	<meta property="og:title" content="PyCon Sweden"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="http://www.pycon.se" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@pyconse">
-  <meta name="twitter:title" content="PyCon Sweden 2019">
-  <meta name="twitter:description" content="PyCon Sweden 2019 will take place between October 31st - November 1st at Münchenbryggeriet in the center of Stockholm. Buy your ticket now!">
-  <meta name="twitter:image" content="http://www.pycon.se/assets/images/facebook-thumbnail-resize.png">
-
-  <!-- Bootstrap CSS -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
-  <!-- Font Awesome CSS -->
-  <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-  <!-- Include all css plugins (below), or include individual files as needed -->
-  <link href="assets/css/flickity.min.css" rel="stylesheet" type="text/css">
-  <link href="assets/css/magnific-popup.css" rel="stylesheet" type="text/css">
-
-  <!-- Theme CSS -->
-  <link href="assets/css/theme.css" rel="stylesheet" type="text/css">
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-
-  <!-- Color Scheme CSS -->
-  <link href="assets/css/color_blue2.css" rel="stylesheet" type="text/css">
-
-  <!-- table -->
-  <link href="assets/css/table.css" rel="stylesheet" type="text/css">
-
-  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico"/>
+    <!-- Website Title -->
+    <title>PyCon Sweden</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.ico">
 </head>
-<body id="page-top">
-  <!-- Header Start -->
-  <header class="header-light fixed-top shrink">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 navbar-header">
-          <a class="navbar-brand page-scroll" href="#page-top">
-            <img src="assets/images/logo-pycon.png" alt="" class="logo-text-light">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	<div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
         </div>
-        <!-- //.col-lg-3 -->
+    </div>
+    <!-- end of preloader -->
+    
 
-        <div class="col-lg-9 navbar-wrapper justify-content-end">
-          <div id="navigation" class="navbar navbar-expand-lg">
-            <div class="collapse navbar-collapse" id="navbar-header">
-              <ul class="navbar-nav">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <a class="navbar-brand logo-text page-scroll" href="/index.html">PyCon Sweden</a>
+
+        <!-- Image Logo -->
+        <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo-pycon.png" alt="alternative"></a> -->
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link page-scroll" href="sponsorship.html">Sponsoring</a>
+                    <a class="nav-link page-scroll" href="#header">HOME<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link page-scroll" href="index.html#talks">Program</a>
+                    <a class="nav-link page-scroll" href="#intro">CALL FOR PROPOSAL</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link page-scroll" href="jobs.html">Jobs</a>
+                    <a class="nav-link page-scroll" href="#keynotes">KEYNOTES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link page-scroll" href="index.html#about">About</a>
+                    <a class="nav-link page-scroll" href="#about">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link page-scroll" href="index.html#venue">Venue</a>
+                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link page-scroll" href="index.html#team">Board Team</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link page-scroll" href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link page-scroll" href="index.html#contact">Contact</a>
-                </li>
-              </ul>
+            </ul>
+            <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a target="_blank" href="https://www.facebook.com/pyconse">
+                        <span class="hexagon"></span>
+                        <i class="fab fa-facebook-f fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a target="_blank" href="https://twitter.com/pyconse?lang=en">
+                        <span class="hexagon"></span>
+                        <i class="fab fa-twitter fa-stack-1x"></i>
+                    </a>
+                </span>
+                 <span class="fa-stack">
+                    <a target="_blank" href="https://www.linkedin.com/company/10362809/">
+                        <span class="hexagon"></span>
+                        <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <h1><span id="js-rotating">PyCon Sweden 2020, TWO Days Conference, 12-13 Nov, Completely ONLINE, Call for proposal announcing soon</span></h1>
+                            <p class="p-heading p-large">PyCon Sweden 2020 will be held on 12-13 November online, with multiple tracks and keynotes.</p>
+                            <a class="btn-solid-lg page-scroll" target="_blank" href="http://goo.gl/forms/B4qzi58Lf6">REGISTER TO GET NOTIFIED!</a>
+                        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+    <!-- Intro -->
+    <div id="intro" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="text-container">
+                        <div class="section-title">INTRO</div>
+                        <h2>Call for Proposal (CfP)</h2>
+                        <p>PyCon Sweden 2020 will be a two days conference with multiple tracks. Each talk will be approximately 30 minutes long with a question and answer session. The Call for Proposal will be announced soon. Follow our social media to get notified!</p>
+                        <p><b>In particular, the areas of interest are as follows:</b></p>
+                        <!--<div class="testimonial-author">Louise Donovan - CEO</div>-->
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/notebook.jpg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of intro -->
+
+
+    <!-- Description -->
+    <div class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-cogs fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">DevOps</h4>
+                            <p>DevOps combines software development and application operations. Python based tools are often widely used in the toolbox. We look for talks on Python DevOps toolchains and workflow.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-database fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">Data Science</h4>
+                            <p>Python is perhaps the most widely used computer language in Data science. With a large number of libraries and frameworks support data science research. We look for talks on tools and libraries in Python that support research and prototyping in data science workflow.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-university fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">Education</h4>
+                            <p>IT education in schools have become a hot topic in recent years. Python has become a canadidate first language for schools for many of its nice properties. Teaching Python is however not always easy. We call for talks on techniques, experiences and case-studies of IT education in Python or Python education</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+                </div>
             </div>
-            <!-- //.navbar-collapse -->
-          </div>
-          <!-- //.navbar -->
-        </div>
-        <!-- //.col-lg-9 -->
-      </div>
-      <!-- //.row -->
-    </div>
-    <!-- //.container -->
-  </header>
-  <!-- //Header End -->
-<!-- //Section - Coming-soon Begin -->
-<section id="coming-soon" class="bg-cover bg-gray bg-overlay-black-6" style="padding-top: 180px;">
-  <div class="container">
-    <div class="row justify-content-center pb-5">
-      <div class="col-lg-9 pb-lg-4 text-center text-white">
-        <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Calling all Pythonistas</h3>
-        <p class="font-alt mb-0 mt-3 text-xs-large title-medium">PyCon Sweden 2019 will take place between <b>October 31st - November 1st</b> at Münchenbryggeriet in the center of Stockholm.</p>
-      </div>
-      <!-- //.col-lg-9 -->
-    </div>
-    <!-- //.row -->
-   <!-- //.row -->
-    <div class="row justify-content-center mt-5" style="padding-bottom:40px;">
-      <div class="col-lg-9 text-center text-white">
-        <a href="https://www.eventbrite.com/e/pycon-sweden-2019-tickets-64625067316"
-          target="_blank" class="page-scroll btn btn-base-color btn-large btn-shadow mr-0 mt-4">
-          Register Now
-        </a>
-      </div>
-      <!-- //.col-lg-9 -->
-    </div>
-    <!-- //.row -->
-  </div>
-  <!-- //.container -->
-</section>
-  <!-- //Section - Coming-soon End --><!-- //Section - Keynotes Begin -->
-<section id="keynotes" class="bg-white" style="padding-bottom: 0px;padding-top: 40px;">
-	<div class="container-fluid">
-		<div class="row justify-content-center pb-4">
-        	<div class="col-lg-9 pb-lg-3 text-center">
-        		<h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Keynotes</h3>
-        		<span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-        	</div>
-        	<!-- //.col-lg-9 -->
-    	</div>
-		<div class="row justify-content-center">
-			<div class="col-lg-9 pb-4">
-				<!-- div talk by Tess -->
-				<div id="keynote-tess" class="row" style="padding-bottom: 0px;padding-top: 80px;">
-					<div class="col-md-3 pb-4">
-						<img src="assets/images/Tess.jpeg" alt="" class="img-fluid box-shadow-shallow rounded">
-					</div>
-					<div class="col-md-9 pb-4">
-						<div class="row">
-							<div class="col-md-12 pb-4">
-								<h5 class="font-alt font-w-400 letter-spacing-2 title-xs-large title-extra-large">Stories From Real World Vision Projects</h5>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 pb-4">
-								<p class="font-alt text-extra-large">
-									How do you implement an application that can pick out the interesting parts of a soccer game? What do you do when you don't have enough data, or when the data is too specific? How do you know that you are actually solving the problem, or even the right problem?
-									<br><br>
-									Writing a neural network in Python using Keras is very straight forward, you can do it in 20 lines or less, but is that all there is? Welcome to a journey through some real world problems and the thinking when working through them.
-								</p>
-								<p class="font-alt text-extra-large">
-									<b><i>Speaker: Tess Ferrandez.</i></b> <a href="https://www.linkedin.com/in/tess-ferrandez-97845a5/" target="_blank">Tess</a> is a software engineer/data scientist working at Microsoft. She works primarily on computer vision projects and more specifically lately on video action detection projects with some of the largest retailers and media companies in Europe and US. <b>Read her interview <a href="blog.html#blog-tess">here</a></b>.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- div talk by Errol -->
-				<div id="keynote-errol" class="row" style="padding-bottom: 0px;padding-top: 80px;">
-					<div class="col-md-12 pb-4">
-						<div class="row">
-							<div class="col-md-9 pb-4">
-								<div class="row">
-									<div class="col-md-12 pb-4">
-										<h5 class="font-alt font-w-400 letter-spacing-2 title-xs-large title-extra-large">Scaling AI @ H&M</h5>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12 pb-4">
-										<p class="font-alt text-extra-large">
-											The talk is about sharing the journey & learnings from building a world class AI function that builds scalable software for the entire H&M group. In the talk we will go through the tech stack behind it and some of the key enablers for us to scale and drive value from AI.
-										</p>
-										<p class="font-alt text-extra-large">
-											<b><i>Speaker: Errol Koolmeister.</i></b> Errol is the head of AI tech & architecture at H&M group and acting head of Data Science. In his role he is responsible for overseeing and coordinating the AI projects run at H&M. He has spent the last 10+ years in different industries such as banking, telecom and consulting and his main focus has during this time been setting up and scaling AI and big data projects. <b>Read his interview <a href="blog.html#blog-errol">here</a></b>.
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 pb-4">
-								<img src="assets/images/errol.png" alt="" class="img-fluid box-shadow-shallow rounded">
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- div talk by Shammamah -->
-				<div id="keynote-shammamah" class="row" style="padding-bottom: 0px;padding-top: 80px;">
-					<div class="col-md-3 pb-4">
-						<img src="assets/images/shammamah_hossain.jpg" alt="" class="img-fluid box-shadow-shallow rounded">
-					</div>
-					<div class="col-md-9 pb-4">
-						<div class="row">
-							<div class="col-md-12 pb-4">
-								<h5 class="font-alt font-w-400 letter-spacing-2 title-xs-large title-extra-large">The Ubiquity of Operationalizing Python Models</h5>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 pb-4">
-								<p class="font-alt text-extra-large">
-									As we progress further into the Information Age, the number of factors involved in making important business decisions increases exponentially. We will discuss the benefits of operationalizing Python models to better inform the increasingly complicated choices that need to be made in an increasingly complicated world, as well as highlight examples that showcase the ubiquity of this approach.
-								</p>
-								<p class="font-alt text-extra-large">
-									<b><i>Speaker: Shammamah Hossain.</i></b> Since June 2018, Shammamah has been working at <a target="_blank" href="https://plot.ly/">Plotly</a> as the main engineer for the <a href="https://www.dashdaq.io/" target="_blank">Dash DAQ</a> and <a href="https://github.com/plotly/dash-bio" target="_blank">Dash Bio</a> libraries. <b>Read her interview <a href="blog.html#blog-shammamah">here</a></b>.
-                				</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row pb-4 justify-content-center">
-    		<div class="col-lg-9 pb-lg-4 text-center">
-    			<span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-    		</div>
-    		<!-- //.pb-lg-4 -->
-    	</div>
-	</div>
-</section>
-<!-- //Section - Keynotes End -->
-
-<!-- //Section - talks Begin -->
-<section id="talks" class="bg-white" style="padding-bottom: 0px;padding-top: 80px;">
-  <div class="container">
-    <div class="row justify-content-center pb-3">
-      <div class="col-lg-9 pb-lg-3 text-center">
-        <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">
-          Preliminary Program
-        </h3>
-        <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-      </div>
-      <!-- //.col-lg-9 -->
-    </div>
-
-    <div class="row justify-content-center pb-3">
-      <div class="col-md tg-wrap"><table class="tg">
-        <tr>
-          <th width="100%" class="tg-lboi" colspan="3">Day one (31st Oct)</th>
-        </tr>
-        <tr>
-          <th width="5%" class="tg-lboi">TIME</td>
-            <th width="48%" class="tg-lboi">Mälarsalen</td>
-              <th width="48%" class="tg-lbio">Lindgren</td>
-              </tr>
-              <tr>
-                <td class="tg-lboi">08:00-9:00</td>
-                <td class="tg-lboi" colspan="2">Registration</td>
-              </tr>
-              <td class="tg-48yq">9:00-9:15</td>
-              <td class="tg-48yq" colspan="2">Opening</td>
-              <tr>
-                <td class="tg-lboi">9:15-10:00</td>
-                <td class="tg-lboi" colspan="2"><a href="#keynote-shammamah"><b>Keynote</b>: The Ubiquity of Operationalizing Python Models</a></td>
-              </tr>
-              <tr>
-                <td class="tg-48yq">10:00-10:30</td>
-                <td class="tg-48yq" colspan="2">Coffee break</td>
-              </tr>
-              <tr>
-                <td class="tg-lboi">10:30-11:00</td>
-                <td class="tg-lboi"><a href="#" data-toggle="modal" data-target="#Ravi-Singh">Making sense of ML Black Box: Interpreting ML Models Using SHAP</td>
-                  <td class="tg-lboi" rowspan="3"><a href="#" data-toggle="modal" data-target="#Sergei-Beilin">Python + Apache Kafka = &lt;3</a></td>
-                </tr>
-                <tr>
-                  <td class="tg-48yq">11:00-11:30</td>
-                  <td class="tg-48yq"><a href="#" data-toggle="modal" data-target="#Ludvig-Hult">What is causal inference, and why should data scientists know?</a></td>
-                </tr>
-                <tr>
-                  <td class="tg-lboi">11:30-12:00</td>
-                  <td class="tg-lboi"><a href="#" data-toggle="modal" data-target="#Tetiana-Kodliuk">Born to adapt: How Dathena solves the industry diversity problem</a></td>
-                </tr>
-                <tr>
-                  <td class="tg-48yq">12:00-13:00</td>
-                  <td class="tg-48yq" colspan="2">Lunch</td>
-                </tr>
-                <tr>
-                  <td class="tg-lboi">13:00-13:45</td>
-                  <td class="tg-lboi" colspan="2"><a href="#keynote-errol"><b>Keynote</b>: Scaling AI @ H&M</a></td>
-                </tr>
-                <tr>
-                  <td class="tg-lboi">13:45-14:15</td>
-                  <td class="tg-48yq"><a href="#" data-toggle="modal" data-target="#Guilherme-Caminha">Writing highly scalable and provenanceable data pipelines with Kubernetes and Python</a></td>
-                  <td class="tg-48yq" rowspan="2"><a href="#career-panel">Panel Discussion: Career</a></td>
-                </tr>
-                <tr>
-                  <td class="tg-lboi">14:15-14:45</td>
-                  <td class="tg-lboi"><a href="#" data-toggle="modal" data-target="#Daniel-Roos">Why Python is huge in finance</a></td>
-                </tr>
-                <tr>
-                  <td class="tg-48yq">14:45-16:15</td>
-                  <td class="tg-48yq" colspan="2">Job fair</td>
-                </tr>
-                <tr>
-                  <td class="tg-lboi">16:15-16:45</td>
-                  <td class="tg-lboi"><a href="#" data-toggle="modal" data-target="#Half-Scheidl">Expressive coding extravaganza: making art with code</a></td>
-                  <td class="tg-lboi" rowspan="3">Plotly Workshop</td>
-                </tr>
-                <tr>
-                  <td class="tg-48yq">16:45-17:15</td>
-                  <td class="tg-48yq"><a href="#" data-toggle="modal" data-target="#Jessica-Shortz">Learning Python (or Anything) Effectively</a></td>
-                </tr>
-                <tr>
-                  <td class="tg-lboi">17:15-17:45</td>
-                  <td class="tg-lboi"><a href="#" data-toggle="modal" data-target="#Anna-Lindegren">Becoming Free</a></td>
-                </tr>
-                <tr>
-                  <td class="tg-lboi">17:45-</td>
-                  <td class="tg-lboi" colspan="2">End of day one and mingle</td>
-                </tr>
-
-              </table></div>
-              <div class="col-md tg-wrap"><table class="tg">
-                <tr>
-                  <th width="100%" class="tg-lboi" colspan="3">Day two (1st Nov)</th>
-                </tr>
-                <tr>
-                  <th width="5%" class="tg-lboi">TIME</td>
-                    <th width="48%" class="tg-lboi">Mälarsalen</td>
-                      <th width="48%" class="tg-lboi">Lindgren</td>
-                      </tr>
-                      <tr>
-                        <td class="tg-lboi">9:00-9:45</td>
-                        <td class="tg-lboi" colspan="2"><a href="#keynote-tess"><b>Keynote</b>: Stories From Real World Vision Projects</a></td>
-                      </tr>
-                      <tr>
-                        <td class="tg-48yq">9:45-10:15</td>
-                        <td class="tg-48yq" colspan="2"><a href="#" data-toggle="modal" data-target="#Isaac-Bernat">From &gt;1 billion years to &lt;1 second</a></td>
-                      </tr>
-                      <tr>
-                        <td class="tg-lboi">10:15-10:45</td>
-                        <td class="tg-lboi" colspan="2">Coffe break</td>
-                      </tr>
-                      <tr>
-                        <td class="tg-48yq">10:45-11:15</td>
-                        <td class="tg-48yq"><a href="#" data-toggle="modal" data-target="#Gavin-Chan">Equip your performance toolbox - Cython v.s. Pybind11</a></td>
-                        <td class="tg-48yq" rowspan="3"><a href="#" data-toggle="modal" data-target="#Timofey-Tipishev">Python Debugging: Beyond print</a></td>
-                      </tr>
-                      <tr>
-                        <td class="tg-lboi">11:15-11:45</td>
-                        <td class="tg-lboi"><a href="#" data-toggle="modal" data-target="#Ashwin-Vishnu-Mohanan">Make your Python code fly at transonic speeds!</a></td>
-                      </tr>
-                      <tr>
-                        <td class="tg-48yq">11:45-12:15</td>
-                        <td class="tg-48yq"><a href="#" data-toggle="modal" data-target="#Akos-Hochrein">Asyncio in the Wild</a></td>
-                      </tr>
-                      <tr>
-                        <td class="tg-lboi">12:15-13:15</td>
-                        <td class="tg-lboi" colspan="2">Lunch</td>
-                      </tr>
-                      <tr>
-                        <td class="tg-48yq">13:15-13:45</td>
-                        <td class="tg-48yq" colspan="2">Lightning talk</td>
-                      </tr>
-                      <tr>
-                        <td class="tg-48yq">13:45-14:15</td>
-                        <td class="tg-lboi"><a href="#" data-toggle="modal" data-target="#Alexander-Hultnér">Test Fast, Fix More – Property based in Python testing with Hypothesis</a></td>
-                        <td class="tg-lboi" rowspan="3"><a href="#" data-toggle="modal" data-target="#Daniele-Procida">But I never wanted to do DevOps!</a></td>
-                      </tr>
-                      <tr>
-                        <td class="tg-48yq">14:15-14:45</td>
-                        <td class="tg-48yq"><a href="#" data-toggle="modal" data-target="#Erwan-Lemonnier">PyMacaron: microservices made easy</a></td>
-                      </tr>
-                      <tr>
-                        <td class="tg-lboi">14:45-15:15</td>
-                        <td class="tg-lboi"><a href="#" data-toggle="modal" data-target="#Anders-Hovmöller">Mutation Testing - Theory and Practice</a></td>
-                      </tr>
-                      <tr>
-                        <td class="tg-48yq">15:15-15:45</td>
-                        <td class="tg-48yq" colspan="2">Coffe break</td>
-                      </tr>
-                      <tr>
-                        <td class="tg-lboi">15:45-16:15</td>
-                        <td class="tg-lboi"><a href="#" data-toggle="modal" data-target="#Victor-Nyberg">Volumetric sculpting - Shaping a dynamic chisel</a></td>
-                        <td class="tg-48yq" rowspan="2"><a href="#education-panel">Panel Discussion:<br>Learning python programming</a></td>
-                      </tr>
-                      <tr>
-                        <td class="tg-48yq">16:15-16:45</td>
-                        <td class="tg-48yq"><a href="#" data-toggle="modal" data-target="#Rockie-Yang"><b>Closing talk: </b>Big Data Pipeline Design and Tuning in PySpark</a></td>
-                      </tr>
-                      <tr>
-                        <td class="tg-lboi">16:45-</td>
-                        <td class="tg-lboi" colspan="2">Closing remarks and mingle</td>
-                      </tr>
-                    </table></div>
-                  </div>
-                  <div class="row justify-content-center pb-3">
-                    <div class="row pb-5">
-                      <div class="col-lg-9 pb-lg-4 text-center">
-                        <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-                      </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-desktop fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">Web</h4>
+                            <p>Python powers many websites and backends with frameworks such as Django and other backend technologies. We call for talks on Python's use along the web service stack.</p>
+                        </div>
                     </div>
-                  </div>
-                </div>
+                    <!-- end of card -->
 
-                <!-- Talks -->
-                <div class="modal fade" id="Erwan-Lemonnier" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">PyMacaron: microservices made easy</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        PyMacaron is a microservice framework integrating Flask with swagger specifications to spawn REST apis with minimal code overhead. It comes with a deployment pipeline towards docker and amazon Beanstalk, support asynchronous tasks out of the box, and plays well with DynamoDB. PyMacaron is live and powering the backend of a couple of Swedish startups, including ksting.com and bazardelux.com.
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Erwan Lemonnier
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-space-shuttle fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">Performance</h4>
+                            <p>Python is one of the programming language of choice in the scientific community. Yet, the software prototypes can suffer from performance bottlenecks. However, the use of High Perofrmance and optimized Python software are increasingly popular on HPC systems. We call for talks on performance Engineering of Python software.</p>
+                        </div>
                     </div>
-                  </div>
-                </div>
+                    <!-- end of card -->
 
-                <div class="modal fade" id="Alexander-Hultnér" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Test Fast, Fix More – Property based in Python testing with Hypothesis</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        Test Fast, Fix More – Property based in Python testing with Hypothesis
-                        Did you ever miss that corner case bug? Maybe it was a negative integer, strange timezone conversion behaviour, off by one error or something entirely else. These subtle bugs are often hard to catch and are easily missed in test cases. You like me have probably ran into plenty of code utilising only happy path testing, only to later discover subtle bugs which are easily fixed once pointed out. This is where property based testing comes into the picture.
-                        <br>
-                        <br>
-                        In this talk I will focus on a wonderful Python library called Hypothesis but the concepts apply to other languages as well. Hypethesis is based on the same concept as the famous QuickCheck library for Haskell, which in turn have been ported a large number of languages. Hypothesis uses a wide range of input to find edge cases that you could otherwise easily miss, once it finds these cases it narrows down the input to the minimal breaking example to provide failures which are easier to understand.
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Alexander Hultnér
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-key fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">Security</h4>
+                            <p>Computer Security.</p>
+                        </div>
                     </div>
-                  </div>
+                    <!-- end of card -->
                 </div>
-
-                <div class="modal fade" id="Anders-Hovmöller" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Mutation Testing - Theory and Practice</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        What is mutation testing?
-                        How does it work in practice?
-                        What is it like to actually do it?
-                        These questions will be answered!
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Anders Hovmöller
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-bug fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">Testing / Continous Integration</h4>
+                            <p>Python has a nice ecosystem of software engineering tools, such as testing. Python also powers continous integration systems. We look for talks on Python's role in different stages of testing and continous integration.</p>
+                        </div>
                     </div>
-                  </div>
-                </div>
+                    <!-- end of card -->
 
-                <div class="modal fade" id="Isaac-Bernat" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">From &#62;1 billion years to &#60;1 second</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        The goal of this talk is to empower people with over a dozen optimisation techniques which may be effectively used in a wide variety of situations, even beyond Python.
-                        <br>
-                        <br>
-                        I will present best practices, typical pitfalls and common tools, but the main focus will be on a practical approach. I will showcase a small problem and a naive solution, just a few lines of Python, so that it's easily understood. Iteratively I will apply each optimisation, explain the reasoning behind it and note how execution time is reduced. By the end of the talk, one will see how the code evolved from something that would take &#62;1 billion years to compute to &#60;1 second on a regular laptop.
-                        <br>
-                        <br>
-                        I will also compare running times between Python, PyPy and C++ implementations (one being just a few milliseconds), and show how the techniques may achieve vastly different speedups from the python versions.
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Isaac Bernat (github.com/isaacbernat), back-end engineer at Ivbar, LOGEX Group
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-chart-pie fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">Career</h4>
+                            <p>Python career</p>
+                        </div>
                     </div>
-                  </div>
-                </div>
+                    <!-- end of card -->
 
-                <div class="modal fade" id="Ashwin-Vishnu-Mohanan" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Make your Python code fly at transonic speeds!</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        The talk is particularly useful for developers of Python applications which does heavy computation, with or without NumPy - for data science, research etc.
-                        <br>
-                        <br>
-                        Python extensions allows for creation of high-performance applications, which can compete with C or C++ based ones. There are more than one framework to achieve this (for example, Cython, Pythran and Numba) with similar syntaxes but different underlying implementations. The talk surveys the state of the art of creating extensions and introduces Transonic (https://transonic.readthedocs.io). Transonic is a pure-Python package acting as a unifying front-end for writing extensions with the aim to enhance the developer experience.
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Ashwin Vishnu Mohanan, Ph.D. in Engineering Mechanics from KTH and post-doctoral researcher at Stockholm University. 5+ years of experience as a research software developer and contributor to various open-source projects.
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Akos-Hochrein" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Asyncio in the Wild</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        Asyncio is a fairly new tool and no often used in production. In this talk we will be aiming for use-cases and examples so people can get more confidence moving away from the synchronous world. The talk aims to solve the problem of uncertainty when getting started with asynchronous programming in Python. After the talk the audience will be equipped with new tools they can look up at home to get started with asynchronous web development in Python, also, hopefully, they will have some extra confidence in the area.
-                        <br>
-                        <br>
-			<a href="http://prez.is/pyconse2019" target="_blank">Slides from talk</a>
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Ákos Hochrein, software engineer and book enthusiast. He worked at various companies both on the frontend and the backend to deliver highly available and scalable solutions to their customers using the power of Python for the past 10 years. In his free time, he likes to read about psychology and dystopias while exploring the beer culture of Berlin.
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Rockie-Yang" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Big Data Pipeline Design and Tuning in PySpark</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        PySpark is a great tool for doing big data ETL pipeline. While designing a big data pipeline, which is easy to maintain with a holistic view, simple to spot bottleneck is difficult. Not to say enable analytics on ETL pipelines. Rockie Yang will share his experiences on build effective ETL pipeline with PySpark.
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Rockie Yang
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Daniel-Roos" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Why Python is huge in finance?</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        Python is huge in finance, from banks to hedge-funds to day-traders; it is often the go-to tool to get things done. This talk dives into 'why?'. First looking at several areas where Python is big, what kind of work is involved, and the challenges for developers? Then at what libraries/language aspects make Python particularly suited. Pandas gets particular attention as it is incredibly useful and can make you super productive. We finish up with a demo of how you can use Monte Carlo techniques to build a mini stock market simulation and test out your own trading ideas. After the talk, you should have a better feel for what it's like working with Python in finance and also a good set of starting point if you want to start experimenting.
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Daniel Roos, with 15+ years of experience building Python/C++ financial systems for global banks and hedge funds. He has recently co-founded Njorda, a retail-focused fintech based in Stockholm.
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Gavin-Chan" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Equip your performance toolbox - Cython v.s. Pybind11</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        Developing Python applications is handy and rapid, but its performance is always concerned, especially on the CPU bound problems. We will go through the common tricks and tips to archive the best performance on the Python level. Then the two reputable libraries, Cython and Pybind11, will be visited to archive the compiled language performance and compared with their implementation, flexibility and performance.
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Gavin Chan, quantitative developer in AXA Investment Manager Chorus Ltd with 7+ years of experience in software development and finance industry.
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Ludvig-Hult" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">What is causal inference, and why should data scientists know?</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        With an explosion of computation power and modern algorithms more and more people are interested in AI, Analytics and Data Science. The Python ecosystem has been one of the most important driver for developing new tools and Python holds the power of modern analytics, but knowing the tools is not enough. Drawing conclusions from data is easy; getting the right conclusions is hard. Causal Inference is the art of drawing robust conclusions from nonexperimental data. This session will be an introduction to the field.
-                        <br>
-                        <br>
-                        Audience level: Novice
-                        <br>
-                        <br>
-                        Speaker: Ludvig Hult
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Ravi-Singh" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Making sense of ML Black Box: Interpreting ML Models Using SHAP</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        Extracting insights from a complex machine learning model is not easy hence for many people machine learning models are in a sense black box. This is a problem especially in high stake sectors like banking and healthcare. In this talk we will discuss how we can increase transparency, auditability, and stability of the model using valuable insights we can get from SHAP and explain reasoning behind individual predictions and how this can be aggregated into powerful model-level insights. We will also see the code to calculate SHAP values.
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Ravi Singh. Data Scientist at HBO Europe developing predictive models and influencing and driving the way the marketing team consume data and insights through highly usable and visual data analysis products.
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Jessica-Shortz" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Learning Python (or Anything) Effectively</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        When we're learning something new - even something as friendly as Python - it can be difficult to make details stick long-term. This talk will give you some tips to help you learn Python - or anything else - more effectively. Although Python beginners will benefit the most from applying these concepts to Python, this talk is for anyone who wants to hack into their potential to learn more efficiently.
-                        <br>
-                        <br>
-                        Audience level: Novice
-                        <br>
-                        <br>
-                        Speaker: Jessica Shortz. After spending years working as an attorney, Jessica has been working toward a career change to programming over the past two years. She's still searching for the perfect Python IDE, so feel free to recommend your favorite to her if you see her at the convention!
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Guilherme-Caminha" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Writing highly scalable and provenanceable data pipelines with Kubernetes and Python</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        In this talk we are gonna explore launching and maintaining highly scalable data pipelines using Kubernetes. We are gonna go through the process of setting up a Pachyderm cluster and deploying Python-based data processing workloads. This setup enables teams to develop and maintain very robust data pipelines, with the benefits of autoscaling clusters and quick code iteration.
-                        <br>
-                        <br>
-                        Audience level: Advanced
-                        <br>
-                        <br>
-                        Speaker: Guilherme Caminha, Software Engineer from Brazil. His interests include Scientific / High Performance Computing, Backend Development and Machine Learning.
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Victor-Nyberg" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Volumetric sculpting - Shaping a dynamic chisel</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        The shape of the tool determines the outcome of the result. A story about developing a volumetric 3D modeling and animation tool for creating virtual and physical sculptures using VTK, Numpy and PyQt told through the tool itself.
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Victor Nyberg, contemporary artist and software developer.
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Tetiana-Kodliuk" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Born to adapt: How Dathena solves the industry diversity problem</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        How adjust your AI solution to the new domain? How retrain your model on new industry-specific data? How to increase labeled dataset for minimum cost? Do oracles exist? We will look at these problems from the data protection point of view and bring possible solutions. We will talk about methods, which discuss how to adapt NLP and CV solutions to any type of industry.
-                        <br>
-                        <br>
-                        Speaker: Tetiana Kodliuk
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Timofey-Tipishev" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Python Debugging: Beyond print</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        What do you do when you see an exception stacktrace? Unless it is a simple error, you examine the runtime state that caused it. Many developers do that with print and logging, which works well for simple cases but becomes complex with more moving parts involved. Fortunately, there is a built-in Python debugger pdb and its improved iPython-powered wrapper ipdb, which lets you pause a running program, read and change its state, and even control the execution flow. Ipdb is most useful in post-mortem mode: one can explore the whole stacktrace after an exception has occurred and interactively collect all the relevant information in one go instead of printing one variable at a time.
-                        <br>
-                        <br>
-                        This workshop is a hands-on tutorial on ipdb in Python 3. The exercises include configuring, launching, and navigating ipdb. If we have enough time we may also look at how to extend the default debugger class. The workshop aims to sharpen your debugging skills by having a faster feedback loop in testing bug origin theories. Follow along if you bring a laptop, otherwise the code and slides will be posted on Github. Your system must have python 3.7, git and virtualenv installed.
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Timofey Tipishev, Sportamore AB.
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Sergei-Beilin" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Python + Apache Kafka = &#62;3</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        Workshop participants will get hands-on experience working with Apache Kafka: running a single-broker Kafka cluster on their machine, and produce and consume Avro-encoded messages from Python, using official Python kafka library as well as a high-level wrapper library. We will run Kafka and our examples in Docker, so Docker engine as well as docker-compose should be installed.
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Sergei Beilin
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Daniele-Procida" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">But I never wanted to do DevOps!</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        A workshop for the Python application developer who doesn't want to have to do DevOps too. You will learn how to deploy your web projects, making use of Docker containerisation, and letting a Platform-as-a-service take care of the frightening and unfriendly parts. Workshop handbook: <a href="https://no-devops.readthedocs.io/en/latest" target="_blank">https://no-devops.readthedocs.io/en/latest/</a>
-                        <br>
-                        <br>
-                        Audience level: Intermediate
-                        <br>
-                        <br>
-                        Speaker: Daniele Procida
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="modal fade" id="Half-Scheidl" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Expressive coding extravaganza: making art with code</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        Generative art leverages computing power to produce elegant artwork, by skillfully controlling the location and magnitude of randomness in color, shape and position. Contemporary artists are more than ever using such principles in their creative workflow, to produce image, video and sound. This talk will give you an overview of the possibilities of using code in an expressive way, and inspire you to start drawing with Python.
-                        <br>
-                        <br>
-                        Audience level: Advanced
-                        <br>
-                        <br>
-                        Speaker: Half Scheidl works as a team lead and project manager in H&M Advanced Analytics, building world-class data platforms and machine learning services with cloud services and software engineering. He is an aspiring digital artist and guest lecturer at Beckmans Designhögskola in Stockholm, engaged in various activities related to digital art. His artwork combines code and technology to create illustrations, animations and interactive installations. Half is the organizer of the Creative Coding Stockholm Meetup group, and has recently exhibited in the Winter Festival at Harpa concert hall in Reykjavik.
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-               <div class="modal fade" id="Anna-Lindegren" tabindex="-1" role="dialog" aria-labelledby="talkLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="talkLabel">Becoming Free</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body font-alt text-extra-large">
-                        Python has become the most widely used programming language. From time to time, employed professionals consider going on their own and become a freelancer. This talk will cover the most demanded Python based services for outsourcing. Anna will also talk about the freelancer mindset together with the legal and economical aspect of being self-employed in Sweden. After the talk, you will be able to see the full picture of freelancing and decide for yourself, if it is for you.
-                        <br>
-                        <br>
-                        Audience level: Novice
-                        <br>
-                        <br>
-                        Speaker: Anna Kazakova Lindegren, Data Scientist, IBM. Anna is a data scientist with a background in accounting and auditing. Before switching to data science in 2017 she had been providing these services to different IT consulting companies and self-employed freelancers for several years. Among her clients were Praqma AB, Tedx Stockholm, A59 and many others.
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-1 -->
+    <!-- end of description -->
 
 
-              </section>
-  <!-- //Section - talks End -->
-  <!-- //Section - panel Begin -->
-  <section id="panels" class="bg-white" style="padding-bottom: 0px;padding-top: 20px;">
+    <!-- Keynotes -->
+    <div id="keynotes" class="cards-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">KEYNOTES</div>
+                    <h2>Coming Soon!</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-2 -->
+    <!-- end of services -->
+    
+
+    <!-- About -->
+    <div id="about" class="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-xl-6">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/talk.jpg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-7 col-xl-6">
+                    <div class="text-container">
+                        <div class="section-title">ABOUT PYCON SWEDEN</div>
+                        <h2>We're Passionate About Python and the Community</h2>
+                        <p>PyCon Sweden is arranged by Python Sverige, a registered nonprofit organization (SE Org. ID 802476-3792).</p>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a target="_blank" href="http://www.pycon.se/assets/docs/stadgar.pdf">Organization bylaws (in Swedish)</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a target="_blank" href="https://github.com/python-sverige/protokoll">Meeting minutes GitHub repository (in Swedish)</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a target="_blank" href="http://www.pycon.se/assets/docs/code_of_conduct.pdf">Code of conduct of the conference</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a target="_blank" href="http://goo.gl/forms/B4qzi58Lf6">Python Sverige Membership signup (Membership is free!)</a></div>
+                            </li>
+                        </ul>
+
+                        <!-- Counter -->
+                        <div id="counter">
+                            <div class="cell">
+                                <div class="counter-info">Since</div>
+                                <div class="counter-value number-count" data-count="2014">1</div>
+                            </div>
+                            <div class="cell">
+                                <div class="counter-value number-count" data-count="20">1</div>
+                                <div class="counter-info">Talks<br>2019</div>
+                            </div>
+                            <div class="cell">
+                                <div class="counter-value number-count" data-count="4">1</div>
+                                <div class="counter-info">Workshops<br>2019</div>
+                            </div>
+                        </div>
+                        <!-- end of counter -->
+
+                    </div> <!-- end of text-container -->      
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of counter -->
+    <!-- end of about -->
+
+    <!-- Team -->
+    <div class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Our Board</h2>
+                    <p class="p-heading">PyCon Sweden is organized by Python Sverige, with its volunteer board members.</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/Anna.jpg" alt="alternative">
+                        </div> <!-- end of image-wrapper -->
+                        <p class="p-large">Anna Lindgren</p>
+                        <p class="job-title">Chairwoman</p>
+                        <!--
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                        -->
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/Helio.jpg" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">Helio Loureiro</p>
+                        <p class="job-title">Board Member</p>
+                        <!--
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                        -->
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/Christine_Winter.jpg" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">Christine Winter</p>
+                        <p class="job-title">Board Member</p>
+                        <!--
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                        -->
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/Steve.png" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">Wei Der Chien</p>
+                        <p class="job-title">Board Member</p>
+                        <!--
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                        -->
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/Slavik.jpg" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">Vyacheslav Olshevsky (Slavik)</p>
+                        <p class="job-title">Board Member</p>
+                        <!--
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                        -->
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" src="images/Nuo.jpg" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large">Xu Nuo</p>
+                        <p class="job-title">Board Member</p>
+                        <!--
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                        -->
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of team -->
 
 
-    <div class="container" id="career-panel">
-      <div class="row justify-content-center pb-3">
-        <div class="col-lg-9 pb-lg-3 text-center">
-          <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">
-            Panels
-          </h3>
-          <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-        </div>
-        <!-- //.col-lg-9 -->
-      </div>
-      <!-- //.row -->
-      <div class="row" class="pb-3" style="display: flex; justify-content: center; align-items: center">
-        <div class="col-lg-9 pb-lg-4 text-center">
-          <h4 class="font-alt font-w-400 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2" id=pymacaron>
-            Career with Python
-          </h4>
-        </div>
-        <!-- //.col-lg-6 -->
 
-        <div class="col-lg-8">
-          <div class="pl-lg-4 pt-5 pt-lg-0">
-            <p class="font-alt text-extra-large">
-              Develops are in high demand. According Svenska Dagbladet is Sweden in need of 70 000
-              programmers until 2022. To bridge the gap between developers and corporate
-              we invite talent seekers from different companies here in Stockholm. We will ask them
-              to share their view about the talents they are missing to accelerate their development
-              speed and what we as python developers can do, to make our CVs seen in the application
-              process. After the panel you have the chance to meet them person during the job fair.
-            </p>
-            <p>
-              Organizer: Christine Winter (Software developer at Ivbar, PyLadies Stockholm)
-            </p>
+    <!-- Contact -->
+    <div id="contact" class="form-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <div class="section-title">CONTACT</div>
+                        <h2>Get In Touch!</h2>
+                        <p>For inquiries and sponsorships, send us an email at:</p>
+                        <ul class="list-unstyled li-space-lg">
+                            <li><i class="fas fa-envelope"></i><a href="mailto:info@pycon.se">info@pycon.se</a></li>
+                        </ul>
+                        <p>Sign up for Python Sverige Membership <a target="_blank" href="http://goo.gl/forms/B4qzi58Lf6">here</a> (Membership is free!)</p>
+                        <h3>Follow PyCon Sweden On Social Media</h3>
 
-          </div>
-          <!-- //.pl-lg-4 -->
-        </div>
-
-      </div>
-      <!-- //.row -->
-    </div>
-    <!-- //.container -->
-
-    <div class="container" id="education-panel">
-      <div class="row justify-content-center pb-3">
-      </div>
-      <!-- //.row -->
-      <div class="row" class="pb-3" style="display: flex; justify-content: center; align-items: center; padding-top: 80px;">
-        <div class="col-lg-9 pb-lg-4 text-center">
-          <h4 class="font-alt font-w-400 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2" id=pymacaron>
-            Learning python programming
-          </h4>
-        </div>
-        <!-- //.col-lg-6 -->
-
-        <div class="col-lg-8">
-          <div class="pl-lg-4 pt-5 pt-lg-0">
-            <p class="font-alt text-extra-large">
-              How can we share our passion for programming to others and the next generation? Where is a good starting point
-              to learn python and programming in general? After reaching some seniority in programming,
-              what can I do to continue learning? And what are the keys to create a learning environment?
-              During this panel we will find answers for those questions and discuss the role of education
-              in programming. We are excited to welcome the passionate community builders and coding teachers
-              as our guests:
-            </p>
-            <p class="font-alt text-extra-large">
-              <b>Anna Unger</b> (Data Engineer at Granditude): Three years ago Anna changed her career to tech. In June
-              2019 she founded the Facebook Developer Circle in Stockholm  together with Dalia Hamoda and became thereby
-              an active driver of the Stockholm tech community. In August 2019 she and her team succeeded at the San
-              Francisco's PyTorch hackathon and ended up on 3rd place.
-            </p>
-            <p class="font-alt text-extra-large">
-              <b>Jessica Shortz</b> (Web Developer, PyLadies Stockholm): After trying her hand at being an
-              attorney, she discovered her passion for computers. Python is currently her favorite
-              language, and she loves engaging with the local tech scene in Stockholm.
-            </p>
-            <p class="font-alt text-extra-large">
-              <b>Juha-Matti Santala</b> (Developer Advocate at Futurice, Community Builder): Juhis is a developer
-              community builder, web developer and programming teacher from Helsinki, Finland currently
-              working at Futurice. He has a background in web development in fast-growing startups,
-              experience in building communities for startups and developers and a passion for inclusive
-              communities.
-            </p>
-            <p class="font-alt text-extra-large">
-              <b>Lilian Nandi</b> (Teacher of Computer Science/Head of Department at Northbridge House):
-              Lilian studied Computer Science at high school and did her PhD in Computer Modelling from
-              University College London. She went on to looking at computer applications and programming
-              in the pharmaceutical sector before entering formal teaching for the next generation.
-            </p>
-            <p>
-            Organizer: Christine Winter (Software developer at Ivbar, PyLadies Stockholm)</p>
-          </p>
-
-        </div>
-        <!-- //.pl-lg-4 -->
-      </div>
-
-    </div>
-    <!-- //.row -->
-  </div>
-  <!-- //.container -->
-</section>
-  <!-- //Section - panel End -->  <!-- //Section - venue Begin -->
-  <section id="venue" class="bg-white" style="padding-bottom: 0px;padding-top: 80px;">
-    <div class="container">
-      <div class="row justify-content-center pb-4">
-        <div class="col-lg-9 pb-lg-4 text-center">
-          <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Venue</h3>
-          <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-        </div>
-        <!-- //.col-lg-9 -->
-      </div>
-      <!-- //.row -->
-
-      <div class="row justify-content-center text-center">
-        <div style="display: flex; flex-direction=row">
-          <div class="col-lg-6">
-            <p>Address: Mälarsalen, Söder Mälarstrand 29, 118 25 Stockholm</p>
-          </div>
-          <div class="col-lg-6">
-            <p>Nearest metro station: Mariatorget</p>
-          </div>
-        </div>
-        <!-- //.col-lg-6 -->
-      </div>
-      <!-- //.row -->
-
-      <div class="row justify-content-center">
-        <div class="d-flex justify-content-center align-item-center col-lg-9 pb-lg-4 text-center">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1505.891660336228!2d18.054449694373492!3d59.31906839980367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x465f77e615ab908d%3A0xb07e65934356f97!2sMariatorget%20tunnelbana%2C%20Torkel%20Knutssonsgatan%2C%20Stockholm!3m2!1d59.317336399999995!2d18.0577665!4m5!1s0x465f77e76ea2ee4d%3A0xf401f37023edd714!2sM%C3%A4larsalen!3m2!1d59.320648999999996!2d18.053924!5e0!3m2!1sen!2sse!4v1571987144196!5m2!1sen!2sse" width="720" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-         </div>
-        <!-- //.col-lg-6 -->
-      </div>
-      <!-- //.row -->
-      <div class="row justify-content-center" >
-        <div class="row pb-5">
-          <div class="col-lg-9 pb-lg-4 text-center">
-            <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-          </div><!-- //.col-lg-9 -->
-        </div><!-- //.row -->
-      </div><!-- //.row -->
-
-    </div>
-    <!-- //.container -->
-  </section>
-  <!-- //Section - venue End --><div id="talks" class="bg-white container-fluid" style="padding-bottom: 0px;padding-top: 80px;">
-	<div class="row pb-4 d-flex justify-content-center">
-		<div class="col-lg-9 pb-4 text-center">
-        	<h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Sponsored By</h3>
-        	<span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-		</div>
-	</div>
-	<div class="row pb-4 d-flex justify-content-center">
-		<div class="col-lg-9">
-			<div class="row pb-4 d-flex justify-content-center">
-				<div class="col-md-9 text-center">
-					<h3 class="font-alt font-w-200 letter-spacing-2 text-uppercase title-xs-large title-extra-small">Silver</h3>
-				</div>
-			</div>
-			<div class="row pb-4 d-flex justify-content-center">
-				<div class="col-md-12 text-center">
-					<div class="row pb-4 d-flex justify-content-center">
-						<div class="col-md-4 pb-4 d-flex justify-content-center align-items-center">
-							<a href="https://hmgroup.com/" target="_blank">
-                  						<img src="assets/images/LogotypeH&amp;MGroup.jpg" alt="" class="img-responsive" width="300">
-                					</a>
-						</div>
-						<div class="col-md-4 pb-4 d-flex justify-content-center align-items-center">
-							<a href="https://www.python.org/" target="_blank">
-                  						<img src="assets/images/psf-logo-372x84-alpha.png" alt="" class="img-responsive" width="300">
-                					</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row pb-4 d-flex justify-content-center">
-		<div class="col-lg-9">
-			<div class="row pb-4 d-flex justify-content-center">
-				<div class="col-md-12 text-center">
-					<h4 class="font-alt font-w-200 letter-spacing-2 text-uppercase title-xs-medium title-extra-small">Bronze</h4>
-				</div>
-			</div>
-			<div class="row pb-4 d-flex justify-content-center">
-				<div class="col-lg-12 text-center">
-					<div class="row pb-4 d-flex justify-content-center">
-						<div class="col-md-4 pb-4 d-flex justify-content-center align-items-center">
-							<a href="https://funnel.io/" target="_blank">
-                  						<img src="assets/images/funnel-logo.png" alt="" class="img-responsive" width="200">
-                					</a>
-						</div>
-						<div class="col-md-4 pb-4 d-flex justify-content-center align-items-center">
-							<a href="https://www.klarna.com" target="_blank">
-                  				<img src="assets/images/Klarna_PaymentBadge_OutsideCheckout_Pink.png" alt="" class="img-responsive" width="200">
-                			</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row pb-4 d-flex justify-content-center">
-		<div class="col-lg-9">
-			<div class="row pb-4 d-flex justify-content-center">
-				<div class="col-md-12 text-center">
-					<h5 class="font-alt font-w-200 letter-spacing-2 text-uppercase title-xs-small title-extra-small">Patron</h5>
-				</div>
-			</div>
-			<div class="row pb-4 d-flex justify-content-center">
-				<div class="col-lg-9 text-center">
-					<div class="row pb-4 d-flex justify-content-center">
-						<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
-							<a href="https://www.jetbrains.com/pycharm/" target="_blank">
-	          					<img src="assets/images/jetbrains.svg" alt="" class="image-responsive" width="100">
-	        				</a>
-						</div>
-						<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
-							<a href="https://plot.ly/" target="_blank">
-	          					<img src="assets/images/Plotly.png" alt="" class="img-responsive" width="150">
-	        				</a>
-						</div>
-						<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
-							<a href="https://46elks.se/" target="_blank">
-	          					<img src="assets/images/46elks-logo-blue.png" alt="" class="img-responsive" width="100">
-	        				</a>
-						</div>
-						<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
-							<a href="https://www.manning.com/" target="_blank">
-								<img src="assets/images/Manninglogo.png" alt="" class="img-responsive" width="150">
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row pb-4 d-flex justify-content-center">
-		<div class="col-lg-9">
-			<div class="row pb-4 d-flex justify-content-center">
-				<div class="col-md-12 text-center">
-					<h6 class="font-alt font-w-200 letter-spacing-2 text-uppercase title-xs-medium title-extra-small">Media Partner</h6>
-				</div>
-			</div>
-			<div class="row pb-4 d-flex justify-content-center">
-				<div class="col-lg-12 text-center">
-					<div class="row pb-4 d-flex justify-content-center">
-						<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
-						<a href="https://aigents.co/" target="_blank">
-							<img src="assets/images/Aigents_logo_notag.png" alt="" class="img-responsive" width="150">
-						</a>
-						</div>
-						<div class="col-md-3 pb-4 d-flex justify-content-center align-items-center">
-						<a href="https://datafloq.com" target="_blank">
-							<img src="assets/images/Datafloq_Logo_Web.png" alt="" class="img-responsive" width="150">
-						</a>
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row pb-4 d-flex justify-content-center">
-			<div class="col-lg-9 pb-lg-4 text-center">
-				<span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-			</div><!-- //.col-lg-9 -->
-		</div><!-- //.row -->
-	</div>
-</div>
-  <!-- //Section - about Begin -->
-  <section id="about" class="bg-white" style="padding-bottom: 0px;padding-top: 80px;">
-    <div class="container">
-
-      <div class="row justify-content-center pb-4">
-        <div class="col-lg-9 pb-lg-4 text-center">
-          <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">About Pycon Sweden</h3>
-          <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-        </div>
-        <!-- //.col-lg-9 -->
-      </div>
-      <!-- //.row -->
-
-      <div class="row justify-content-center ">
-        <div class="col-lg-9 pb-lg-4 ">
-          <p>
-            PyCon Sweden is arranged by Python Sverige, a registered nonprofit
-            organization (SE Org. ID 802476-3792).
-          </p>
-          <ul>
-            <li><a href="/assets/docs/stadgar.pdf" target="_new">Organization bylaws (in Swedish)</a></li>
-            <li><a href="https://github.com/python-sverige/protokoll">Meeting minutes GitHub repository (in Swedish)</a></li>
-          </ul>
-          <h3>Code of Conduct</h3>
-          <p>
-            <a href="/assets/docs/code_of_conduct.pdf" target="_new">View the Code of Conduct for the conference</a>
-          </p>
-          <h3>Become a member</h3>
-          <p>
-            <a href="http://goo.gl/forms/B4qzi58Lf6">Python Sverige membership signup form</a> (membership is free)
-          </p>
-        </div>
-        <!-- //.col-lg-9 -->
-      </div>
-      <!-- //.row -->
-    </div>
-    <!-- //.container -->
-  </section>
-  <!-- //Section - about End -->
+                        <span class="fa-stack">
+                            <a href="https://www.facebook.com/pyconse">
+                                <span class="hexagon"></span>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://twitter.com/pyconse?lang=en">
+                                <span class="hexagon"></span>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://www.instagram.com/pycon_sweden">
+                                <span class="hexagon"></span>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="https://www.linkedin.com/company/10362809/">
+                                <span class="hexagon"></span>
+                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-5 col-xl-6">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/stickers.jpg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-2 -->
+    <!-- end of contact -->
 
 
-  <!-- Section - Team Begin -->
-  <section id="team" class="bg-white" style="padding-top: 80px;">
-    <div class="container">
-      <div class="row justify-content-center pb-4">
-        <div class="col-lg-6 pb-lg-4 text-center">
-          <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-large">PyCon Sweden Board</h3>
-          <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-        </div>
-        <!-- //.col-lg-6 -->
-      </div>
-      <!-- //.row -->
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="text-container about">
+                        <h4>PyCon Sweden</h4>
+                        <p class="white">PyCon Sweden is a yearly Python conference in Sweden organized by Python Sverige since 2014. Python Sverige is a registered non-profit organization (SE Org. ID 802476-3792).</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Social Media</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li>
+                                <a class="white" href="https://www.facebook.com/pyconse">Facebook</a>
+                            </li>
+                            <li>
+                               <a class="white" href="https://twitter.com/pyconse?lang=en">Twitter</a>
+                            </li>
+                            <li class="media">
+                                <a class="white" href="https://twitter.com/pyconse?lang=en">Instagram</a>
+                            </li>
+                            <li class="media">
+                                <a class="white" href="https://www.linkedin.com/company/10362809/">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Past Editions</h4>
+                        <ul class="list-unstyled li-space-lg white">
+                            <li>
+                                <a class="white" href="http://www.pycon.se/2019">2019</a>
+                            </li>
+                            <li>
+                                <a class="white" href="http://www.pycon.se/2018">2018</a>
+                            </li>
+                            <li>
+                                <a class="white" href="http://www.pycon.se/2017">2017</a>
+                            </li>
+                            <li>
+                                <a class="white" href="http://www.pycon.se/2016">2016</a>
+                            </li>
+                            <li>
+                                <a class="white" href="http://www.pycon.se/2015">2015</a>
+                            </li>
+                            <li>
+                                <a class="white" href="http://www.pycon.se/2014">2015</a>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
 
-      <div class="row d-flex align-item-center justify-content-center">
-        <div class="col-md-3 col-lg-3 ">
-          <figure class="team-block rounded">
-            <img src="assets/images/Anna.jpg" alt="" class="img-fluid ease rounded">
-            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
-              <div class="d-table h-100 position-relative px-4 w-100">
-                <div class="d-table-cell align-middle text-center">
-                  <span class="d-block font-alt letter-spacing-2 title-small text-white">Anna K. Lindegren</span>
-                  <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
-                  <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Chairwoman</span>
-                </div>
-                <!-- //.d-table-cell -->
-              </div>
-              <!-- //.d-table -->
-            </figcaption>
-          </figure>
-        </div>
-        <!-- //.col-md-3 -->
 
-        <div class="col-md-3 col-lg-3">
-          <figure class="team-block rounded">
-            <img src="assets/images/Helio.jpg" alt="" class="img-fluid ease rounded">
-            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
-              <div class="d-table h-100 position-relative px-4 w-100">
-                <div class="d-table-cell align-middle text-center">
-                  <span class="d-block font-alt letter-spacing-2 title-small text-white">Helio Loureiro</span>
-                  <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
-                  <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Board Member</span>
-                </div>
-                <!-- //.d-table-cell -->
-              </div>
-              <!-- //.d-table -->
-            </figcaption>
-          </figure>
-        </div>
-        <!-- //.col-md-3 -->
-
-        <div class="col-md-3 col-lg-3">
-          <figure class="team-block rounded">
-            <img src="assets/images/Michael.jpg" alt="" class="img-fluid ease rounded">
-            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
-              <div class="d-table h-100 position-relative px-4 w-100">
-                <div class="d-table-cell align-middle text-center">
-                  <span class="d-block font-alt letter-spacing-2 title-small text-white">Michael Dovgal</span>
-                  <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
-                  <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Board Member</span>
-                </div>
-                <!-- //.d-table-cell -->
-              </div>
-              <!-- //.d-table -->
-            </figcaption>
-          </figure>
-        </div>
-        <!-- //.col-md-3 -->
-
-        <div class="col-md-3 col-lg-3">
-          <figure class="team-block rounded">
-            <img src="assets/images/Steve.png" alt="" class="img-fluid ease rounded">
-            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
-              <div class="d-table h-100 position-relative px-4 w-100">
-                <div class="d-table-cell align-middle text-center">
-                  <span class="d-block font-alt letter-spacing-2 title-small text-white">Wei Der Chien</span>
-                  <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
-                  <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Board Member</span>
-                </div>
-                <!-- //.d-table-cell -->
-              </div>
-              <!-- //.d-table -->
-            </figcaption>
-          </figure>
-        </div>
-        <!-- //.col-md-3 -->
-
-        <div class="col-md-3 col-lg-3">
-          <figure class="team-block rounded">
-            <img src="assets/images/Nuo.jpg" alt="" class="img-fluid ease rounded">
-            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
-              <div class="d-table h-100 position-relative px-4 w-100">
-                <div class="d-table-cell align-middle text-center">
-                  <span class="d-block font-alt letter-spacing-2 title-small text-white">Xu Nuo</span>
-                  <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
-                  <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Board Member</span>
-                </div>
-                <!-- //.d-table-cell -->
-              </div>
-              <!-- //.d-table -->
-            </figcaption>
-          </figure>
-        </div>
-        <!-- //.col-md-3 -->
-
-        <div class="col-md-3 col-lg-3">
-          <figure class="team-block rounded">
-            <img src="assets/images/Christine_Winter.jpg" alt="" class="img-fluid ease rounded">
-            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
-              <div class="d-table h-100 position-relative px-4 w-100">
-                <div class="d-table-cell align-middle text-center">
-                  <span class="d-block font-alt letter-spacing-2 title-small text-white">Christine Winter</span>
-                  <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
-                  <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Board Member</span>
-                </div>
-                <!-- //.d-table-cell -->
-              </div>
-              <!-- //.d-table -->
-            </figcaption>
-          </figure>
-        </div>
-        <!-- //.col-md-3 -->
-
-        <div class="col-md-3 col-lg-3">
-          <figure class="team-block rounded">
-            <img src="assets/images/Slavik.jpg" alt="" class="img-fluid ease rounded">
-            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
-              <div class="d-table h-100 position-relative px-4 w-100">
-                <div class="d-table-cell align-middle text-center">
-                  <span class="d-block font-alt letter-spacing-2 title-small text-white">Vyacheslav Olshevsky (Slavik)</span>
-                  <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
-                  <span class="d-block font-alt letter-spacing-2 mt-3 text-small text-white">Board Member</span>
-                </div>
-                <!-- //.d-table-cell -->
-              </div>
-              <!-- //.d-table -->
-            </figcaption>
-          </figure>
-        </div>
-        <!-- //.col-md-3 -->
-
-        <!-- end of profiles -->
-      </div>
-      <!-- //.row -->
-    </div>
-    <!-- //.container -->
-  </section>
-  <!-- //Section - Team End -->
-  <!-- //Section - contact Begin -->
-  <section id="contact" class="bg-white" style="padding-bottom: 0px;padding-top: 80px;">
-    <div class="container">
-      <div class="row justify-content-center pb-5">
-        <div class="col-lg-9 pb-lg-4 text-center">
-          <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Contact Us</h3>
-          <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
-        </div>
-      </div>
-      <div class="row justify-content-center ">
-        <div class="col-lg-9 pb-lg-4 ">
-          <p>
-            General info: <a href="mailto:info@pycon.se">info@pycon.se</a>
-          </p>
-          <p>
-            Sponsorship: <a href="mailto:sponsorship@pycon.se">sponsorship@pycon.se</a>
-          </p>
-          <p>
-            Volunteering: <a href="mailto:volunteer@pycon.se">volunteer@pycon.se</a>
-          </p>
-          <ul class="footer-icon-social mb-0 mt-4 p-0 text-center text-md-right title-xs-small title-medium">
-            <li class="list-inline-item pl-4">
-              <a href="https://twitter.com/pyconse" class="text-gray-dark"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li class="list-inline-item pl-4">
-              <a href="https://t.me/pycon_sweden" class="text-gray-dark"><i class="fa fa-telegram"></i></a>
-            </li>
-            <li class="list-inline-item pl-4">
-              <a href="https://www.facebook.com/pyconse/" class="text-gray-dark"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li class="list-inline-item pl-4">
-              <a href="https://www.youtube.com/channel/UCH_2cuWzFMyCPvm75lJJ6wg" class="text-gray-dark"><i class="fa fa-youtube"></i></a>
-            </li>
-          </ul>
-
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- //Section - contact End -->
-  <!-- Footer Start -->
-  <footer class="bg-white py-5">
-    <div class="container">
-      <div class="row align-items-center pb-5">
-        <div class="col-md-4 text-center text-md-left"></div>
-        <!-- //.col-md-8 -->
-      </div>
-      <!-- //.row -->
-
-      <div class="row align-items-center border-top pt-5">
-        <div class="col text-center">
-          <span class="font-alt font-w-600 letter-spacing-1 text-gray-dark text-small text-uppercase">&copy; Python Sverige 2019. Header photo by <a style="background-color:black;color:white;text-decoration:none;padding:2px 4px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:10px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:1px" href="https://unsplash.com/@jonflobrant?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Jon Flobrant"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Jon Flobrant</span></a></span>
-        </div>
-        <!-- //.col -->
-      </div>
-      <!-- //.row -->
-    </div>
-    <!-- //.container -->
-  </footer>
-  <!-- //Footer End -->
-
-  <!-- Scroll to top -->
-  <a href="#page-top" class="page-scroll scroll-to-top"><i class="fa fa-angle-up"></i></a>
-
-  <!-- Main JS -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-
-  <!-- Include all js plugins (below) -->
-  <script src="assets/js/pace.min.js"></script>
-  <script src="assets/js/jquery.easing.min.js"></script>
-  <script src="assets/js/jquery.inview.min.js"></script>
-  <script src="assets/js/jquery.countTo.js"></script>
-  <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/js/flickity.pkgd.min.js"></script>
-  <script src="assets/js/isotope.pkgd.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/jquery.easypiechart.min.js"></script>
-  <script src="assets/js/jquery.countdown.min.js"></script>
-  <script src="assets/js/jquery.validate.min.js"></script>
-
-  <!-- Theme JS -->
-  <script src="assets/js/theme.js"></script>
-
-  <!-- Mobile collapse menu after click -->
-  <script>
-    $('.navbar-collapse a').click(function(){
-        $(".navbar-collapse").collapse('hide');
-    });
-  </script>
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Template by Inovatik</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="assets/js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="assets/js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="assets/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="assets/js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="assets/js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="assets/js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+    <script src="assets/js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="assets/js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>
