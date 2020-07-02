@@ -59,21 +59,26 @@
         </div>
     </div>
     <!-- end of preloader -->
-    
+ 
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <a class="navbar-brand logo-text page-scroll" href="/index.html">PyCon Sweden</a>
-
-        <!-- Image Logo -->
-        <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/logo-pycon.png" alt="alternative"></a> -->
+    <nav class="nvabar-header navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <div class="row">
+            <div class="col-lg-10">
+                <!-- Text Logo - Use this if you don't have a graphic logo -->
+                <a class="navbar-brand logo-text page-scroll" href="index.html">PyCon Sweden</a>
+                <!-- Image Logo -->
+                <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/PyCon_logo_2019.png" alt="alternative"></a> -->
+            </div> <!-- end of col -->
         
         <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-awesome fas fa-bars"></span>
-            <span class="navbar-toggler-awesome fas fa-times"></span>
-        </button>
+            <div class="col-lg-2">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-awesome fas fa-bars"></span>
+                    <span class="navbar-toggler-awesome fas fa-times"></span>
+                </button>
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
         <!-- end of mobile menu toggle button -->
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -86,6 +91,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#keynotes">KEYNOTES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#programme">PROGRAMME</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#about">ABOUT</a>
@@ -117,7 +125,6 @@
         </div>
     </nav> <!-- end of navbar -->
     <!-- end of navbar -->
-
 
     <!-- Header -->
     <header id="header" class="header">
@@ -296,7 +303,19 @@
         </div> <!-- end of container -->
     </div> <!-- end of cards-2 -->
     <!-- end of services -->
-    
+
+    <!-- Programme -->
+    <div id="programme" class="filter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">PROGRAMME</div>
+                    <h2>COMING SOON</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+       </div> <!-- end of container -->
+    </div> <!-- end of filter -->
+    <!-- end of projects -->
 
     <!-- About -->
     <div id="about" class="counter">
@@ -334,8 +353,12 @@
                         <!-- Counter -->
                         <div id="counter">
                             <div class="cell">
-                                <div class="counter-info">Since</div>
-                                <div class="counter-value number-count" data-count="2014">1</div>
+                                <div class "col-6">
+                                    <div class="counter-info">Since</div>
+                                </div>
+                                <div class "col-6">
+                                    <div class="counter-value number-count" data-count="2014">1</div>
+                                </div>
                             </div>
                             <div class="cell">
                                 <div class="counter-value number-count" data-count="20">1</div>
@@ -498,7 +521,7 @@
                     <!-- Team Member -->
                     <div class="team-member">
                         <div class="image-wrapper">
-                            <img class="img-fluid" src="images/Nuo.jpg" alt="alternative">
+                            <img class="img-fluid pb-4" src="images/Nuo.jpg" alt="alternative">
                         </div> <!-- end of image wrapper -->
                         <p class="p-large">Xu Nuo</p>
                         <p class="job-title">Board Member</p>
@@ -541,7 +564,7 @@
                             <li><i class="fas fa-envelope"></i><a href="mailto:info@pycon.se">info@pycon.se</a></li>
                         </ul>
                         <p>Sign up for Python Sverige Membership <a target="_blank" href="http://goo.gl/forms/B4qzi58Lf6">here</a> (Membership is free!)</p>
-                        <h3>Follow PyCon Sweden On Social Media</h3>
+                        <h3>Follow Us On Social Media</h3>
 
                         <span class="fa-stack">
                             <a target="_blank" href="https://www.facebook.com/pyconse">
@@ -567,6 +590,13 @@
                                 <i class="fab fa-linkedin-in fa-stack-1x"></i>
                             </a>
                         </span>
+                        <span class="fa-stack">
+                            <a target="_blank" href="https://www.youtube.com/channel/UCH_2cuWzFMyCPvm75lJJ6wg">
+                                <span class="hexagon"></span>
+                                <i class="fab fa-youtube fa-stack-1x"></i>
+                            </a>
+                        </span>
+
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-5 col-xl-6">
