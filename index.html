@@ -1,5 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -47,6 +76,7 @@
 	
     <!-- Favicon  -->
     <link rel="icon" href="images/favicon.ico">
+
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
@@ -281,7 +311,7 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-
+    </div>
     <!-- end of keynotes -->
 
     <!-- Programme -->
@@ -374,20 +404,13 @@
                                 use-cases and libraries in Python that support research and prototyping of the data
                                 science workflow.
                             </p>
+                            <p>Click on the titles to find out more.</p>
                             <div class="col-lg-12" align="center">
-                                <p>Production ready machine learning pipelines in H&M <br>By <i>Misbah Uddin</i></p>
-                                <p>Why play against us when you can play with us?: building collaborative human-AI gaming
-                                    experiences with PyGame and reinforcement learning <br>By <i>Camilla Montonen</i></p>
-                                <p>Machine learning classifier model to predict borehole stability in oil & gas well with
-                                    Scikit-learn library <br>By <i>Bertha Amelia</i></p>
-                                <p>Dont just go with the flow using Airflow <br>By Kevin Neville</p>
-                                <p>Walkthrough of The Worlds Most Powerful NLP Algorithm - GPT-3 <br>By <i>Olle Green</i></p>
-                                <p>Intro to Elyra - an AI centric extension for JupyterLab <br>By <i>Yiwen Li</i></p>
-                                <p>Identifying trends and influencers via YouTube interactions using open APIs and NLP
-                                    <br>By <i>Jyotika Singh</i></p>
-                                <p>Resampling Time Series With Python & Pandas <br>By <i>Kalyan Prasad</i></p>
-                                <p>Getting grip of handling imbalanced dataset <br>By <i>Ravi Singh</i></p>
-                            </div>
+
+                            <div w3-include-html="talks/data-science.html">
+                            <script>
+                                includeHTML();
+                            </script>
                         </div>
                     </div>
                     <!-- end of card -->
