@@ -26,6 +26,8 @@
 		this.supportAnimation = Util.cssSupports('transition');
 
 		this.initSchedule();
+                this.navHeader = document.getElementsByClassName('nvabar-header')[0];
+                console.log(this.navHeader);
 	};
 
 	ScheduleTemplate.prototype.initSchedule = function() {
@@ -122,6 +124,7 @@
 		}, 10);
 
 		if( mq == 'mobile' ) {
+                        self.navHeader.style.display = 'none';  // hide the nav bar
 			self.modal.addEventListener('transitionend', function cb(){
 				self.animating = false;
 				self.modal.removeEventListener('transitionend', cb);
@@ -178,6 +181,7 @@
 		this.animating = true;
 
 		if( mq == 'mobile' ) {
+                        self.navHeader.style.display = 'block';  // show the nav bar
 			Util.removeClass(this.modal, 'cd-schedule-modal--open');
 			self.modal.addEventListener('transitionend', function cb(){
 				Util.removeClass(self.modal, 'cd-schedule-modal--content-loaded');
