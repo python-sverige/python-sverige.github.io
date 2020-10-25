@@ -115,7 +115,6 @@
 
 		//update event content
 		this.loadEventContent(target.getAttribute('data-content'));
-                self.navHeader.style.display = "none";
 
 		Util.addClass(this.modal, 'cd-schedule-modal--open');
 		
@@ -125,6 +124,7 @@
 		}, 10);
 
 		if( mq == 'mobile' ) {
+                        self.navHeader.style.display = 'none';  // hide the nav bar
 			self.modal.addEventListener('transitionend', function cb(){
 				self.animating = false;
 				self.modal.removeEventListener('transitionend', cb);
@@ -179,9 +179,9 @@
 			target = item.getElementsByTagName('a')[0];
 
 		this.animating = true;
-                self.navHeader.style.display = "block";
 
 		if( mq == 'mobile' ) {
+                        self.navHeader.style.display = 'block';  // show the nav bar
 			Util.removeClass(this.modal, 'cd-schedule-modal--open');
 			self.modal.addEventListener('transitionend', function cb(){
 				Util.removeClass(self.modal, 'cd-schedule-modal--content-loaded');
