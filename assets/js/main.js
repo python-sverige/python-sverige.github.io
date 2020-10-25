@@ -26,6 +26,8 @@
 		this.supportAnimation = Util.cssSupports('transition');
 
 		this.initSchedule();
+                this.navHeader = document.getElementsByClassName('nvabar-header')[0];
+                console.log(this.navHeader);
 	};
 
 	ScheduleTemplate.prototype.initSchedule = function() {
@@ -113,6 +115,7 @@
 
 		//update event content
 		this.loadEventContent(target.getAttribute('data-content'));
+                self.navHeader.style.display = "none";
 
 		Util.addClass(this.modal, 'cd-schedule-modal--open');
 		
@@ -176,6 +179,7 @@
 			target = item.getElementsByTagName('a')[0];
 
 		this.animating = true;
+                self.navHeader.style.display = "block";
 
 		if( mq == 'mobile' ) {
 			Util.removeClass(this.modal, 'cd-schedule-modal--open');
