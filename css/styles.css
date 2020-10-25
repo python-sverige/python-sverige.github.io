@@ -576,6 +576,27 @@ input[type='checkbox'] {
 }
 /* end of fade animation for image slider - magnific popup */
 
+/* Logo Image Rules */
+.img-responsive {
+    max-width: 80vw;
+}
+
+.w200 {
+    width: 200px;
+}
+
+.w260 {
+    width: 260px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.w350 {
+    width: 350px;
+}
+/* end of logo image rules */
 
 /*************************/
 /*     02. Preloader     */
