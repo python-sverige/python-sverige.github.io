@@ -11,7 +11,7 @@
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:title" content="PyCon Sweden" />
-    <meta property="og:description" content="PyCon Sweden 2021 will take place between October 21 - 22 Online. Follow us on social media!" />
+    <meta property="og:description" content="PyCon Sweden 2021 will take place between October 21 - 22 Online. Register now!" />
     <meta property="og:image" content="http://www.pycon.se/images/facebook-thumbnail-resize.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
@@ -21,7 +21,7 @@
     <meta property="og:type" content="website" />
     <meta name="author" content="Python Sverige">
     <meta name="keywords" content="python pycon django conference meetup">
-    <meta name="description" content="PyCon Sweden 2021 will take place between October 21 - 22 Online. Follow us on social media!" />
+    <meta name="description" content="PyCon Sweden 2021 will take place between October 21 - 22 Online. Register now!" />
 
     <meta property="og:image" content="http://www.pycon.se/images/linkedin-thumbnail.png" />
     <meta property="og:image:type" content="image/png" />
@@ -31,7 +31,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@pyconse">
     <meta name="twitter:title" content="PyCon Sweden 2021">
-    <meta name="twitter:description" content="PyCon Sweden 2021 will take place between October 21 - 22 Online. Follow us on social media!">
+    <meta name="twitter:description" content="PyCon Sweden 2021 will take place between October 21 - 22 Online. Register now!">
     <meta name="twitter:image" content="http://www.pycon.se/images/facebook-thumbnail-resize.png">
 
     <!-- Website Title -->
@@ -48,6 +48,9 @@
 
     <!-- Favicon  -->
     <link rel="icon" href="images/favicon.ico">
+
+    <!-- Pretalx -->
+    <script type="text/javascript" src="https://pretalx.com/pycon-sweden-2021/schedule/widget/v2.en.js"></script>
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
 
@@ -85,10 +88,13 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#cfp">PROGRAM</a>
+                    <a class="nav-link page-scroll" href="#registration">REGISTRATION</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#keynotes">KEYNOTES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#schedule">PROGRAM</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#jobs">JOBS</a>
@@ -174,7 +180,7 @@
     <!-- end of header -->
 
     <!-- Intro -->
-    <div id="cfp" class="basic-1">
+    <div id="registration" class="basic-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -194,7 +200,7 @@
                         </p>
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-xs-12">
-                                <a class="btn-solid-lg page-scroll" href="https://pretalx.com/pycon-sweden-2021/schedule/" target="_blank">Conference Program</a>
+                                <a class="btn-solid-lg page-scroll" href="#schedule">Conference Program</a>
                             </div>
                         </div>
                     </div>
@@ -213,8 +219,6 @@
                         <p style="color:red"><b>While Call for Proposal (CFP) is now closed, but you are still welcomed to submit lightning talks! <a target="_blank" href="https://pretalx.com/pycon-sweden-2021/">Click Here!</a></b></p>
                         </p>
                     </div> <!-- end of text-container -->
-
-
                 </div> <!-- end of col -->
                 <div class="col-lg-5">
                         <div class="text-container">
@@ -227,7 +231,6 @@
         </div> <!-- end of container -->
     </div> <!-- end of basic-1 -->
     <!-- end of intro -->
-
 
     <!-- Keynotes -->
     <div id="keynotes" class="cards-2">
@@ -337,6 +340,35 @@ Cheuk enjoys talking about Python in streaming and podcast. Cheuk has also been 
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div><!-- end of keynotes -->
+
+    <div id="schedule" class="cards-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">PROGRAM</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <p>This edition of the conference will be held completely online and therefore we will stream PyCon Sweden 2021 directly into our YouTube channel and were all talks will be available afterwards. Links to individual talks will be posted in the schedule below (soon). The conference follows Stockholm time. If you are in a different timezone, try exporting the schedule to your calendar through iCal <a href="https://pretalx.com/pycon-sweden-2021/schedule/export/schedule.ics" target="_blank">here</a>!.
+
+                        <p>With our streaming platform we will be able to run multiple tracks simultaneously so that every Python enthusiast can find content matching their interest. Registration now to participate in our conference Slack channel and also to join workshops.</p>
+                    </div> <!-- end of container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div>
+
+        <pretalx-schedule event-url="https://pretalx.com/pycon-sweden-2021/" locale="en" format="grid" style="--pretalx-clr-primary: #3aa57c"></pretalx-schedule>
+        <noscript>
+           <div class="pretalx-widget">
+                <div class="pretalx-widget-info-message">
+                    JavaScript is disabled in your browser. To access our schedule without JavaScript,
+                    please <a target="_blank" href="https://pretalx.com/pycon-sweden-2021/schedule/">click here</a>.
+                </div>
+            </div>
+        </noscript>
+    </div>
 
 
     <!-- jobs -->
