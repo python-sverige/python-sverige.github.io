@@ -1,18 +1,18 @@
-#! /usr/bin/python3 -u
+#!/usr/bin/python3 -u
 
 import argparse
 import configparser
 import sys, os
 import csv
 
-def message(from, to, subject, name, title, talk_grp, description, area, level,bio):
+def message(sender, to, subject, name, title, talk_grp, description, area, level,bio):
     """
     Create mail message to be sent.
     It stays on top and has several arguments, but makes life easier for
     the ones writting the mail message. Hopefully.
     """
 
-    msg = f"From: {from}\n"
+    msg = f"From: {sender}\n"
     msg += f"To: {to}\n"
     msg += f"Subject: {subject}\n"
     msg += f"""
@@ -110,6 +110,7 @@ class EmailNotifySpeakers:
         debug(" password:", self.mailservice["password"])
 
     def send(self):
+        pass
 
 
 if __name__ == '__main__':
