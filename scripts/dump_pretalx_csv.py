@@ -5,7 +5,7 @@ import csv
 
 
 URL="https://pretalx.com/pycon-sweden-2021/schedule/export/schedule.json"
-URLAUTHORS="https://pretalx.com/api/events/pycon-sweden-2021/speakers/"
+URLAUTHORS="https://pretalx.com/api/events/pycon-sweden-2021/speakers/?format=json&limit=120"
 
 
 def debug(*msg):
