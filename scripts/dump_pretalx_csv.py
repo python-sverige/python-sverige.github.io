@@ -66,15 +66,16 @@ with open("pycon-sweden-2021.csv", "w", newline='') as csvfile:
                         email = "none"
 
                 else:
-                    authors = []
+                    authors_group = []
                     emails = []
                     for identity in authors:
-                        authors.append(identity["public_name"])
+                        this_author = identity["public_name"]
+                        authors_group.append(this_author)
                         try:
-                            emails.append(author_map[author])
+                            emails.append(author_map[this_author])
                         except KeyError:
                             emails.append("none")
-                    author = " and ".join(authors)
+                    author = " and ".join(authors_group)
                     email = " and ".join(emails)
                 line = f"{date},{start},{duration},{track},{title},{author},{email}"
                 debug(line)
