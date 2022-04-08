@@ -1,0 +1,44 @@
+{
+    "members": [
+        {
+            "name": "Christine Winter",
+            "title": "Chairwoman",
+            "photo": "images/Christine.jpg"
+        },
+        {
+            "name": "Anna Kazakova Lindegren",
+            "title": "Board Member",
+            "photo": "images/Anna.jpg"
+        },
+        {
+            "name": "Edwin So",
+            "title": "volunteer",
+            "photo": "none"
+        },
+        {
+            "name": "Helio Loureiro",
+            "title": "volunteer",
+            "photo": "images/Helio.jpg"
+        },
+        {
+            "name": "Nuo Xu",
+            "title": "Board Member",
+            "photo": "images/Nuo.jpg"
+        },
+        {
+            "name": "Tamara Thornquist",
+            "title": "Board Member",
+            "photo": "none"
+        },
+        {
+            "name": "Wei Der Chien (Steven)",
+            "title": "Board Member",
+            "photo": "images/Steve.png"
+        },
+        {
+            "name": "Vyacheslav Olshevsky (Slavik)",
+            "title": "Volunteer",
+            "photo": "images/Slavik.jpg"
+        }
+    ]
+}
