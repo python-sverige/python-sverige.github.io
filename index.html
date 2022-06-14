@@ -11,7 +11,7 @@
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:title" content="PyCon Sweden" />
-    <meta property="og:description" content="PyCon Sweden 2021 will take place between October 21 - 22 Online." />
+    <meta property="og:description" content="PyCon Sweden 2022 will take place between November 3 - 4." />
     <meta property="og:image" content="http://www.pycon.se/images/facebook-thumbnail-resize.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
@@ -21,7 +21,7 @@
     <meta property="og:type" content="website" />
     <meta name="author" content="Python Sverige">
     <meta name="keywords" content="python pycon django conference meetup">
-    <meta name="description" content="PyCon Sweden 2022 coming back this autumn." />
+    <meta name="description" content="PyCon Sweden 2022 coming back this on November 3 - 4." />
 
     <meta property="og:image" content="http://www.pycon.se/images/linkedin-thumbnail.png" />
     <meta property="og:image:type" content="image/png" />
@@ -31,7 +31,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@pyconse">
     <meta name="twitter:title" content="PyCon Sweden 2022">
-    <meta name="twitter:description" content="PyCon Sweden 2022 will take place in autumn 2022.">
+    <meta name="twitter:description" content="PyCon Sweden 2022 coming back this on November 3 - 4.">
     <meta name="twitter:image" content="http://www.pycon.se/images/facebook-thumbnail-resize.png">
 
     <!-- Website Title -->
@@ -143,16 +143,24 @@
                                 <div class="col-lg-12 col-md-12 col-xs-12">
                                     <h1><span id="js-rotating">
                                         PyCon Sweden,
-                                        is coming back,
-                                        Autumn 2022
+                                        3 - 4 November 2022,
+                                        CFP opens soon!
                                     </span></h1>
                                 </div>
                             </div>
+                            <br><div class="row" style="color:white;">
+                                <div class="col-lg-12 col-md-12 col-xs-12">
+                                    <h3 style="color:white">Conference will start in ...</h3>
+                                </div>
+                            </div>
+                            <div class="row" style="color:white;" id="countDown"></div>
                             <br>
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-xs-12">
-                                    <h3 style="color:white">PyCon Sweden 2022 will come back in autumn 2022.<br>
-                                        Are you interested in contributing or sponsoring? Reach out to
+                                    <h3 style="color:white">PyCon Sweden 2022 will come back on November 3rd - 4th in downtown Stockholm.<br>
+                                        Are you interested in contributing
+                                        <br>
+                                        or sponsoring? Reach out to
                                         <a href="mailto:info@pycon.se">info@pycon.se</a></h3>
                                 </div>
                             </div>
@@ -767,7 +775,7 @@
 </body>
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("2021-09-05T23:59:59.000+02:00").getTime();
+var countDownDate = new Date("2022-11-03T09:00:00.000+02:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -784,8 +792,8 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in an element with id="demo"
-  document.getElementById("demo").innerHTML =
+  // Display the result in an element with id="countDown"
+  document.getElementById("countDown").innerHTML =
       "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\"></div>" +
       "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\">" + days + " Days </div>" +
       "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\">" + hours + " Hours </div>" +
@@ -796,7 +804,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("countDown").innerHTML = "EXPIRED";
   }
 }, 1000);
     </script>
