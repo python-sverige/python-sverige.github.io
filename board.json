@@ -6,29 +6,11 @@
             "photo": "images/Christine.jpg"
         },
         {
-            "name": "Anna Kazakova Lindegren",
-            "title": "Board Member",
-            "photo": "images/Anna.jpg"
-        },
-        {
-            "name": "Edwin So",
-            "title": "volunteer",
-            "photo": "none"
-        },
-        {
             "name": "Helio Loureiro",
             "title": "volunteer",
-            "photo": "images/Helio.jpg"
-        },
-        {
-            "name": "Nuo Xu",
-            "title": "Board Member",
-            "photo": "images/Nuo.jpg"
-        },
-        {
-            "name": "Tamara Thornquist",
-            "title": "Board Member",
-            "photo": "none"
+            "photo": "images/Helio.jpg",
+            "twitter": "https://twitter.com/helioloureiro",
+            "github": "https://github.com/helioloureiro"
         },
         {
             "name": "Wei Der Chien (Steven)",
@@ -39,6 +21,27 @@
             "name": "Vyacheslav Olshevsky (Slavik)",
             "title": "Volunteer",
             "photo": "images/Slavik.jpg"
+        },
+        {
+            "name": "Alexander Hultner",
+            "title": "Volunteer"
+        },
+        {
+            "name": "Andrii Sukhorukov",
+            "title": "Volunteer"
+        },
+        {
+            "name": "Anwesha Das",
+            "title": "Volunteer"
+        },
+        {
+            "name": "Michael Dovgal",
+            "title": "Treasure"
+        },
+        {
+            "name": "Philippe M\u00e5nsson-Wee",
+            "title": "Volunteer",
+            "photo": "images/Philippe.jpg"
         }
     ]
 }

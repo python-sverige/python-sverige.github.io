@@ -25,15 +25,22 @@ def checkExists(fullName, data):
 
 def addMember(member):
     data = readJson() 
-    memberName, memberTitle, memberPhoto = member.split(',')
+    memberName, memberTitle, memberPhoto, memberTwitter, memberGithub, memberFacebook = member.split(',')
     if checkExists(memberName, data):
        print(f'ERROR: {memberName} already exists.')
        sys.exit(os.EX_CONFIG)
     memberData = {
         'name': memberName,
-        'title': memberTitle,
-        'photo': memberPhoto
+        'title': memberTitle
     }
+    if memberPhoto != "none":
+        memberData['photo'] = memberPhoto
+    if memberFacebook != "none":
+        memberData['facebook'] = memberFacebook
+    if memberGithub != "none":
+        memberData['github'] = memberGithub
+    if memberTwitter != 'none':
+        memberData['twitter'] = memberTwitter
     data['members'].append(memberData)
     saveJson(data)
 
@@ -52,7 +59,7 @@ def delMember(memberName):
    
 
 parse = argparse.ArgumentParser(description="Add or delete members from board.json file")
-parse.add_argument('--add', help='Add a member.  Format: <full name>,<title>,<photo>')
+parse.add_argument('--add', help='Add a member.  Format: <full name>,<title>,<photo>,<twitter>,<github>,<facebook>.  Use "none" for null values.')
 parse.add_argument('--remove', help='Remove a member. Format: <full name>')
 parse.add_argument('--update', help='Update a member entry.  Format:<full name>,<title>,<photo>')
 args = parse.parse_args()
