@@ -14,7 +14,7 @@
     {
         "cfp_type": "workshop",
         "title": "Building serverless apps with Python",
-        "author": "Ivica",
+        "author": "Ivica Kolenka\u0161",
         "others": "",
         "abstract": "The workshop will guide participants through the process of building and deploying",
         "bio": "Ivica Kolenka\u0161 is a system engineer by day, Python coder by night who works with companies to help them run their applications on AWS using infrastructure-as-code and common sense.",
@@ -22,6 +22,19 @@
         "twitter": "twitter.com/nekybrate",
         "linkedin": "https://www.linkedin.com/in/ivica-kolenka%C5%A1-8b333895",
         "picture": "images/speakers/Ivica_Kolenkas.jpg"
+    },
+    {
+        "cfp_type": "workshop",
+        "title": "Deep learning with PyTorch Lightning",
+        "author": "Krishna Kalyan",
+        "others": "",
+        "abstract": "an API-first serverless application with Python on AWS, using developer-friendly tools",
+        "bio": "Machine Learning Engineer with Lightning.ai. I am interested in Machine Learning and Distributed Systems. In my free time I contribute to torchaudio and pytorch lightning.",
+        "level": "Novice",
+        "twitter": "https://twitter.com/krishnakalyan3",
+        "linkedin": "https://www.linkedin.com/in/krishnakalyan3/",
+        "instagram": "https://www.instagram.com/krishnakalyan3/",
+        "picture": "images/speakers/Krishna_Kalyan.jpg"
     },
     {
         "cfp_type": "workshop",
