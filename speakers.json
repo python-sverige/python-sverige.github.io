@@ -1,0 +1,119 @@
+[
+    {
+        "cfp_type": "workshop",
+        "title": "Building serverless apps with Python",
+        "author": "Ivica",
+        "abstract": "The workshop will guide participants through the process of building and deploying",
+        "bio": "Ivica Kolenka\u0161 is a system engineer by day, Python coder by night who works with companies to help them run their applications on AWS using infrastructure-as-code and common sense.",
+        "level": "Novice",
+        "twitter": "twitter.com/nekybrate",
+        "linkedin": "https://www.linkedin.com/in/ivica-kolenka%C5%A1-8b333895"
+    },
+    {
+        "cfp_type": "workshop",
+        "title": "Training, Deploying, and Running a ML model using Python and Snowpark",
+        "author": "Dash Desai",
+        "abstract": "In this session, we will train a Linear Regression model to predict future ROI (Return On Investment) of variable advertising spend budgets across multiple channels including search, video, social media, and email using Snowpark for Python and scikit-learn. By the end of the session, you will have an interactive web application deployed visualizing the ROI of different allocated advertising spend budgets.",
+        "bio": "With experience in big data, data science, and machine learning Dash is able to apply 18+ years of full-stack, hands-on software engineering skills to help build solutions that solve business problems and surface trends that shape markets in new ways than imagined before. As a developer advocate, he is passionate about evaluating new ideas, trends, and helping articulate how technology can address a given business problem.\n\nDash has worked for global enterprises and in agile environments\u2013for tech startups in the Bay Area in varying verticals, such as VoIP, Online Gaming, Digital Health, NoSQL database, and Data Cloud platforms.",
+        "level": "Intermediate",
+        "twitter": "https://twitter.com/iamontheinet",
+        "linkedin": "https://www.linkedin.com/in/dash-desai/"
+    },
+    {
+        "cfp_type": "workshop",
+        "title": "Build a switchboard in an hour",
+        "author": "Carolina J. S\u00e4ll",
+        "others": "Victoria Wagman",
+        "abstract": "We will be building a small switchboard together which will allow for\n dynamic call forwarding. By building your own switchboard you\u2019ll also \nhave the possibility to customize it in a way that fits you our your \ncompany needs, like adding an answering machine function or trigger \nautomatic call up for missed calls.Audience Level: Beginners, intermediate, Advanced\nPreparations:\nA 46elks account, <a href='https://46elks.se/skapa-konto/ws-pycon2022'>here's a link</a> with some credits to test your answering machineA computer and be excited to code some cool stuff ",
+        "bio": "Carolina: I\u2019m Carolina, a part of PyLadies Stockholm. I work as a developer at \n\n46elks, love problem solving in design, code and life! Get energy by \nmeeting new people and is curious about almost everything on this planet\n Taking a Python course together with PyLadies Stockholm during the fall, excited to test my new skills out during PyCon \nVictoria:  Developer and CEO at 46elks. Sees opportunities everywhere. Safe in the terminal and warmly recommend vim. Happy to talk about how we can contribute to a kinder, nicer and more just world.",
+        "level": "Beginners, intermediate, Advanced",
+        "twitter": "@carolinajsall ",
+        "linkedin": "http://www.linkedin.com/in/carolina-j-s%C3%A4ll-40631452 https://www.linkedin.com/in/victoria-wagman-%E2%99%A0%EF%B8%8F-2919671a5/",
+        "instagram": "https://www.instagram.com/46elks/"
+    },
+    {
+        "cfp_type": "talk",
+        "title": "Chasing Birds with Code: Using Python and AI to Liberate our Balconies",
+        "author": "Chayim Kirshen and Meir",
+        "others": "meir@redis.com",
+        "abstract": "In 2022 birds swarmed our neighbourhood. We wanted to chase them away\nsustainably, kindly, and without using metal spikes. In this talk,\nwe'll learn how to disperse birds safely, with software using Python,\nAI, and a Raspberry PI.",
+        "bio": "\nChayim is a veteran of the software industry with over twenty years of experience. He has helped release several operating systems, contributed to a variety of open-source projects, and built and maintained multiple datacenters, operations teams, and products. With experience contributing at SGI, Autodesk, Novell, SuSE, and others, Chayim has helped several organizations scale their codebase, development teams, and the organization itself - while increasing both the speed and quality of software releases.\n\n\nToday, Chayim works for Redis as the Client and Ecosystem manager. He mentors new developers, and spends time slipping between languages, both spoken and code. He's also been writing Python since version 1.4.",
+        "level": "Intermediate"
+    },
+    {
+        "cfp_type": "talk",
+        "title": "Hacking The Jammers & Hackers",
+        "author": "Caner Kilinc",
+        "abstract": "The global market cap of the mobile networking industry is multi-billion dollars and the mobile operators are heavily investing to meet the expectation of the mobile subscribers. However, a USB dongle - costs only 30 USD on eBay which enables to convert any laptop to a wireless jammer and ruin mobile communication.  As a multi-national mobile operator with millions of subscribers, how to deal with this jammer issue and assure the availability of the service for the subscribers.\nIn this talk, I am going to present our scalable solution JADE:  data-driven automated jammer detection framework for operational mobile networks",
+        "bio": "I co-founder and chairman of The AI Community Sweden, and leading multi-million dollar customer/industrial data-driven AI projects and accelerating our customers/industrial partners\u2019 digital transformation journey. By delivering data-driven solutions, I help our customers to reduce the OPEX and assure service quality. I am aa AI specialist and co-inventor of 5G, received Ericsson Global Tech Talent Award and much more at www.caaner.tech",
+        "level": "Intermediate",
+        "linkedin": "https://www.linkedin.com/in/caner-kilinc/"
+    },
+    {
+        "cfp_type": "talk",
+        "title": "From crontab to celery with no regrets",
+        "author": "Marco Pavanelli",
+        "others": "Do not know yet",
+        "abstract": "Cron jobs are great! they can save your life and your marriage, they run day and night with any weather and they never miss a shot. But when they become too many it can be a real mess and have you ever tried running a cron job in a container ?\n\nThe first time I tried Celery I was a bit frustrated, setup is not exactly straight forward and the first time can be really hard but if do not give up the final result is amazing and you will end up with a huge power in your hands.",
+        "bio": "I am senior python dev and agile product owner, I have been working in IT for more that 30 years. Since 2021 I work for Sasa Spa in Bolzano Italy where we develop software for helping managing public transport in the South Tyrol region. In my team we have a strong experience in running python and django inside containers.",
+        "level": "Intermediate",
+        "linkedin": "https://www.linkedin.com/in/marco-pavanelli-8b054470/"
+    },
+    {
+        "cfp_type": "talk",
+        "title": "Interactive Lectures and Active Learning with Python in Scientific Computing",
+        "author": "Jonas Lindemann",
+        "abstract": "Teaching programming can be significantly improved if lectures and courses use concepts from active learning. During the last years, I have transitioned from static to interactive slides using Jupyter Notebooks, where students can interact with the material during the lecture. The lectures also contain exercises that the students can perform during the lecture to reinforce their learning process. In some of our libraries, we have also developed interactive functions that enable the students to quickly modify parameters in the computational codes.",
+        "bio": "Jonas Lindemann, Director at LUNARC. Jonas has a background in Structural Mechanics where he worked on distributed finite element applications, new user interface concepts for engineering application as well as visualisation of material behavior in mechanical simulations. Since 2004 he has been working at LUNARC designing, implementing and operating HPC resources for Lund University. He is also actively engaged in teaching scientific computing (Python, C++ and Fortran) for graduate as well as post graduate students. At LUNARC he has been the main developer of GfxLauncher and multiple other HPC related tools (ARC Storage Explorer, LUNARC Application portal and ml-browse a graphical module browser for lmod).",
+        "level": "Intermediate",
+        "twitter": "twitter.com/jonas_lindemann",
+        "linkedin": "https://www.linkedin.com/in/jonas-lindemann-8632343/"
+    },
+    {
+        "cfp_type": "talk",
+        "title": "I hate writing tests, that's why I use Hypothesis",
+        "author": "Cheuk Ting Ho",
+        "abstract": "Ok, I lied, I still write tests. But instead of the example-based tests that we normally write, have you heard of property-based testing? By using Hypothesis, instead of thinking about what data I should test it for, it will generate test data, including boundary cases, for you.",
+        "bio": "Before working in Developer Relations, Cheuk has been a Data Scientist in various companies which demands high numerical and programmatical skills, especially in Python. To follow her passion for the tech community, now Cheuk is the Developer Advocate for Anaconda.\n\nBesides her work, Cheuk enjoys speaking at various conferences. Cheuk also organises events for developers. Cheuk has organised conferences including EuroPython (of which she is a board member), PyData Global and Pyjamas Conf. Believing in Tech Diversity and Inclusion, Cheuk constantly organizes workshops and mentored sprints for minority groups. In 2021, Cheuk has become a Python Software Foundation fellow.",
+        "level": "Novice",
+        "twitter": "https://twitter.com/cheukting_ho",
+        "linkedin": "https://www.linkedin.com/in/cheukting-ho"
+    },
+    {
+        "cfp_type": "talk",
+        "title": "Pypy: Faster Python With Minimal Effort",
+        "author": "Pratibha Jagnere",
+        "abstract": "In this talk, we will learn what Pypy is and how it is different from CPython implementation. Pypy, a fast python implementation, has captured the attention of many developers who were struggling with the optimization of their Python code. But we have always used it and never got a chance to see what is underneath that makes it faster. So, let's explore it together!!",
+        "bio": "I am an enthusiastic Pythoniasta, passionate for coding and books. Through my PyCon talks, I love to explore and share new things that I learn in Python.\n",
+        "level": "Intermediate"
+    },
+    {
+        "cfp_type": "talk",
+        "title": "\"Python for Everyone\", yes it is",
+        "author": "Anwesha Das",
+        "abstract": "\"Python for Everyone\" is a program I came up to help women from immigrant communities & for people who are from other industry, to move into IT. I will talk about how & what I am organizing as part of PyLadies Stockholm, problems, successes and how to improve.",
+        "bio": "Anwesha Das is Master in Laws by education and technologist by passion. She helps to build and maintain sustainable FOSS communities through out the globe with her legal,\ntechnical, organizational and community skills. Maintaining and learning about\nsystems infrastructure is something she is passionate about. She is also a regular speaker\nin various conferences around the world. She is co-organizer at PyLadies Stockholm. She regularly blogs at https://anweshadas.in.",
+        "level": "Novice",
+        "twitter": "@anweshasrkr",
+        "linkedin": "https://www.linkedin.com/in/anwesha-das-1247121a2/"
+    },
+    {
+        "cfp_type": "talk",
+        "title": "Building Python Data Apps using Gradio",
+        "author": "Merve Noyan",
+        "abstract": "For most of the workflows involving data and machine learning, it's hard for data professionals to build web applications to communicate their work. Gradio is a library that helps python users easily create UIs for data or machine learning based applications. In this talk, I'll go through how to use Gradio. ",
+        "bio": "Merve is an engineer at developer advocacy team in Hugging Face. She is a Google Developer Expert in machine learning and an open-source developer.",
+        "level": "Novice",
+        "twitter": "mervenoyann",
+        "linkedin": "https://www.linkedin.com/in/merve-noyan-28b1a113a/"
+    },
+    {
+        "cfp_type": "talk",
+        "title": "Widening Natural Language Processing: training Watson Nordic Languages",
+        "author": "Anna K. Lindegren",
+        "others": "Sara Elo Dean",
+        "abstract": "In this talk we will go through the process of training Watson IBM for Nordic languages in 2020- 2021. We will explain how to teach AI to understand language as we humans do , see how Watson NLP works on practice in comparison with other open libraries and  discuss Ethics in NLP and the future of NLP technology.",
+        "bio": "Sara Elo Dean, Watson Delivery Solution Architect, IBM Finland;  Anna K. Lindegren, Data & AI Technical Specialist, IBM Sweden",
+        "level": "Intermediate"
+    }
+]
