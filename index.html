@@ -259,6 +259,132 @@
     <!-- end of intro -->
 
     <!-- Speakers -->
+    <style>
+        #card {
+            background-color: #393B45;
+            height: auto;
+            width: 800px;
+            margin: 10vh auto;
+            border-radius: 25px;
+            padding-bottom: 1px;
+            box-shadow: 2px 2px 5px #4069E2;
+        }
+
+        #h1card {
+            color: white;
+            text-align: center;
+            width: 100%;
+            background-color: #E6EBEE;
+            border-radius: 25px 25px 0 0;
+            color: #393B45;
+            padding: 30px 0;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        #h2card {
+            color: white;
+            text-align: center;
+            width: 100%;
+            border-radius: 20px 20px 0 0;
+            padding: 30px 0;
+            font-weight: 800;
+            margin: 0;
+        }
+
+
+        #h3card {
+            text-align: center;
+            width: 100%;
+            border-radius: 15px 15px 0 0;
+            color: white;
+            padding: 30px 0;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .image-crop {
+            display: block;
+            position: relative;
+            background-color: #E6EBEE;
+            width: 150px;
+            height: 150px;
+            margin: 100px auto;
+            margin-top: 30px;
+            overflow: hidden;
+            border-radius: 50%;
+            box-shadow: 1px 1px 5px #4069E2;
+        }
+
+        #avatar {
+            display: inline;
+            height: 160px;
+            width: auto;
+            margin-left: 0px;
+        }
+
+        #abstract {
+            display: block;
+            margin: 30px auto;
+            width: 780px;
+            height: auto;
+        }
+
+        #abstract p {
+            color: #E6EBEE;
+            font-weight: lighter;
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        #title {
+            display: block;
+            margin: 30px auto;
+            width: 780px;
+            height: auto;
+        }
+
+        #title p {
+            color: #E6EBEE;
+            font-weight: dark;
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        #stats {
+            display: flex;
+            flex-direction: row;
+            height: auto;
+            width: 280px;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            font-weight: 500;
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+        }
+
+        .stat {
+            font-size: 25px;
+            margin: 0;
+        }
+
+        .label {
+            margin: 0;
+        }
+
+        
+        #msg{
+            background-color: #E6EBEE;
+            color: #393B45;
+        }
+    </style>
     <div id="speakers" class="cards-2">
         <div class="container">
             <div class="row">
@@ -283,6 +409,7 @@
             var members = data;
             var remainder = 0;
 
+            var content = '';
             var byName = members.slice(0);
             byName.sort(function(a, b){
                 var x = a.title.toLowerCase();
@@ -291,33 +418,32 @@
             });
             console.log('byName:', byName);
             for (var index in byName) {
-                console.log(' * key:', index, byName[index]);
+                //console.log(' * key:', index, byName[index]);
                 if (typeof byName[index] === "undefined") {
                     continue;
                 }
-                console.log(index,') name:', byName[index].author);
-                speakersHTML.innerHTML += '<!-- start speaker -->\n';
-                speakersHTML.innerHTML += '<div>\n';
-                speakersHTML.innerHTML += '<p>Title: <b>' + byName[index].title + '</b></p>\n';
-                speakersHTML.innerHTML += '<p>Abstract: ' + byName[index].abstract + '</p>\n';
-                speakersHTML.innerHTML += '<p>Type: ' + byName[index].cfp_type + '</p>\n';
-                if (byName[index].others) {
-                    speakersHTML.innerHTML += '<p>Others: ' + byName[index].others + '</p>\n';
+                //console.log(index,') name:', byName[index].author);
+                content += `<div id="card">
+	<h1 id="h1card">` + byName[index].author + `</h1>
+    <!-- begin of image -->
+	<div class="image-crop">\n`;
+                if (byName[index].picture) {
+                    content += '		<img id="avatar" src="' + byName[index].picture + '"></img>';
                 }
-                speakersHTML.innerHTML += '<p>Level: ' + byName[index].level + '</p>\n';
-                if (byName[index].likendin) {
-                    speakersHTML.innerHTML += '<a href="' + byName[index].likendin + '">';    
-                }
-                speakersHTML.innerHTML += '<p>Author: ' + byName[index].author + ' ' ;
-                if (byName[index].likendin) {
-                    speakersHTML.innerHTML += '</a>';    
-                }
-                speakersHTML.innerHTML +='</p>\n';
-                speakersHTML.innerHTML += '<p>Biography: ' + byName[index].bio + '</p>\n';
+                content += `	</div>
+    <!-- end of image -->
+	<div id="abstract">
+        <h2 id="h2card">` + byName[index].title + `</h2>
+		<p>` + byName[index].abstract + `</p>
+        <h3 id="h3card">About speaker</h3>
+        <p>` + byName[index].bio + `</p>
+	</div>
+	<div id="buttons">
 
-                speakersHTML.innerHTML += '</div>\n';
-                speakersHTML.innerHTML += '<!-- end speaker -->\n';
+	</div>
+</div>`;
             }
+            speakersHTML.innerHTML += content;
             console.log('-= end of showSpeakers() =-')
         }
 
@@ -621,7 +747,7 @@
         function remainderMod(n, d) {
             var x = n;
             x++;
-            console.log('remainderMod: n:', n, ', d:', d, ', x:', x);
+            //console.log('remainderMod: n:', n, ', d:', d, ', x:', x);
             return x % d;
         }
 
@@ -635,9 +761,9 @@
                 var y = b.name.toLowerCase();
                 return x < y ? -1 : x > y ? 1 : 0;
             });
-            console.log('byName:', byName);
+            //console.log('byName:', byName);
             for (var index in byName) {
-                console.log(' * key:', index, byName[index]);
+                //console.log(' * key:', index, byName[index]);
                 if (typeof byName[index] === "undefined") {
                     continue;
                 }
@@ -645,7 +771,7 @@
                 boardMembers.innerHTML += '<!-- adding here -->\n';
                 boardMembers.innerHTML += showTeamMember(byName[index]);
                 remainder = remainderMod(index, 4);
-                console.log('remainder:', remainder);
+                //console.log('remainder:', remainder);
                 if (remainder === 0) {
                     console.log('got into zero remainder condition');
                 boardMembers.innerHTML += 
