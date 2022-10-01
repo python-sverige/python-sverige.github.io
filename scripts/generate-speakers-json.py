@@ -18,20 +18,26 @@ with open(CSVFile) as csvfile:
         status = row["status"] 
         if status != "Accepted": 
             continue 
-        speakers.append({
-        "cfp_type" : row["cfp_type"],
-        "title" : row["title"],
-        "author" : row["author"],	
+        data = {}
+        data["cfp_type"] = row["cfp_type"]
+        data["title"] = row["title"]
+        data["author"] = row["author"]	
         #email	
-        "others" : row["others"],	
-        "abstract" : row["abstract"],
+        data["others"] = row["others"]
+        data["abstract"] = row["abstract"]
         #notes	
-        "bio" : row["bio"],	
-        "level" : row["level"],
-        "twitter" : row["twitter"],
-        "linkedin" : row["linkedin"],
-        "instagram" : row["instagram"] 
-        })
+        if row["bio"]: 
+            data["bio"] = row["bio"]
+        data["level"] = row["level"]
+        if row["twitter"]: 
+            data["twitter"] = row["twitter"]
+        if row["linkedin"]: 
+            data["linkedin"] = row["linkedin"]
+        if row["instagram"]:
+            data["instagram"] = row["instagram"]
+        if row["picture"]: 
+            data["picture"] = row["picture"]
+        speakers.append(data)
 
 print(json.dumps(speakers, indent=4))
     
