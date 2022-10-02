@@ -33,8 +33,21 @@
         "level": "Novice",
         "twitter": "https://twitter.com/krishnakalyan3",
         "linkedin": "https://www.linkedin.com/in/krishnakalyan3/",
-        "instagram": "https://www.instagram.com/krishnakalyan3/",
+        "instagram": "www.instagram.com/krishnakalyan3/",
         "picture": "images/speakers/Krishna_Kalyan.jpg"
+    },
+    {
+        "cfp_type": "workshop",
+        "title": "Reproducible data pipelines with PyTorch",
+        "author": "Valerio Maggio",
+        "others": "",
+        "abstract": "In this tutorial we will dive into the main features and abstractions provided by the **PyTorch** framework to define complex data pipelines for machine learning. We will explore multiple examples using `torch.utils.data` and the latest `torchdata` with insights and best practice for reproducible data and evaluation pipelines.",
+        "bio": "Valerio Maggio is a Researcher, Data scientist, and fellow at the Software Sustainability Institute, as well as a casual \"Magic: The Gathering\" wizard. He holds a Ph.D. in Computer Science with a thesis on Machine Learning for Software Maintainability, and he is currently working in Anaconda, inc. as Senior Developer Advocate. Valerio is well versed into open source software, and best software development practice, specifically focusing on scalable and reproducible machine learning pipelines.  Valerio is an active member of the Python community: over the years he has led the organisation of many international conferences like PyCon/PyData Italy/EuroPython, and EuroSciPy. ",
+        "level": "Intermediate",
+        "twitter": "twitter.com/leriomaggio",
+        "linkedin": "https://www.linkedin.com/in/valeriomaggio/",
+        "instagram": "www.instagram.com/leriomaggio/",
+        "picture": "images/speakers/Valerio_Maggio.jpg"
     },
     {
         "cfp_type": "workshop",
@@ -58,7 +71,7 @@
         "level": "Beginners, intermediate, Advanced",
         "twitter": "twitter.com/carolinajsall ",
         "linkedin": "http://www.linkedin.com/in/carolina-j-s%C3%A4ll-40631452 https://www.linkedin.com/in/victoria-wagman-%E2%99%A0%EF%B8%8F-2919671a5/",
-        "instagram": "https://www.instagram.com/46elks/",
+        "instagram": "www.instagram.com/46elks/",
         "picture": "images/speakers/Carolina_Sall_and_Victoria_Wagman.jpg"
     },
     {
