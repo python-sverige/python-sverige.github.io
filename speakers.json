@@ -89,7 +89,7 @@
         "author": "Caner Kilinc",
         "others": "",
         "abstract": "Wireless  jammer activity from malicious or malfunctioning devices cause significant disruption to mobile network services and user QoE degradation. In practice, detection of such activity is manually intensive and costly, taking days and weeks after the jammer activation to detect it. We present a novel data-driven jammer detection framework termed JADE that leverages continually collected operator-side cell-level KPIs to automate this process.",
-        "bio": "I co-founder and chairman of The AI Community Sweden, and leading multi-million dollar customer/industrial data-driven AI projects and accelerating our customers/industrial partners\u2019 digital transformation journey. By delivering data-driven solutions, I help our customers to reduce the OPEX and assure service quality. I am aa AI specialist and co-inventor of 5G, received Ericsson Global Tech Talent Award and much more at www.caaner.tech",
+        "bio": "Caner is leading multi-million dollar data-driven automation projects \n& AI teams and helping to reduce the OPEX and assure service quality\n (<a href=\"www.caaner.tech\">www.caaner.tech<a/a>), \nCo-founder and chairman of The AI Community Sweden (<a href=\"www.theaicommunity.se\">www.theaicommunity.se</a>)",
         "level": "Intermediate",
         "linkedin": "https://www.linkedin.com/in/caner-kilinc/",
         "picture": "images/speakers/Caner_Kilinc.jpg"
@@ -174,7 +174,7 @@
     {
         "cfp_type": "talk",
         "title": "Widening Natural Language Processing: training Watson Nordic Languages",
-        "author": "Anna K. Lindegren",
+        "author": "Anna K. Lindegren and Sara Elo Dean",
         "others": "Sara Elo Dean",
         "abstract": "In this talk we will go through the process of training Watson IBM for Nordic languages in 2020- 2021. We will explain how to teach AI to understand language as we humans do , see how Watson NLP works on practice in comparison with other open libraries and  discuss Ethics in NLP and the future of NLP technology.",
         "bio": "Sara Elo Dean, Watson Delivery Solution Architect, IBM Finland;  Anna K. Lindegren, Data & AI Technical Specialist, IBM Sweden",
