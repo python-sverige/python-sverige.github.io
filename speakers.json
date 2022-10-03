@@ -85,10 +85,10 @@
     },
     {
         "cfp_type": "talk",
-        "title": "Hacking The Jammers & Hackers",
+        "title": "Detecting Wireless Jammers and Hackers with JADE",
         "author": "Caner Kilinc",
         "others": "",
-        "abstract": "The global market cap of the mobile networking industry is multi-billion dollars and the mobile operators are heavily investing to meet the expectation of the mobile subscribers. However, a USB dongle - costs only 30 USD on eBay which enables to convert any laptop to a wireless jammer and ruin mobile communication.  As a multi-national mobile operator with millions of subscribers, how to deal with this jammer issue and assure the availability of the service for the subscribers.\nIn this talk, I am going to present our scalable solution JADE:  data-driven automated jammer detection framework for operational mobile networks",
+        "abstract": "Wireless  jammer activity from malicious or malfunctioning devices cause significant disruption to mobile network services and user QoE degradation. In practice, detection of such activity is manually intensive and costly, taking days and weeks after the jammer activation to detect it. We present a novel data-driven jammer detection framework termed JADE that leverages continually collected operator-side cell-level KPIs to automate this process.",
         "bio": "I co-founder and chairman of The AI Community Sweden, and leading multi-million dollar customer/industrial data-driven AI projects and accelerating our customers/industrial partners\u2019 digital transformation journey. By delivering data-driven solutions, I help our customers to reduce the OPEX and assure service quality. I am aa AI specialist and co-inventor of 5G, received Ericsson Global Tech Talent Award and much more at www.caaner.tech",
         "level": "Intermediate",
         "linkedin": "https://www.linkedin.com/in/caner-kilinc/",
@@ -180,5 +180,14 @@
         "bio": "Sara Elo Dean, Watson Delivery Solution Architect, IBM Finland;  Anna K. Lindegren, Data & AI Technical Specialist, IBM Sweden",
         "level": "Intermediate",
         "picture": "images/speakers/Anna_Lindegren.jpg"
+    },
+    {
+        "cfp_type": "talk",
+        "title": "PyScript - what you need to know.",
+        "author": "Nicholas H.Tollervey",
+        "others": "",
+        "abstract": "PyScript is an open source project to bring Python to the browser - the most ubiquitous computing platform in the world. This talk introduces PyScript, explains how it works, the current state of development and what you can expect to see coming in the short, medium and long term.",
+        "bio": "Nicholas is a classically trained musician, philosophy graduate, teacher, writer and software developer. He's just like this biography: concise, honest and full of useful information. He's also a principal engineer on the PyScript team at Anaconda.",
+        "level": "Novice"
     }
 ]
