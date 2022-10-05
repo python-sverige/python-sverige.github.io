@@ -89,7 +89,7 @@
         "author": "Caner Kilinc",
         "others": "",
         "abstract": "Wireless  jammer activity from malicious or malfunctioning devices cause significant disruption to mobile network services and user QoE degradation. In practice, detection of such activity is manually intensive and costly, taking days and weeks after the jammer activation to detect it. We present a novel data-driven jammer detection framework termed JADE that leverages continually collected operator-side cell-level KPIs to automate this process.",
-        "bio": "Caner is leading multi-million dollar data-driven automation projects \n& AI teams and helping to reduce the OPEX and assure service quality\n (<a href=\"www.caaner.tech\">www.caaner.tech<a/a>), \nCo-founder and chairman of The AI Community Sweden (<a href=\"www.theaicommunity.se\">www.theaicommunity.se</a>)",
+        "bio": "CANER KILINC\u00a0\u00a0Co-founder and chairman of The AI Community Sweden (<a href=\"https://www.TheAIcommunity.se\">www.TheAIcommunity.se</a>), helps customers to reduce OPEX and assure service quality at Ericsson AI Research where Caner is leading multi-million dollar budgets, global data-driven projects, and AI teams. Furthermore, Caner\n is a hands-on data scientist and AI/ML specialist with a proven track \nof achievements in translating data-driven automation strategies into \nrealization. Caner in his free time likes \nexploring blockchain, teaching applied Data Science, organizing Global \nAI Challenges at The Alan Turing Institute, and blog posting about \nApplied Advanced  AI models with TensorFlow.",
         "level": "Intermediate",
         "linkedin": "https://www.linkedin.com/in/caner-kilinc/",
         "picture": "images/speakers/Caner_Kilinc.jpg"
@@ -189,5 +189,17 @@
         "abstract": "PyScript is an open source project to bring Python to the browser - the most ubiquitous computing platform in the world. This talk introduces PyScript, explains how it works, the current state of development and what you can expect to see coming in the short, medium and long term.",
         "bio": "Nicholas is a classically trained musician, philosophy graduate, teacher, writer and software developer. He's just like this biography: concise, honest and full of useful information. He's also a principal engineer on the PyScript team at Anaconda.",
         "level": "Novice"
+    },
+    {
+        "cfp_type": "talk",
+        "title": "A Python Introduction to Behavior Driven Development",
+        "author": "Meder Kamalov",
+        "others": "",
+        "abstract": "Behavior Driven Development (BDD) is a testing practice that makes it easy for developers, managers and QA testers to keep track of the key features in a programming project. The talk will provide an introduction to BDD and show to how incorporate it into a project by using `behave`.",
+        "bio": "Software Engineer at Features and Labels. Building tools for the Modern Data Stack.",
+        "level": "Intermediate",
+        "twitter": "twitter.com/mederka",
+        "linkedin": "https://www.linkedin.com/in/mederka/",
+        "picture": "images/speakers/Meder_K.jpg"
     }
 ]
