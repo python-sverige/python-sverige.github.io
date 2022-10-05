@@ -55,7 +55,7 @@
         "author": "Dash Desai",
         "others": "",
         "abstract": "In this session, we will train a Linear Regression model to predict future ROI (Return On Investment) of variable advertising spend budgets across multiple channels including search, video, social media, and email using Snowpark for Python and scikit-learn. By the end of the session, you will have an interactive web application deployed visualizing the ROI of different allocated advertising spend budgets.",
-        "bio": "With experience in big data, data science, and machine learning Dash is able to apply 18+ years of full-stack, hands-on software engineering skills to help build solutions that solve business problems and surface trends that shape markets in new ways than imagined before. As a developer advocate, he is passionate about evaluating new ideas, trends, and helping articulate how technology can address a given business problem.\n\nDash has worked for global enterprises and in agile environments\u2013for tech startups in the Bay Area in varying verticals, such as VoIP, Online Gaming, Digital Health, NoSQL database, and Data Cloud platforms.",
+        "bio": "With experience in big data, data science, and machine learning Dash is able to apply 18+ years of full-stack, hands-on software engineering skills to help build solutions that solve business problems and surface trends that shape markets in new ways than imagined before. As a developer advocate, he is passionate about evaluating new ideas, trends, and helping articulate how technology can address a given business problem.<br />\n\nDash has worked for global enterprises and in agile environments\u2013for tech startups in the Bay Area in varying verticals, such as VoIP, Online Gaming, Digital Health, NoSQL database, and Data Cloud platforms.",
         "level": "Intermediate",
         "twitter": "https://twitter.com/iamontheinet",
         "linkedin": "https://www.linkedin.com/in/dash-desai/",
@@ -77,10 +77,10 @@
     {
         "cfp_type": "talk",
         "title": "Chasing Birds with Code: Using Python and AI to Liberate our Balconies",
-        "author": "Chayim Kirshen and Meir",
+        "author": "Chayim Kirshen and Meir Shpilraien",
         "others": "Meir",
         "abstract": "In 2022 birds swarmed our neighbourhood. We wanted to chase them away\nsustainably, kindly, and without using metal spikes. In this talk,\nwe'll learn how to disperse birds safely, with software using Python,\nAI, and a Raspberry PI.",
-        "bio": "Chayim is a veteran of the software industry with over twenty years of experience. He has helped release several operating systems, contributed to a variety of open-source projects, and built and maintained multiple datacenters, operations teams, and products. With experience contributing at SGI, Autodesk, Novell, SuSE, and others, Chayim has helped several organizations scale their codebase, development teams, and the organization itself - while increasing both the speed and quality of software releases.\nToday, Chayim works for Redis as the Client and Ecosystem manager. He mentors new developers, and spends time slipping between languages, both spoken and code. He's also been writing Python since version 1.4.",
+        "bio": "Chayim is a veteran of the software industry with over twenty years of experience. He has helped release several operating systems, contributed to a variety of open-source projects, and built and maintained multiple datacenters, operations teams, and products. With experience contributing at SGI, Autodesk, Novell, SuSE, and others, Chayim has helped several organizations scale their codebase, development teams, and the organization itself - while increasing both the speed and quality of software releases.\nToday, Chayim works for Redis as the Client and Ecosystem manager. He mentors new developers, and spends time slipping between languages, both spoken and code. He's also been writing Python since version 1.4.\n<br />\nMeir owns MSC in computer science specialised at distributed algorithms. Currently, Meir is working at Redis as a software architect, responsible for Redis modules development. He is an active contributor of Redis core and maintainer of RediSearch and RedisGears.",
         "level": "Intermediate"
     },
     {
