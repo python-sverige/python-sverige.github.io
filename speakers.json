@@ -25,10 +25,10 @@
     },
     {
         "cfp_type": "workshop",
-        "title": "Deep learning with PyTorch Lightning",
+        "title": "Build tailored ML Applications with Lightning.ai",
         "author": "Krishna Kalyan",
         "others": "",
-        "abstract": "an API-first serverless application with Python on AWS, using developer-friendly tools",
+        "abstract": "Build models and AI-powered cloud applications using Lightning App \ntemplates without DIY infrastructure, cost management, scaling, and \nother headaches. Lightning framework gives ML Researchers and Data \nScientists, the fastest & most flexible way to iterate on ML \nresearch ideas and deliver scalable ML systems with the performance \nenterprises requires at the same time.",
         "bio": "Machine Learning Engineer with Lightning.ai. I am interested in Machine Learning and Distributed Systems. In my free time I contribute to torchaudio and pytorch lightning.",
         "level": "Novice",
         "twitter": "https://twitter.com/krishnakalyan3",
@@ -72,7 +72,7 @@
         "twitter": "twitter.com/carolinajsall ",
         "linkedin": "http://www.linkedin.com/in/carolina-j-s%C3%A4ll-40631452 https://www.linkedin.com/in/victoria-wagman-%E2%99%A0%EF%B8%8F-2919671a5/",
         "instagram": "www.instagram.com/46elks/",
-        "picture": "images/speakers/Carolina_Sall_and_Victoria_Wagman.jpg"
+        "picture": "images/speakers/Carolina_and_Victoria.jpg"
     },
     {
         "cfp_type": "talk",
@@ -137,15 +137,6 @@
         "twitter": "https://twitter.com/cheukting_ho",
         "linkedin": "https://www.linkedin.com/in/cheukting-ho",
         "picture": "images/speakers/Cheuk_Ting_Ho.jpg"
-    },
-    {
-        "cfp_type": "talk",
-        "title": "Pypy: Faster Python With Minimal Effort",
-        "author": "Pratibha Jagnere",
-        "others": "",
-        "abstract": "In this talk, we will learn what Pypy is and how it is different from CPython implementation. Pypy, a fast python implementation, has captured the attention of many developers who were struggling with the optimization of their Python code. But we have always used it and never got a chance to see what is underneath that makes it faster. So, let's explore it together!!",
-        "bio": "I am an enthusiastic Pythoniasta, passionate for coding and books. Through my PyCon talks, I love to explore and share new things that I learn in Python.\n",
-        "level": "Intermediate"
     },
     {
         "cfp_type": "talk",
