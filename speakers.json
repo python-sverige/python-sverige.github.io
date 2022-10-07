@@ -112,7 +112,8 @@
         "others": "",
         "abstract": "Pytest vs robot is a epic battle which is played on almost all oem premises filled with loyalists from either side. My talk is about my attempt to Co-exist or refactoring a pytest framework with minimum effort to robot ! Are you interested to know how it went and what you can learn?",
         "bio": "Developed test  automation tools for clients like Ericsson, Volvo Trucks, Volvo cars.",
-        "level": "Advanced"
+        "level": "Advanced",
+        "picture": "images/speakers/Vivek_Mohan.jpg"
     },
     {
         "cfp_type": "talk",
