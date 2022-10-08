@@ -193,5 +193,21 @@
         "twitter": "twitter.com/mederka",
         "linkedin": "https://www.linkedin.com/in/mederka/",
         "picture": "images/speakers/Meder_K.jpg"
+    },
+        {
+        "cfp_type": "talk",
+        "title": "Keeping up with the renewable energy transition: Using python and forecasting to maintain a balanced Nordic power system",
+        "author": "Samuel Eliasson Godonou",
+        "others": "",
+        "abstract": "As the transmission system operator, one of the main tasks of Svenska Kraftnät is to ensure the continuous balance in the power system. This is becoming increasingly complex due to e.g. the increased cooperation between the EU countries, and their energy transition goals. Because of this, Svenska Kraftnät and its Norwegian counterpart is developing a Python based framework for forecasting. By anticipating the imbalance ahead of time, it is possible to automatically procure balancing resources and maintain a stable power system. We will give a background, present the framework and demonstrate some examples and lessons learned from imbalance forecasting.",
+        "bio": "Samuel Eliasson Godonou, data scientist at Svenska Kraftnät"
+    },
+        {
+        "cfp_type": "talk",
+        "title": "Working smarter to fight cancer: using dunder special methods to automate code generation",
+        "author": "Ryan Hill",
+        "others": "",
+        "abstract": "Anocca has developed a set of novel biotechnologies for deciphering and harnessing the human adaptive immune system to treat cancers. To support our biotech, we have created an information management system and a suite of automated data processing pipelines. The backend is built with Django, Celery, PostgreSQL and a GraphQL API. At Anocca we have a “smarter-not-harder” approach to our development process. We will present the use of the __init_subclass__\u200B and type\u200B special methods to automate schema and class generation, reducing boilerplate and repetitive code in our codebase.",
+        "bio": "Ryan Hill, CIO Anocca"
     }
 ]
