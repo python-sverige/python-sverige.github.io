@@ -156,6 +156,14 @@ table {
  border-collapse:collapse;
  border-spacing:0
 }
+table, th, td {
+  border: 1px solid;
+  padding-left:1em;
+  padding-right:1em
+}
+.table_row {
+  color:  #313135
+}
 img,
 video,
 svg {
