@@ -213,6 +213,6 @@
         "abstract": "Data is an essential part of our work, be it data \nscience, development, UI/product design. It comes in different forms and\n shapes, represents different concepts and ideas, yet more often than \nnot we stick to limited amount of ways to represent, store, visualize, \nand query it.\nGraph\n databases provide a different perspective on the data that we have, and\n a way to represent it that puts focus on relationships between \nentities, highlighting that which might be otherwise overlooked. This \ncan help us to find optimal, simple, and elegant solutions to what might\n appear to be a hard problem otherwise.\nIn\n this presentation I would like to share the knowledge and experience of\n the past few years of me working on applying graph databases to the \ndata and problems, in hope that it will help more people to look at \ntheir data in a different way.",
         "bio": "Developer and machine learning engineer with more than 10 years of experience in various areas of the tech. For the past 2 years Tetiana has been working for the Swedish tech company Fishbrain, the world's most popular fishing app. Math and data have been Tetiana's passion from a young age. She believes that focus on data quality and the right data representation are important setting stones for successful projects.",
         "level": "",
-        "picture": "images/speaker/Tetiana_Kolmychek.jpg"
+        "picture": "images/speakers/Tetiana_Kolmychek.jpg"
     }
 ]
