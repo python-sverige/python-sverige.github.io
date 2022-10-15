@@ -141,15 +141,6 @@
     },
     {
         "cfp_type": "talk",
-        "title": "Pypy: Faster Python With Minimal Effort",
-        "author": "Pratibha Jagnere",
-        "others": "",
-        "abstract": "In this talk, we will learn what Pypy is and how it is different from CPython implementation. Pypy, a fast python implementation, has captured the attention of many developers who were struggling with the optimization of their Python code. But we have always used it and never got a chance to see what is underneath that makes it faster. So, let's explore it together!!",
-        "bio": "I am an enthusiastic Pythoniasta, passionate for coding and books. Through my PyCon talks, I love to explore and share new things that I learn in Python.\n",
-        "level": "Intermediate"
-    },
-    {
-        "cfp_type": "talk",
         "title": "\"Python for Everyone\", yes it is",
         "author": "Anwesha Das",
         "others": "",
@@ -204,13 +195,15 @@
         "picture": "images/speakers/Meder_K.jpg"
     },
     {
-        "cfp_type": "keynote",
-        "title": "",
-        "author": "Julien Simon",
+        "cfp_type": "talk",
+        "title": "Securing python applications with open-source tools",
+        "author": "Oleksandr Vasylenko",
         "others": "",
-        "abstract": "",
-        "bio": "Julien Simon is currently Chief Evangelist at Hugging Face. He\u2019s recently spent 6 years at Amazon Web Services where he was the Global Technical Evangelist for AI & Machine Learning. Prior to joining AWS, Julien served for 10 years as CTO/VP Engineering in large-scale startups.",
-        "level": ""
+        "abstract": "Authentication and authorization layers are core features of every product. For many enterprise products the selection of proper solution for authentication and authorization becomes mandatory task from the first days. Keycloak provides robust and tested IDP solution, which is easy to integrate with many frameworks. In this talk I will share our experience using Keycloak for python-based applications",
+        "bio": "Oleksandr Vasylenko is Principal Engineer at Anaconda, working on enterprise repository products. Prior to joining Anaconda, Alex worked at Zalando, helping to optimize Retail preorders with ML algorithms. Currently he is living in Berlin with his family.",
+        "level": "Intermediate",
+        "linkedin": "https://www.linkedin.com/in/oleksandr-vasylenko-se/",
+        "picture": "images/speakers/Oleksandr_Vasylenko.jpg"
     },
     {
         "cfp_type": "keynote",
@@ -219,15 +212,7 @@
         "others": "",
         "abstract": "Data is an essential part of our work, be it data \nscience, development, UI/product design. It comes in different forms and\n shapes, represents different concepts and ideas, yet more often than \nnot we stick to limited amount of ways to represent, store, visualize, \nand query it.\nGraph\n databases provide a different perspective on the data that we have, and\n a way to represent it that puts focus on relationships between \nentities, highlighting that which might be otherwise overlooked. This \ncan help us to find optimal, simple, and elegant solutions to what might\n appear to be a hard problem otherwise.\nIn\n this presentation I would like to share the knowledge and experience of\n the past few years of me working on applying graph databases to the \ndata and problems, in hope that it will help more people to look at \ntheir data in a different way.",
         "bio": "Developer and machine learning engineer with more than 10 years of experience in various areas of the tech. For the past 2 years Tetiana has been working for the Swedish tech company Fishbrain, the world's most popular fishing app. Math and data have been Tetiana's passion from a young age. She believes that focus on data quality and the right data representation are important setting stones for successful projects.",
-        "level": ""
-    },
-    {
-        "cfp_type": "keynote",
-        "title": "",
-        "author": "Magnus Perman",
-        "others": "",
-        "abstract": "",
-        "bio": "Magnus Perman works as a Competence Unit Manager and Tech Lead for Data Science at the Swedish tech company Nexer. He holds a M.Sc. in Computer Science and has over 15 years experience of working with global clients delivering solutions within the areas of Business Intelligence, Data Warehousing, Analytics and Data Science. During the last years he has been a speaker at the Analytics and Data Summit in San Francisco and at various other conferences in Sweden including PyCon. In his free time, other than hanging out with his family and friends, he likes to play tennis and padel.",
-        "level": ""
+        "level": "",
+        "picture": "images/speaker/Tetiana_Kolmychek.jpg"
     }
 ]
