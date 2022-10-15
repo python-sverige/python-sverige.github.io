@@ -79,7 +79,7 @@ with open(args.csv, newline='') as csvfile:
 
         if not os.path.exists(card):
             raise Exception(f"File {card} couldn't be found in order to send to Twitter.")
-        text = f"{author} will be presenting {cfp_type} \"{title}\" at PyCon Sweden 2022.\n#pyconse2022\n#pyconse"
+        text = f"{author} will be presenting {cfp_type} \"{title}\" at PyCon Sweden 2022.\n\nGet your ticket at https://www.pycon.se\n#pyconse2022\n#pyconse"
         print(text)
         api.PostUpdate(text, media=card)
 
