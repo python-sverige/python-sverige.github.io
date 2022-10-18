@@ -224,5 +224,14 @@
         "bio": "Developer and machine learning engineer with more than 10 years of experience in various areas of the tech. For the past 2 years Tetiana has been working for the Swedish tech company Fishbrain, the world's most popular fishing app. Math and data have been Tetiana's passion from a young age. She believes that focus on data quality and the right data representation are important setting stones for successful projects.",
         "level": "",
         "picture": "images/speakers/Tetiana_Kolmychek.jpg"
+    },
+    {
+        "cfp_type": "keynote",
+        "title": "Data Literacy",
+        "author": "Magnus Perman",
+        "others": "",
+        "abstract": "Data is becoming one of the most valuable assets of companies and \norganisations. Needless to say, the importance of being able to work \nwith data is also increasing.\nTo be data literate is about being able to understand and draw \ninsights from data. Python is a key enabler in building the foundation \nfor this.\n\nIn this session I will go through some different levels of data \nliteracy and how more people can get inspired to work with data and \ninsights with the help of Python.",
+        "bio": "Magnus Perman works as a Competence Unit Manager and Tech Lead for Data Science at the Swedish tech company Nexer. He holds a M.Sc. in Computer Science and has over 15 years experience of working with global clients delivering solutions within the areas of Business Intelligence, Data Warehousing, Analytics and Data Science. During the last years he has been a speaker at the Analytics and Data Summit in San Francisco and at various other conferences in Sweden including PyCon. In his free time, other than hanging out with his family and friends, he likes to play tennis and padel.",
+        "level": ""
     }
 ]
