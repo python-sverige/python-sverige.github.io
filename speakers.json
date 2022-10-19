@@ -206,22 +206,6 @@
         "picture": "images/speakers/Oleksandr_Vasylenko.jpg"
     },
     {
-        "cfp_type": "talk",
-        "title": "Keeping up with the renewable energy transition: Using python and forecasting to maintain a balanced Nordic power system",
-        "author": "Samuel Eliasson Godonou",
-        "others": "",
-        "abstract": "As the transmission system operator, one of the main tasks of Svenska Kraftnät is to ensure the continuous balance in the power system. This is becoming increasingly complex due to e.g. the increased cooperation between the EU countries, and their energy transition goals. Because of this, Svenska Kraftnät and its Norwegian counterpart is developing a Python based framework for forecasting. By anticipating the imbalance ahead of time, it is possible to automatically procure balancing resources and maintain a stable power system. We will give a background, present the framework and demonstrate some examples and lessons learned from imbalance forecasting.",
-        "bio": "Samuel Eliasson Godonou, data scientist at Svenska Kraftnät"
-    },
-    {
-        "cfp_type": "talk",
-        "title": "Working smarter to fight cancer: using dunder special methods to automate code generation",
-        "author": "Ryan Hill",
-        "others": "",
-        "abstract": "Anocca has developed a set of novel biotechnologies for deciphering and harnessing the human adaptive immune system to treat cancers. To support our biotech, we have created an information management system and a suite of automated data processing pipelines. The backend is built with Django, Celery, PostgreSQL and a GraphQL API. At Anocca we have a “smarter-not-harder” approach to our development process. We will present the use of the __init_subclass__\u200B and type\u200B special methods to automate schema and class generation, reducing boilerplate and repetitive code in our codebase.",
-        "bio": "Ryan Hill, CIO Anocca"
-    },
-    {
         "cfp_type": "keynote",
         "title": "Reinventing Machine Learning with Transformers and Hugging Face",
         "author": "Julien Simon",
@@ -248,6 +232,17 @@
         "others": "",
         "abstract": "Data is becoming one of the most valuable assets of companies and \norganisations. Needless to say, the importance of being able to work \nwith data is also increasing.\nTo be data literate is about being able to understand and draw \ninsights from data. Python is a key enabler in building the foundation \nfor this.\n\nIn this session I will go through some different levels of data \nliteracy and how more people can get inspired to work with data and \ninsights with the help of Python.",
         "bio": "Magnus Perman works as a Competence Unit Manager and Tech Lead for Data Science at the Swedish tech company Nexer. He holds a M.Sc. in Computer Science and has over 15 years experience of working with global clients delivering solutions within the areas of Business Intelligence, Data Warehousing, Analytics and Data Science. During the last years he has been a speaker at the Analytics and Data Summit in San Francisco and at various other conferences in Sweden including PyCon. In his free time, other than hanging out with his family and friends, he likes to play tennis and padel.",
-        "level": ""
+        "level": "",
+        "picture": "images/speakers/Magnus_Perman.jpg"
+    },
+    {
+        "cfp_type": "keynote",
+        "title": "Discover semantic topics in a collection of documents by leveraging open source projects",
+        "author": "Gabriela Zarzar Gandler",
+        "others": "",
+        "abstract": "Transformer-based language models have been revolutionizing the field of\n natural language understanding. In this talk, I will showcase how \npublicly available language models can be used to discover semantically \nvalid topics from a collection of unstructured texts. This technique is \ncalled topic modeling, and can help organize and offer insights to \nunderstand large collections of documents. Welcome!\u00a0",
+        "bio": "Gabriela Zarzar Gandler works as Senior ML Data Scientist at King, and joined King via the recent acquisition of Peltarion. At Peltarion she translated machine learning and natural language processing research into valuable technology to partners in the industry and public sector. Gabriela holds a master degree in machine learning and has previously worked at Looklet, ABB Corporate Research Center, BASF and Bosch und Siemens Hausger\u00e4te. She is passionate about building great solutions with great people, and using data to reinterpret the reality around us.",
+        "level": "",
+        "picture": "images/speakers/Gabriela_Gandler.jpg"
     }
 ]
