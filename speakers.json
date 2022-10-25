@@ -51,18 +51,6 @@
     },
     {
         "cfp_type": "workshop",
-        "title": "Training, Deploying, and Running a ML model using Python and Snowpark",
-        "author": "Dash Desai",
-        "others": "",
-        "abstract": "In this session, we will train a Linear Regression model to predict future ROI (Return On Investment) of variable advertising spend budgets across multiple channels including search, video, social media, and email using Snowpark for Python and scikit-learn. By the end of the session, you will have an interactive web application deployed visualizing the ROI of different allocated advertising spend budgets.",
-        "bio": "With experience in big data, data science, and machine learning Dash is able to apply 18+ years of full-stack, hands-on software engineering skills to help build solutions that solve business problems and surface trends that shape markets in new ways than imagined before. As a developer advocate, he is passionate about evaluating new ideas, trends, and helping articulate how technology can address a given business problem.<br />\n\nDash has worked for global enterprises and in agile environments\u2013for tech startups in the Bay Area in varying verticals, such as VoIP, Online Gaming, Digital Health, NoSQL database, and Data Cloud platforms.",
-        "level": "Intermediate",
-        "twitter": "https://twitter.com/iamontheinet",
-        "linkedin": "https://www.linkedin.com/in/dash-desai/",
-        "picture": "images/speakers/Dash_Desai.jpg"
-    },
-    {
-        "cfp_type": "workshop",
         "title": "Build a switchboard in an hour \u260e\ufe0f",
         "author": "Carolina J. S\u00e4ll and Victoria Wagman",
         "others": "Victoria Wagman",
@@ -227,6 +215,16 @@
         "author": "Julien Simon",
         "others": "",
         "abstract": "According to the 2021 State of AI report, \"transformers have emerged as a general-purpose architecture for ML. Not just for Natural Language Processing, but also Speech, Computer Vision or even protein structure prediction.\" Indeed, the Transformer architecture has proven very efficient on a wide variety of Machine Learning tasks. But how can we keep up with the frantic pace of innovation? Do we really need expert skills to leverage these state-of-the-art models? Or is there a shorter path to creating business value in less time? In this code-level talk, we'll show you how to quickly build and deploy machine learning applications based on state-of-the-art Transformers models. Along the way, you'll learn about the portfolio of open source and commercial Hugging Face solutions, and how they can help you deliver high-quality machine learning solutions faster than ever before.",
+        "bio": "Julien Simon is currently Chief Evangelist at Hugging Face. He\u2019s recently spent 6 years at Amazon Web Services where he was the Global Technical Evangelist for AI & Machine Learning. Prior to joining AWS, Julien served for 10 years as CTO/VP Engineering in large-scale startups.",
+        "level": "",
+        "picture": "images/speakers/Julien_Simon.jpg"
+    },
+    {
+        "cfp_type": "workshop",
+        "title": "Hyper-productive NLP with Hugging Face Transformers",
+        "author": "Julien Simon",
+        "others": "",
+        "abstract": "In this session, we'll walk through a complete end-to-end example of using Hugging Face Transformers, involving both our open-source libraries and some of our commercial products. Starting from a dataset containing real-life product reviews from Amazon.com, we'll train and deploy a text classification model predicting the star rating for similar reviews. Along the way, you'll learn how to:- Explore models and datasets on the Hugging Face Hub, - Load, prepare and save datasets with the Hugging Face datasets library, - Load, train and save models with the Hugging Face transformers library, - Build ML applications with Hugging Spaces to showcase your models, - Use hardware acceleration with the Hugging Face Optimum library to optimize training and prediction times, - and maybe a few more things, if we have time! Of course, all code will be shared with you, and you'll be able to use it easily in your own projects.",
         "bio": "Julien Simon is currently Chief Evangelist at Hugging Face. He\u2019s recently spent 6 years at Amazon Web Services where he was the Global Technical Evangelist for AI & Machine Learning. Prior to joining AWS, Julien served for 10 years as CTO/VP Engineering in large-scale startups.",
         "level": "",
         "picture": "images/speakers/Julien_Simon.jpg"
