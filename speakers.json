@@ -96,7 +96,7 @@
     },
     {
         "cfp_type": "talk",
-        "title": "Pytest vs Robot, A battle or Co-existence.\u00a0",
+        "title": "Pytest vs Robot, A battle or Co-existence.",
         "author": "Vivek Mohan",
         "others": "",
         "abstract": "With the great momentum in python adoption in industries\n there is always a dielema on which test framework to choose among \npytest and\u00a0 robot . I would like to share some perspectives of how the\u00a0 \nworld would look like if these co-existed under one roof .What would a live migration from one to another look like? Effort vs Gain vs Loss.\u00a0 No verdicts just fun paradoxes!",
