@@ -5,7 +5,7 @@
         "author": "Jim Dowling",
         "others": "",
         "abstract": "We will build an end-to-end ML system that predicts wave heights at a beach in only Python. It will be hosted on free serverless services - Github Actions, Streamlit, and Hopsworks. It will be a continually improving ML system that keeps collecting more data, making better  predictions.",
-        "bio": "\nJim Dowling is CEO of Hopsworks and an Associate Professor at KTH Royal Institute of Technology. He is one of the main developers of the open-source Hopsworks platform, a horizontally scalable data platform for machine learning that includes the industry\u2019s first Feature Store.",
+        "bio": "Jim Dowling is CEO of Hopsworks and an Associate Professor at KTH Royal Institute of Technology. He is one of the main developers of the open-source Hopsworks platform, a horizontally scalable data platform for machine learning that includes the industry\u2019s first Feature Store",
         "level": "Intermediate",
         "twitter": "twitter.com/jim_dowling",
         "linkedin": "https://www.linkedin.com/in/jim-dowling-206a98",
@@ -69,7 +69,8 @@
         "others": "Meir",
         "abstract": "In 2022 birds swarmed our neighbourhood. We wanted to chase them away\nsustainably, kindly, and without using metal spikes. In this talk,\nwe'll learn how to disperse birds safely, with software using Python,\nAI, and a Raspberry PI.",
         "bio": "Chayim is a veteran of the software industry with over twenty years of experience. He has helped release several operating systems, contributed to a variety of open-source projects, and built and maintained multiple datacenters, operations teams, and products. With experience contributing at SGI, Autodesk, Novell, SuSE, and others, Chayim has helped several organizations scale their codebase, development teams, and the organization itself - while increasing both the speed and quality of software releases.\nToday, Chayim works for Redis as the Client and Ecosystem manager. He mentors new developers, and spends time slipping between languages, both spoken and code. He's also been writing Python since version 1.4.\n<br />\nMeir owns MSC in computer science specialised at distributed algorithms. Currently, Meir is working at Redis as a software architect, responsible for Redis modules development. He is an active contributor of Redis core and maintainer of RediSearch and RedisGears.",
-        "level": "Intermediate"
+        "level": "Intermediate",
+        "picture": "images/person-dummy.jpg"
     },
     {
         "cfp_type": "talk",
@@ -168,7 +169,8 @@
         "others": "",
         "abstract": "PyScript is an open source project to bring Python to the browser - the most ubiquitous computing platform in the world. This talk introduces PyScript, explains how it works, the current state of development and what you can expect to see coming in the short, medium and long term.",
         "bio": "Nicholas is a classically trained musician, philosophy graduate, teacher, writer and software developer. He's just like this biography: concise, honest and full of useful information. He's also a principal engineer on the PyScript team at Anaconda.",
-        "level": "Novice"
+        "level": "Novice",
+        "picture": "images/person-dummy.jpg"
     },
     {
         "cfp_type": "talk",
@@ -194,37 +196,11 @@
         "picture": "images/speakers/Oleksandr_Vasylenko.jpg"
     },
     {
-        "cfp_type": "talk",
-        "title": "Keeping up with the renewable energy transition: Using python and forecasting to maintain a balanced Nordic power system",
-        "author": "Samuel Eliasson Godonou",
-        "others": "",
-        "abstract": "As the transmission system operator, one of the main tasks of Svenska Kraftnät is to ensure the continuous balance in the power system. This is becoming increasingly complex due to e.g. the increased cooperation between the EU countries, and their energy transition goals. Because of this, Svenska Kraftnät and its Norwegian counterpart is developing a Python based framework for forecasting. By anticipating the imbalance ahead of time, it is possible to automatically procure balancing resources and maintain a stable power system. We will give a background, present the framework and demonstrate some examples and lessons learned from imbalance forecasting.",
-        "bio": "Samuel Eliasson Godonou, data scientist at Svenska Kraftnät"
-    },
-    {
-        "cfp_type": "talk",
-        "title": "Working smarter to fight cancer: using dunder special methods to automate code generation",
-        "author": "Ryan Hill",
-        "others": "",
-        "abstract": "Anocca has developed a set of novel biotechnologies for deciphering and harnessing the human adaptive immune system to treat cancers. To support our biotech, we have created an information management system and a suite of automated data processing pipelines. The backend is built with Django, Celery, PostgreSQL and a GraphQL API. At Anocca we have a “smarter-not-harder” approach to our development process. We will present the use of the __init_subclass__\u200B and type\u200B special methods to automate schema and class generation, reducing boilerplate and repetitive code in our codebase.",
-        "bio": "Ryan Hill, CIO Anocca"
-    },
-    {
         "cfp_type": "keynote",
         "title": "Reinventing Machine Learning with Transformers and Hugging Face",
         "author": "Julien Simon",
         "others": "",
         "abstract": "According to the 2021 State of AI report, \"transformers have emerged as a general-purpose architecture for ML. Not just for Natural Language Processing, but also Speech, Computer Vision or even protein structure prediction.\" Indeed, the Transformer architecture has proven very efficient on a wide variety of Machine Learning tasks. But how can we keep up with the frantic pace of innovation? Do we really need expert skills to leverage these state-of-the-art models? Or is there a shorter path to creating business value in less time? In this code-level talk, we'll show you how to quickly build and deploy machine learning applications based on state-of-the-art Transformers models. Along the way, you'll learn about the portfolio of open source and commercial Hugging Face solutions, and how they can help you deliver high-quality machine learning solutions faster than ever before.",
-        "bio": "Julien Simon is currently Chief Evangelist at Hugging Face. He\u2019s recently spent 6 years at Amazon Web Services where he was the Global Technical Evangelist for AI & Machine Learning. Prior to joining AWS, Julien served for 10 years as CTO/VP Engineering in large-scale startups.",
-        "level": "",
-        "picture": "images/speakers/Julien_Simon.jpg"
-    },
-    {
-        "cfp_type": "workshop",
-        "title": "Hyper-productive NLP with Hugging Face Transformers",
-        "author": "Julien Simon",
-        "others": "",
-        "abstract": "In this session, we'll walk through a complete end-to-end example of using Hugging Face Transformers, involving both our open-source libraries and some of our commercial products. Starting from a dataset containing real-life product reviews from Amazon.com, we'll train and deploy a text classification model predicting the star rating for similar reviews. Along the way, you'll learn how to:- Explore models and datasets on the Hugging Face Hub, - Load, prepare and save datasets with the Hugging Face datasets library, - Load, train and save models with the Hugging Face transformers library, - Build ML applications with Hugging Spaces to showcase your models, - Use hardware acceleration with the Hugging Face Optimum library to optimize training and prediction times, - and maybe a few more things, if we have time! Of course, all code will be shared with you, and you'll be able to use it easily in your own projects.",
         "bio": "Julien Simon is currently Chief Evangelist at Hugging Face. He\u2019s recently spent 6 years at Amazon Web Services where he was the Global Technical Evangelist for AI & Machine Learning. Prior to joining AWS, Julien served for 10 years as CTO/VP Engineering in large-scale startups.",
         "level": "",
         "picture": "images/speakers/Julien_Simon.jpg"
@@ -258,5 +234,36 @@
         "bio": "Gabriela Zarzar Gandler works as Senior ML Data Scientist at King, and joined King via the recent acquisition of Peltarion. At Peltarion she translated machine learning and natural language processing research into valuable technology to partners in the industry and public sector. Gabriela holds a master degree in machine learning and has previously worked at Looklet, ABB Corporate Research Center, BASF and Bosch und Siemens Hausger\u00e4te. She is passionate about building great solutions with great people, and using data to reinterpret the reality around us.",
         "level": "",
         "picture": "images/speakers/Gabriela_Gandler.jpg"
+    },
+    {
+        "cfp_type": "talk ",
+        "title": "Keeping up with the renewable energy transition: Using python and forecasting to maintain a balanced Nordic power system",
+        "author": "Samuel Eliasson Godonou",
+        "others": "",
+        "abstract": "As the transmission system operator, one of the main tasks of Svenska Kraftn\u00e4t is to ensure the continuous balance in the power system. This is becoming increasingly complex due to e.g. the increased cooperation between the EU countries, and their energy transition goals. Because of this, Svenska Kraftn\u00e4t and its Norwegian counterpart is developing a Python based framework for forecasting. By anticipating the imbalance ahead of time, it is possible to automatically procure balancing resources and maintain a stable power system. We will give a background, present the framework and demonstrate some examples and lessons learned from imbalance forecasting.",
+        "bio": "Data Scientist at Svenska Kraftn\u00e4t",
+        "level": "Intermediate",
+        "linkedin": "https://www.linkedin.com/in/samuel-eliasson-godonou-67475612b/",
+        "picture": "images/speakers/Samuel_Eliasson_Godonou.jpg"
+    },
+    {
+        "cfp_type": "talk",
+        "title": "Working smarter to fight cancer: using dunder special methods to automate code generation",
+        "author": "Ryan Hill",
+        "others": "",
+        "abstract": "Anocca has developed a set of novel biotechnologies for deciphering and harnessing the human adaptive immune system to treat cancers. To support our biotech, we have created an information management system and a suite of automated data processing pipelines. The backend is built with Django, Celery, PostgreSQL and a GraphQL API. At Anocca we have a \u201csmarter-not-harder\u201d approach to our development process. We will present the use of the __init_subclass__\u200b and type\u200b special methods to automate schema and class generation, reducing boilerplate and repetitive code in our codebase.",
+        "bio": "Ryan Hill, CIO Anocca",
+        "level": "Intermediate",
+        "picture": "images/person-dummy.jpg"
+    },
+    {
+        "cfp_type": "workshop",
+        "title": "Hyper-productive NLP with Hugging Face Transformers",
+        "author": "Julien Simon",
+        "others": "",
+        "abstract": "In this session, we'll walk through a complete end-to-end example of using Hugging Face Transformers, involving both our open-source libraries and some of our commercial products. Starting from a dataset containing real-life product reviews from Amazon.com, we'll train and deploy a text classification model predicting the star rating for similar reviews. Along the way, you'll learn how to:- Explore models and datasets on the Hugging Face Hub, - Load, prepare and save datasets with the Hugging Face datasets library, - Load, train and save models with the Hugging Face transformers library, - Build ML applications with Hugging Spaces to showcase your models, - Use hardware acceleration with the Hugging Face Optimum library to optimize training and prediction times, - and maybe a few more things, if we have time! Of course, all code will be shared with you, and you'll be able to use it easily in your own projects.",
+        "bio": "Julien Simon is currently Chief Evangelist at Hugging Face. He\u2019s recently spent 6 years at Amazon Web Services where he was the Global Technical Evangelist for AI & Machine Learning. Prior to joining AWS, Julien served for 10 years as CTO/VP Engineering in large-scale startups.",
+        "level": "",
+        "picture": "images/speakers/Julien_Simon.jpg"
     }
 ]
