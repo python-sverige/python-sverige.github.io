@@ -25,19 +25,6 @@
     },
     {
         "cfp_type": "workshop",
-        "title": "Build tailored ML Applications with Lightning.ai",
-        "author": "Krishna Kalyan",
-        "others": "",
-        "abstract": "Build models and AI-powered cloud applications using Lightning App \ntemplates without DIY infrastructure, cost management, scaling, and \nother headaches. Lightning framework gives ML Researchers and Data \nScientists, the fastest & most flexible way to iterate on ML \nresearch ideas and deliver scalable ML systems with the performance \nenterprises requires at the same time.",
-        "bio": "Machine Learning Engineer with Lightning.ai. I am interested in Machine Learning and Distributed Systems. In my free time I contribute to torchaudio and pytorch lightning.",
-        "level": "Novice",
-        "twitter": "https://twitter.com/krishnakalyan3",
-        "linkedin": "https://www.linkedin.com/in/krishnakalyan3/",
-        "instagram": "www.instagram.com/krishnakalyan3/",
-        "picture": "images/speakers/Krishna_Kalyan.jpg"
-    },
-    {
-        "cfp_type": "workshop",
         "title": "Reproducible data pipelines with PyTorch",
         "author": "Valerio Maggio",
         "others": "",
