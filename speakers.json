@@ -16,7 +16,7 @@
         "title": "Building serverless apps with Python",
         "author": "Ivica Kolenka\u0161",
         "others": "",
-        "abstract": "The workshop will guide participants through the process of \nbuilding and deploying a serverless application with Python, with an API\n and a database, using tools that provide an optimal developer \nexperience.\n\nDear workshop participants, please do the <a href=\"https://ivica-k.github.io/serverless_python_workshop/20-prerequisites/100-setup.html\u00a0\">initial setup</a> in advance to save time.",
+        "abstract": "The workshop will guide participants through the process of \nbuilding and deploying a serverless application with Python, with an API\n and a database, using tools that provide an optimal developer \nexperience.\n\nDear workshop participants, please do the <a href=\"https://ivica-k.github.io/serverless_python_workshop/20-prerequisites/100-setup.html\">initial setup</a> in advance to save time.",
         "bio": "Ivica Kolenka\u0161 is a system engineer by day, Python coder by night who works with companies to help them run their applications on AWS using infrastructure-as-code and common sense.",
         "level": "Novice",
         "twitter": "twitter.com/nekybrate",
