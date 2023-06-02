@@ -2,7 +2,7 @@
     "members": [
         {
             "name": "Christine Winter",
-            "title": "volunteer",
+            "title": "Chairwoman",
             "photo": "images/Christine.jpg"
         },
         {
@@ -10,8 +10,7 @@
             "title": "volunteer",
             "photo": "images/Helio.jpg",
             "twitter": "https://twitter.com/helioloureiro",
-            "github": "https://github.com/helioloureiro",
-            "mastodon": "https://mastodon.social/@helioloureiro"
+            "github": "https://github.com/helioloureiro"
         },
         {
             "name": "Wei Der Chien (Steven)",
@@ -25,7 +24,7 @@
         },
         {
             "name": "Alexander Hultner",
-            "title": "Chairman"
+            "title": "Volunteer"
         },
         {
             "name": "Andrii Sukhorukov",
@@ -38,6 +37,11 @@
         {
             "name": "Michael Dovgal",
             "title": "Treasure"
+        },
+        {
+            "name": "Philippe M\u00e5nsson-Wee",
+            "title": "Volunteer",
+            "photo": "images/Philippe.jpg"
         },
         {
             "name": "Aris Nivorlis",
