@@ -5,7 +5,8 @@ import json
 import os
 
 if len(sys.argv) != 2:
-    raise Exception(f"Missing csv file as argument. Use: {sys.argv[0]} <csv file> ")
+    raise Exception(
+        f"Missing csv file as argument. Use: {sys.argv[0]} <csv file> ")
 CSVFile = sys.argv[1]
 
 if not os.path.exists(CSVFile):
@@ -15,29 +16,29 @@ with open(CSVFile) as csvfile:
     csvreader = csv.DictReader(csvfile)
     speakers = []
     for row in csvreader:
-        status = row["status"] 
-        if status != "Accepted": 
-            continue 
+        status = row["status"]
+        if status.lower() != "accepted":
+            continue
         data = {}
-        data["cfp_type"] = row["cfp_type"]
-        data["title"] = row["title"]
-        data["author"] = row["author"]	
-        #email	
-        data["others"] = row["others"]
-        data["abstract"] = row["abstract"]
-        #notes	
-        if row["bio"]: 
-            data["bio"] = row["bio"]
-        data["level"] = row["level"]
-        if row["twitter"]: 
-            data["twitter"] = row["twitter"]
-        if row["linkedin"]: 
-            data["linkedin"] = row["linkedin"]
-        if row["instagram"]:
-            data["instagram"] = row["instagram"]
-        if row["picture"]: 
-            data["picture"] = row["picture"]
+        # avoiding personal data like email
+        for row_name in [ 
+                "twitter", 
+                "linkedin", 
+                "instagram", 
+                "mastodon", 
+                "picture",
+                "bio",
+                "level",
+                "abstract",
+                "others",
+                "cfp_type",
+                "title",
+                "author"
+        ]:
+            if not row_name in row:
+                continue
+            if row[row_name] and row[row_name] is not None:
+                data[row_name] = row[row_name]
         speakers.append(data)
 
 print(json.dumps(speakers, indent=4))
-    

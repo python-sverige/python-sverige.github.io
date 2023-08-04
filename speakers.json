@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "linkedin": "https://www.linkedin.com/in/danielstenberg/",
+        "picture": "images/speakers/Daniel_Stenberg.jpg",
+        "bio": "Daniel Stenberg is a Swedish Internet protocol expert and developer who has participated in and worked with Open Source for 30 years. He is most known for being the founder and lead developer of the curl project since 1998, one of the world's most widely used software components. He participates in protocol development within the IETF and has authored books on curl, HTTP/2, HTTP/3 and more. Frequent public speaker. Daniel is employed by wolfSSL.",
+        "cfp_type": "talk",
+        "author": "Daniel Stenberg"
+    }
+]
