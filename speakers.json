@@ -1,9 +1,18 @@
 [
     {
+        "twitter": "@bagder",
         "linkedin": "https://www.linkedin.com/in/danielstenberg/",
+        "mastodon": "@bagder@mastodon.social ",
         "picture": "images/speakers/Daniel_Stenberg.jpg",
         "bio": "Daniel Stenberg is a Swedish Internet protocol expert and developer who has participated in and worked with Open Source for 30 years. He is most known for being the founder and lead developer of the curl project since 1998, one of the world's most widely used software components. He participates in protocol development within the IETF and has authored books on curl, HTTP/2, HTTP/3 and more. Frequent public speaker. Daniel is employed by wolfSSL.",
-        "cfp_type": "talk",
+        "cfp_type": "keynote",
         "author": "Daniel Stenberg"
+    },
+    {
+        "picture": "images/speakers/Sebastian_Ramirez.jpg",
+        "bio": "Sebasti\u00e1n Ram\u00edrez (tiangolo), the creator of FastAPI, Typer, SQLModel, Asyncer, and other open source tools.\n\nHe's worked with companies and teams across the world, from Latin America to\n the Middle East, going through Europe and USA. Always building \ndifferent types of products and custom solutions involving APIs, data \nprocessing, distributed systems, and Machine Learning. ",
+        "cfp_type": "keynote",
+        "title": "Modern Python through FastAPI and friends",
+        "author": "Sebasti\u00e1n Ram\u00edrez"
     }
 ]
