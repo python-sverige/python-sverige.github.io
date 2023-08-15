@@ -14,5 +14,11 @@
         "cfp_type": "keynote",
         "title": "Modern Python through FastAPI and friends",
         "author": "Sebasti\u00e1n Ram\u00edrez"
+    },
+    {
+        "picture": "images/speakers/Deb_Nicholson.jpg",
+        "bio": "Deb Nicholson is a free software policy expert and a passionate \ncommunity advocate. She is the Executive Director at the Python Software\n Foundation which serves as the non-profit steward of the Python \nprogramming language. She has previously served the open source \necosystem through her work at the Open Source Initiative, Software \nFreedom Conservancy, and the Open Invention Network. She lives with her \nhusband and her lucky black cat in Cambridge, Massachusetts.",
+        "cfp_type": "keynote",
+        "author": "Deb Nicholson"
     }
 ]
