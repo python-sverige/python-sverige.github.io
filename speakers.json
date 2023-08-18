@@ -20,5 +20,11 @@
         "bio": "Deb Nicholson is a free software policy expert and a passionate \ncommunity advocate. She is the Executive Director at the Python Software\n Foundation which serves as the non-profit steward of the Python \nprogramming language. She has previously served the open source \necosystem through her work at the Open Source Initiative, Software \nFreedom Conservancy, and the Open Invention Network. She lives with her \nhusband and her lucky black cat in Cambridge, Massachusetts.",
         "cfp_type": "keynote",
         "author": "Deb Nicholson"
+    },
+    {
+        "picture": "images/speakers/Carol_Willing.jpg",
+        "bio": "Carol Willing is a three-time Python Steering Council member, a Python Core Developer, PSF Fellow, and a Project Jupyter core contributor. In 2019, she was awarded the Frank Willison Award for technical and community contributions to Python. As part of the Jupyter core team, Carol was awarded the\u00a0 2017 ACM Software System Award for Project Jupyter's lasting influence. She's also a leader in open science and open-source governance serving on Quansight Labs Advisory Board and the CZI Open Science Advisory Board. She's driven to make open science accessible through open tools and learning materials.She recently served as Noteable's VP of Engineering,",
+        "cfp_type": "keynote",
+        "author": "Carol Willing"
     }
 ]
