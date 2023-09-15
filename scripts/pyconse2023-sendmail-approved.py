@@ -92,11 +92,10 @@ parse = argparse.ArgumentParser(
 parse.add_argument("--csvfile",
                    required=True,
                    help="Export CSV file with CFP information")
-parse.add_argument(
-    "--dryrun",
-    type=bool,
-    default=True,
-    help="Select false to send the emails or it will just print the result")
+parse.add_argument("--dryrun",
+                   action='store_true',
+                   help="Set this flag to just print the result")
+
 args = parse.parse_args()
 
 with open(args.csvfile, newline='') as csvfile:
