@@ -98,7 +98,7 @@ parse.add_argument("--dryrun",
 
 args = parse.parse_args()
 
-with open(args.csvfile, newline='') as csvfile:
+with open(args.csvfile, newline='', encoding='utf-8') as csvfile:
     csvreader = csv.DictReader(csvfile)
     for row in csvreader:
         if row["Status"] == "Accepted":
