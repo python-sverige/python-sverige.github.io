@@ -16,24 +16,15 @@ with open(CSVFile) as csvfile:
     csvreader = csv.DictReader(csvfile)
     speakers = []
     for row in csvreader:
-        status = row["status"]
-        if status.lower() != "accepted":
+        status = row["Confirmed"]
+        if status.lower() != "yes":
             continue
         data = {}
         # avoiding personal data like email
-        for row_name in [ 
-                "twitter", 
-                "linkedin", 
-                "instagram", 
-                "mastodon", 
-                "picture",
-                "bio",
-                "level",
-                "abstract",
-                "others",
-                "cfp_type",
-                "title",
-                "author"
+        for row_name in [
+                "Twitter", "Linkedin", "Instagram", "Mastodon", "Images",
+                "Your biography", "Audience knowledge level", "Abstract",
+                "Proposal type", "Talk/Workshop title", "Your name"
         ]:
             if not row_name in row:
                 continue

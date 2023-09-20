@@ -1,30 +1,122 @@
 [
     {
-        "twitter": "@bagder",
-        "linkedin": "https://www.linkedin.com/in/danielstenberg/",
-        "mastodon": "@bagder@mastodon.social ",
-        "picture": "images/speakers/Daniel_Stenberg.jpg",
-        "bio": "Daniel Stenberg is a Swedish Internet protocol expert and developer who has participated in and worked with Open Source for 30 years. He is most known for being the founder and lead developer of the curl project since 1998, one of the world's most widely used software components. He participates in protocol development within the IETF and has authored books on curl, HTTP/2, HTTP/3 and more. Frequent public speaker. Daniel is employed by wolfSSL.",
-        "cfp_type": "keynote",
-        "author": "Daniel Stenberg"
+        "Images": "images/speakers/Gabriela_Moraes.jpg",
+        "Your biography": "Experience web development with confidence alongside Gabriela Moraes, a Python enthusiast and seasoned backend developer. With over seven years of active involvement and passion for the Python and tech communities all over the world, Gabriela has played a vital role in fostering inclusivity and empowering people through initiatives like Django Girls Campinas, Django Girls Stuttgart, Tokyo PyLadies, and PyLadies Stockholm.\n\nStep into her inviting workshops, where her warm and approachable demeanor sets the stage for exploration in the world of Python. Through her expertise in simplifying complex concepts and community building, participants gain hands-on experience and cultivate the confidence needed to start their journey into web development.",
+        "Audience knowledge level": "Novice",
+        "Abstract": "Discover the power of web development with Python & Django! Join our friendly and inclusive workshop to learn the fundamentals of creating captivating websites. No prior experience needed \u2013 we'll guide you step-by-step, exploring Django and its magic. Unleash your creativity and embark on an exciting journey into the world of web development!",
+        "Proposal type": "Workshop",
+        "Talk/Workshop title": "Django Girls - Create your first web app with Python and Django!",
+        "Your name": "Gabriela Moraes"
     },
     {
-        "picture": "images/speakers/Sebastian_Ramirez.jpg",
-        "bio": "Sebasti\u00e1n Ram\u00edrez (tiangolo), the creator of FastAPI, Typer, SQLModel, Asyncer, and other open source tools.\n\nHe's worked with companies and teams across the world, from Latin America to\n the Middle East, going through Europe and USA. Always building \ndifferent types of products and custom solutions involving APIs, data \nprocessing, distributed systems, and Machine Learning. ",
-        "cfp_type": "keynote",
-        "title": "Modern Python through FastAPI and friends",
-        "author": "Sebasti\u00e1n Ram\u00edrez"
+        "Twitter": "https://twitter.com/M1sl6",
+        "Instagram": "https://www.instagram.com/mirkog_mgmt/",
+        "Images": "images/speakers/Mirko_Galimberti.jpg",
+        "Your biography": "Before being a Software Developer, I have been (not so secretly) tech-addicted, especially when it came to computers.\n\nNow, a few years later, during the week I code everything (more happily if it comes to Python), and during weekends I help to maintain Kivy as I\u2019m proudly part of the Kivy Core Developers team.\n\nWhen I\u2019m not in front of my laptop screen, you can find me traveling (hopefully more, in future). I love to listen to EDM music while stuck in traffic or during open-air festivals.",
+        "Audience knowledge level": "Intermediate",
+        "Abstract": "Want to develop cross-platform (yeah, even mobile) apps with Python?\n\nDuring the talk, we will discover how Kivy and its ecosystem can fulfill your dreams, as we will learn how to:\n\n- Architect Python cross-platform apps, and the mistakes to avoid.\n- Package Kivy apps for Android, iOS, Linux, macOS, and Windows.",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "Kivy: Cross-platform App development for Pythonistas",
+        "Your name": "Mirko Galimberti"
     },
     {
-        "picture": "images/speakers/Deb_Nicholson.jpg",
-        "bio": "Deb Nicholson is a free software policy expert and a passionate \ncommunity advocate. She is the Executive Director at the Python Software\n Foundation which serves as the non-profit steward of the Python \nprogramming language. She has previously served the open source \necosystem through her work at the Open Source Initiative, Software \nFreedom Conservancy, and the Open Invention Network. She lives with her \nhusband and her lucky black cat in Cambridge, Massachusetts.",
-        "cfp_type": "keynote",
-        "author": "Deb Nicholson"
+        "Twitter": "https://twitter.com/jim_dowling",
+        "Instagram": "n/a",
+        "Mastodon": "n/a",
+        "Images": "images/speakers/Jim_Dowling.jpg",
+        "Your biography": "Jim Dowling is CEO of Hopsworks and an Associate Professor at KTH Royal Institute of Technology. He is lead architect of the open-source Hopsworks Feature Store platform. He is the organizer of the annual feature store summit and the feature store community at featurestore.org.",
+        "Audience knowledge level": "Intermediate",
+        "Abstract": "Large Language Models (LLMs) provide a model of the world, through a model of language. In this workshop, we will walk through how to personalize a LLM using prompt-engineering with a feature store. The feature store will provide personalized history and context information for LLMs.",
+        "Proposal type": "Workshop",
+        "Talk/Workshop title": "Personalized LLMs with Hopsworks Feature Store",
+        "Your name": "Jim Dowling and Fabio Buso"
     },
     {
-        "picture": "images/speakers/Carol_Willing.jpg",
-        "bio": "Carol Willing is a three-time Python Steering Council member, a Python Core Developer, PSF Fellow, and a Project Jupyter core contributor. In 2019, she was awarded the Frank Willison Award for technical and community contributions to Python. As part of the Jupyter core team, Carol was awarded the\u00a0 2017 ACM Software System Award for Project Jupyter's lasting influence. She's also a leader in open science and open-source governance serving on Quansight Labs Advisory Board and the CZI Open Science Advisory Board. She's driven to make open science accessible through open tools and learning materials.She recently served as Noteable's VP of Engineering,",
-        "cfp_type": "keynote",
-        "author": "Carol Willing"
+        "Images": "images/speakers/Yngve_Mardal_Moe.jpg",
+        "Your biography": "Prior to starting his current position as a data science consultant at Bouvet, Yngve worked at universities in the Oslo region where he taught programming and researched computational biology. These days, he spends his working days solving data science problems at Statnett \u2013 the Norwegian power grid, and his spare time working on open source software.",
+        "Audience knowledge level": "Intermediate",
+        "Abstract": "Pip, conda, setuptools, poetry, hatch, pdm, flit++. The list of tools you encounter when you want to distribute your code is not short, and decision paralysis is real. In this presentation, we will look at what these different tools do and discuss best practices for distributing your Python package.",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "The Python packaging ecosystem \u2013 Simple guidelines for packaging",
+        "Your name": "Yngve Mardal Moe"
+    },
+    {
+        "Twitter": "kairoaraujo",
+        "Instagram": "kairoaraujo",
+        "Images": "images/speakers/Kairo_Araujo.jpg",
+        "Your biography": "Kairo is a Senior Open Source Software Engineer at VMware Open Source Program Office (OSPO) on the Security Supply Chain team. He contributed to python-tuf and is the author of Repository Service for TUF (RSTUF). Prior roles include System Engineer Specialist and Senior Software Engineer at IBM, ING, and Forescout.",
+        "Audience knowledge level": "Intermediate",
+        "Abstract": "PEP 458 uses cryptographic signing on PyPI to protect Python packages against attackers. The implementation of the PEP inspired the Repository Service for TUF (RSTUF), a project accepted into the OpenSSF sandbox. We identified that the design could benefit other organizations and repositories looking to secure their software supply chains. In this talk we would answer the following questions:\n\n- How did the PEP 458 design help to start the Repository Service for TUF (RSTUF)?\n- How could RSTUF be used for PyPI with its millions of packages?\n- How can RSTUF be deployed by any organization at any scale without requiring TUF expertise?\nAdditionally, in this talk, we would give an overview of PEP 458, how it works, and give a high-level overview of TUF.",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "PEP 458 a solution not only for PyPI",
+        "Your name": "Kairo de Araujo"
+    },
+    {
+        "Twitter": "@gamesbrainiac",
+        "Your biography": "Nafiul is the Developer Advocate for Python at Sonar. He is a published author and international speaker. Before going into Developer Relations, Nafiul worked as a Software Engineer and Solutions Architect.\n\nMurilo is a tech lead AI at Dataroots. He takes a pragmatic approach aiming to make AI both impactful and accessible. To that end, Murilo has an emphasis on MLOps when building ML systems. He's passionate about open-source, programming, and knowledge sharing.",
+        "Audience knowledge level": "Intermediate",
+        "Abstract": "Rust is rapidly gathering momentum in the Developer Ecosystem. Microsoft, Amazon and Google and starting to invest in the language. So, what's in it for us Pythonistas? In this workshop we cover how to call Rust from Python and take advantage of the performance benefits that Rust provides. We will explore some common data structures in Rust that can be easily passed onto Python, create some small applications with notable performance gains and finally we will talk about the limitations of PyO3. We will set up our devices to be able to build and work with Rust and Python and by the end of the workshop, attendees should be able to learn more with the basic foundations covered.",
+        "Proposal type": "Workshop",
+        "Talk/Workshop title": "Calling Rust from Python: A Gentle Introduction to PyO3",
+        "Your name": "Quazi Nafiul Islam and Murilo Cunha"
+    },
+    {
+        "Twitter": "https://twitter.com/itsKanishkP",
+        "Images": "images/speakers/Kanishk_Pachauri.jpg",
+        "Your biography": "Kanishk Pachauri is a Computer science and engineering Student from New Delhi India, From high school, he was passionate about Open-Source and Free Software. He loves to Contribute to Open-Source Software and he is actively contributing to psf, Robyn and fosscu, he was also the Google Summer of Code intern for 2022 under the Python Software Foundation and currently, he is an Intern at Google in the Google Cloud Team. He loves to share his knowledge of Open-Source and Free Software. Previously he delivered talks at Pydelhi, Pycon France 2023, Pycon Australia 2023, FOSS United Delhi, and FOSSCU conference, and he hosted many sessions to promote the Knowledge of Open-Source Contributions and Community Work and he loves playing around with open-source projects in his free time.",
+        "Audience knowledge level": "Novice",
+        "Abstract": "Robyn is a fast Python web framework with Rust runtime, growing quickly in popularity with over 500k installs and nearing 2k stars on GitHub. It showcases an architecture of Rust and Python confluence in production to achieve near-native speed, making it an exciting topic for developers.",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "Robyn: An async Python web framework with a Rust runtime",
+        "Your name": "Kanishk Pachauri"
+    },
+    {
+        "Twitter": "https://twitter.com/aptakhin",
+        "Mastodon": "https://hachyderm.io/@AlexPtakhin",
+        "Images": "images/speakers/Alexander_Ptakhin.jpg",
+        "Your biography": "Alex is a software engineer with technical and engineering management experience from startups to middle-sized and big-tech companies. Most of his career is connected with Python starting from version 2. He loves coding and making good engineering processes around.",
+        "Audience knowledge level": "Intermediate",
+        "Abstract": "Unoptimized software increase bill costs. We will learn about common performance issues web engineers face, including memory leaks and optimizing CPU performance. We try existing tools from Python and the cloud ecosystem, including py-spy, yappi, memray, and OpenTelemetry metrics and tracing in production for the distributed environment. ",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "Sustainable Python Performance",
+        "Your name": "Alex Ptakhin"
+    },
+    {
+        "Twitter": "laysauchoa",
+        "Instagram": "laysauchoa",
+        "Images": "images/speakers/Laysa_Uchoa.jpg",
+        "Your biography": "Name: Laysa Uchoa\nCloud Engineer\n\nLaysa is a digital architect who constructs scalable structures using the magic of the cloud and Python. She is a certified cloud engineer and an enthusiastic advocate of the Python language and its environments. In addition to this, she serves as the leader of the PyLadies Munich chapter \u2014 a community where individuals gather to learn, share, and nurture their growth.\n\nName: Yuliia Barabash\nCloud Engineer\n\nI have lived in Germany for the past five years, during which I have gained a diverse range of experiences in the tech industry. My expertise spans from developing web applications in Python to constructing AWS cloud solutions. I have a good understanding of design patterns, Object-Oriented Programming (OOP), event-driven architecture, and microservices architectures. Additionally, I have hands-on experience with REST API design and database technologies. I am continuously committed to enhancing my skills and ensuring that I utilize tools in the best practices.\n",
+        "Audience knowledge level": "Intermediate",
+        "Abstract": "OpenSearch, an open-source project, combines with Python and serverless architecture for dynamic search applications. Learn to create efficient solutions, explore synergy, and tackle production challenges. Architect, build, and deploy with OpenSearch, our favourite language Python in a serverless way for powerful search applications and modern solutions.",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "Exploring OpenSearch, Python, and Serverless: Crafting Efficient and Modern Search Applications",
+        "Your name": "Laysa Uchoa  and Yuliia Barabash"
+    },
+    {
+        "Images": "images/speakers/Iulia_Feroli.jpg",
+        "Your biography": "After working on many sides of tech (as a cloud architect at MSFT, a sales engineer and PMM at Dataiku) Iulia finally found her perfect match as a developer advocate at Elastic - focusing on creating content for, and learning from the tech community. She specialises in data science & AI solutions and loves creating videos, blogs, demos and sessions to get people excited about the possibilities of tech. Iulia loves to talk about anything NLP, cloud, data science 101, MLOPs, generative AI, and more.",
+        "Audience knowledge level": "Intermediate",
+        "Abstract": "We will create a search application by indexing the Harry Potter books, and enrich it with vector search, embeddings and NLP techniques. Does the search engine browse the books better than the ultimate fan? We can then set up observability to monitor the activity and health of our application, and see if users manage to break the search engine. All of this using the python clients for Elastic. ",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "Harry Potter and the Elastic Python Clients",
+        "Your name": "Iulia Feroli"
+    },
+    {
+        "Images": "images/speakers/Kamil_Kulig.jpg",
+        "Your biography": "Python / Typescript Lover | Team Leader Eternal Optimist | Sport Freak | Lego Fanatic",
+        "Audience knowledge level": "Novice",
+        "Abstract": "The goal of the workshop is to introduce the Discord Developer Platform for building apps and bots, and give a 'beginner' level workshop to build a simple bot for Discord servers using asynchronous frameworks and the discord.py module.",
+        "Proposal type": "Workshop",
+        "Talk/Workshop title": "End-to-end Discord bot development&deployment",
+        "Your name": "Kamil Kulig and Sinem Ayyaldaz"
+    },
+    {
+        "Images": "images/speakers/Daniel_Roos.jpg",
+        "Your biography": "Daniel Roos, with 15+ years of experience building Python/C++ financial systems for global banks and hedge funds. He has recently co-founded Njorda, a retail-focused fintech based in Stockholm.\n",
+        "Audience knowledge level": "Intermediate",
+        "Abstract": "Microsoft is integrating Python into Excel, and it may finally replace VBA. This is big for finance professionals and other Excel users. \n\nWe look at ways of using Python in Excel and the capabilities this unlocks. Additionally, we'll look at how Python developers can leverage Excel for testing or as a simple UI",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "Python in Excel, a big step for finance",
+        "Your name": "Daniel Roos"
     }
 ]

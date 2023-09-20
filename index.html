@@ -209,10 +209,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+                    <!--
                     <p>We are pleased to announce that PyCon Sweden 2023 edition!
                         It will be held again in Stockholm on Hilton Slussen.
                     </p>
-                    <!--
                     <p>
                         Our CPF (Call For Proposals) is opened. Take the opportunity to
                         do a talk about any topic regarding Python.
@@ -859,19 +859,17 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p class="p-heading">
-                        <!-- We are excited to have the following speakers for talks and workshops on our stage this year. -->
-                        <h2>Coming soon</h2>
+                        We are excited to have the following speakers for talks and workshops on our stage this year.
+                        <!-- <h2>Coming soon</h2> -->
                     </p>
                 </div>
             </div>
-            <!--
             <div id="show-speakers"></div>
-            -->
         </div>
     </div>
     <script>
         function showSpeakers(data) {
-            console.log('-= showSpeakers() =-')
+            //console.log('-= showSpeakers() =-')
             //var members = data.members;
             var members = data;
             var remainder = 0;
@@ -879,38 +877,38 @@
             var content = '';
             var byName = members.slice(0);
             byName.sort(function (a, b) {
-                var x = a.title.toLowerCase();
-                var y = b.title.toLowerCase();
+                var x = a["Talk/Workshop title"].toLowerCase();
+                var y = b["Talk/Workshop title"].toLowerCase();
                 return x < y ? -1 : x > y ? 1 : 0;
             });
-            console.log('byName:', byName);
+            //console.log('byName:', byName);
             for (var index in byName) {
                 //console.log(' * key:', index, byName[index]);
                 if (typeof byName[index] === "undefined") {
                     continue;
                 }
-                //console.log(index,') name:', byName[index].author);
-                var title = byName[index].title;
+                //console.log(index,') name:', byName[index]["Your name"]);
+                var title = byName[index]["Talk/Workshop title"];
                 var titleID = title.replace(/[ \.,_\"\':]/gi, "-");
                 titleID = titleID.replace(/--*/g, "-");
                 titleID = titleID.replace(/^-/, "");
                 titleID = titleID.toLowerCase();
 
                 content += `<div id="card"><div id="` + titleID + `">
-  <h1 id="h1card">` + byName[index].author + `</h1></div>
+  <h1 id="h1card">` + byName[index]["Your name"] + `</h1></div>
     <!-- begin of image -->
 	<div class="image-crop">\n`;
-                if (byName[index].picture) {
-                    content += '		<img id="avatar" src="' + byName[index].picture + '"></img>';
+                if (byName[index]["Images"]) {
+                    content += '		<img id="avatar" src="' + byName[index]["Images"] + '"></img>';
                 }
                 content += `	</div>
     <!-- end of image -->
 	<div id="abstract">
-        <h2 id="h2card">` + byName[index].title + `</h2>
-		<p>` + byName[index].abstract + `</p>
-        <p id="abstract">Presentation type: <b>` + byName[index].cfp_type + `</b></p>
+        <h2 id="h2card">` + byName[index]["Talk/Workshop title"] + `</h2>
+		<p>` + byName[index]["Abstract"] + `</p>
+        <p id="abstract">Presentation type: <b>` + byName[index]["Proposal type"] + `</b></p>
         <h3 id="h3card">About speaker</h3>
-        <p>` + byName[index].bio + `</p>
+        <p>` + byName[index]["Your biography"] + `</p>
 	</div>
 	<div id="buttons">
 
@@ -918,7 +916,7 @@
 </div>`;
             }
             speakersHTML.innerHTML += content;
-            console.log('-= end of showSpeakers() =-')
+            //console.log('-= end of showSpeakers() =-')
         }
 
         // source: https://howtocreateapps.com/fetch-and-display-json-html-javascript/
@@ -1296,13 +1294,13 @@
                 if (typeof byName[index] === "undefined") {
                     continue;
                 }
-                console.log(index, ') name:', byName[index].name);
+                //console.log(index, ') name:', byName[index].name);
                 boardMembers.innerHTML += '<!-- adding here -->\n';
                 boardMembers.innerHTML += showTeamMember(byName[index]);
                 remainder = remainderMod(index, 4);
 
                 if (remainder === 0) {
-                    console.log('got into zero remainder condition');
+                    //console.log('got into zero remainder condition');
                     boardMembers.innerHTML +=
                         `            </div> <!-- end of row -->
             <div class="row align-items-end">
