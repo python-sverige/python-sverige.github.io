@@ -51,6 +51,17 @@
         "Your name": "Alex Ptakhin"
     },
     {
+        "Twitter": "@soraya_rbrt",
+        "Instagram": "@soraya_rbrt",
+        "Images": "images/speakers/Soraya_Roberta.jpg",
+        "Your biography": "PhD student in Computer Science at Federal University of Pernambuco researching AI in hate speech in social media. Master in Innovation in Educational Technologies. Produces the podcast Making Art With Code, manages the pages @projetopoesiacompilada and @ciencianointerior on Instagram. Member of Pyladies Natal in Brazil and of Cintia, a group of women in computer science at Federal University of Pernambuco. Technical Writer in Brazilians in Tech.",
+        "Audience knowledge level": "Novice",
+        "Abstract": "Is it possible to learn to code in Python with literary poetry? In this talk we will going to learn how to put together poetry with python and change lives through diversity in computing.",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "CompiledPoetry.py :  teaching about diversity with Python and poetry",
+        "Your name": "Soraya Roberta"
+    },
+    {
         "Twitter": "laysauchoa",
         "Instagram": "laysauchoa",
         "Images": "images/speakers/Laysa_Uchoa.jpg",
@@ -69,6 +80,24 @@
         "Proposal type": "Talk",
         "Talk/Workshop title": "Harry Potter and the Elastic Python Clients",
         "Your name": "Iulia Feroli"
+    },
+    {
+        "Twitter": "https://twitter.com/jonas_lindemann",
+        "Images": "images/speakers/Jonas_Lindemann.jpg",
+        "Your biography": "Jonas Lindemann, Director at LUNARC. Jonas has a background in Structural Mechanics where he worked on distributed finite element applications, new user interface concepts for engineering application as well as visualisation of material behavior in mechanical simulations. Since 2004 he has been working at LUNARC designing, implementing and operating HPC resources for Lund University. He is also actively engaged in teaching scientific computing (Python, C++ and Fortran) for graduate as well as post graduate students. At LUNARC he has been the main developer of GfxLauncher and multiple other HPC related tools (ARC Storage Explorer, LUNARC Application portal and ml-browse a graphical module browser for lmod).",
+        "Audience knowledge level": "Intermediate",
+        "Abstract": "CALFEM is toolbox for learning the finite element method developed by the Division of Structural Mechanics at Lund University for. During the recent years CALFEM has been ported to Python as many universities are using Python in the introductory courses. This talk gives describes the history and development of the Python version.",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "CALFEM - Teaching the Finite Element method in Python",
+        "Your name": "Jonas Lindemann"
+    },
+    {
+        "Your biography": "I'm a Python developer from Poland, working at Mirumee Software. \nIn my daily work I focus on web APIs development, using modern frameworks like FastAPI, I'm an enthusiast of clean architecture and solving complex problems in a simple, elegant way.",
+        "Audience knowledge level": "Intermediate",
+        "Abstract": "Systems built with microservices tend to become complex over time. There are several approaches that encapsulate complex distributed system layouts with an API Gateway, or backends for frontends. Having a GraphQL gateway is one of the available options. This method of delivering client-facing APIs has become the standard with modern single-page applications.",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "GraphQL as an umbrella for microservices",
+        "Your name": "Artur Sm\u0119t"
     },
     {
         "Images": "images/speakers/Kamil_Kulig.jpg",
