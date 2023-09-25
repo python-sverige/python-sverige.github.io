@@ -29,6 +29,16 @@
         "Your name": "Daniel Roos"
     },
     {
+        "Twitter": "@locustio, @cyberw",
+        "Images": "images/speakers/Lars_Holmberg.jpg",
+        "Your biography": "Performance testing consultant by day, OSS developer by night. Maintainer of Locust: https://github.com/locustio/locust",
+        "Audience knowledge level": "Intermediate",
+        "Abstract": "Learn how to write flexible and scalable load tests using plain Python code. The Locust load/performance testing tool (https://github.com/locustio/locust) makes it easy! Its all open source and because it is \u201djust code\u201d it is very easy to do logic in tests, extend them to use other protocols than HTTP, or store your scenarios in git. ",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "Load testing with Python and Locust",
+        "Your name": "Lars Holmberg"
+    },
+    {
         "Twitter": "https://twitter.com/M1sl6",
         "Instagram": "https://www.instagram.com/mirkog_mgmt/",
         "Images": "images/speakers/Mirko_Galimberti.jpg",
@@ -92,7 +102,7 @@
         "Your name": "Jonas Lindemann"
     },
     {
-        "Images": "images/person-dummy.jpg",
+        "Images": "images/speakers/Artur_Smet.jpg",
         "Your biography": "I'm a Python developer from Poland, working at Mirumee Software. \nIn my daily work I focus on web APIs development, using modern frameworks like FastAPI, I'm an enthusiast of clean architecture and solving complex problems in a simple, elegant way.",
         "Audience knowledge level": "Intermediate",
         "Abstract": "Systems built with microservices tend to become complex over time. There are several approaches that encapsulate complex distributed system layouts with an API Gateway, or backends for frontends. Having a GraphQL gateway is one of the available options. This method of delivering client-facing APIs has become the standard with modern single-page applications.",
