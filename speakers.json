@@ -111,6 +111,16 @@
         "Your name": "Artur Sm\u0119t"
     },
     {
+        "Twitter": "https://twitter.com/hamatti",
+        "Images": "images/speakers/Juha-Matti_Santala.jpg",
+        "Your biography": "Juhis is a developer, community builder and programming educator from Finland who loves to help developers become better at building software and figuring out why the computer sometimes says no.",
+        "Audience knowledge level": "Novice",
+        "Abstract": "Debugging can be a stressful experience to a developer. In this talk, I provide practical and hands-on tips both for dealing both with the mental side and the technical tools and approaches that can help Python developers turn stressful debugging situations into joyful experiences.",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "Debugging Python",
+        "Your name": "Juha-Matti Santala"
+    },
+    {
         "Images": "images/speakers/Kamil_Kulig.jpg",
         "Your biography": "Python / Typescript Lover | Team Leader Eternal Optimist | Sport Freak | Lego Fanatic",
         "Audience knowledge level": "Novice",
@@ -160,5 +170,16 @@
         "Proposal type": "Workshop",
         "Talk/Workshop title": "Try building Telegram bot instead of another web application",
         "Your name": "Nikita Churikov"
+    },
+    {
+        "Twitter": "SvenMurtinson",
+        "Instagram": "https://www.instagram.com/radovanbacovic/",
+        "Images": "images/speakers/Radovan_Bacovic.jpg",
+        "Your biography": "Radovan Bacovic is a Staff Data Engineer at GitLab coming from Serbia.\n\nHe considers Stockholm as a second best city in the world :) \n\nRadovan is an experienced Data Engineer and \u201cwanna-be\u201d the best bad Conference speaker. Forever eager to discover new data technologies in an agile environment. He armoured himself with profound application development background in large international companies around the globe, with a strong focus on the open-source community. \nHe is a passionate data geek delighted to share his long mileage and experience with a broader audience. \n\nHe was trapped in the Data world for almost 20 years. \n\nPassionate Brazilian Jiu-Jitsu practitioner. \n",
+        "Audience knowledge level": "Novice",
+        "Abstract": "In this comprehensive tutorial, a GitLab Data veteran will show the power of Data Base Transformer, also known as DBT, a rising star in the Data World. \n\nYou will get the basic knowledge about a use case where, how and why to use DBT. This is an ideal chance to catch the best mutual venture for SQL and Python. \n",
+        "Proposal type": "Workshop",
+        "Talk/Workshop title": "DBT - from zero to hero in 90 (or 120)  minutes",
+        "Your name": "Radovan Bacovic"
     }
 ]
