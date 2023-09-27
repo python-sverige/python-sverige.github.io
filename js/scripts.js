@@ -347,16 +347,19 @@
     var amountScrolled = 700;
     $(window).scroll(function() {
         if ($(window).scrollTop() > amountScrolled) {
-            $('a.back-to-top').fadeIn('500');
+            $('a.back-to-top').fadeIn(500);
         } else {
-            $('a.back-to-top').fadeOut('500');
+            $('a.back-to-top').fadeOut(500);
         }
     });
+////  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+////    mybutton.style.display = "block";
+////  } else {
+////    mybutton.style.display = "none";
+////  }
 
-
-	/* Removes Long Focus On Buttons */
-	$(".button, a, button").mouseup(function() {
-		$(this).blur();
-	});
-
+    /* Removes Long Focus On Buttons */
+    $(".button, a, button").mouseup(function() {
+        $(this).blur();
+    });
 })(jQuery);
