@@ -895,7 +895,7 @@
                 titleID = titleID.toLowerCase();
 
                 content += `<div id="card"><div id="` + titleID + `">
-  <h1 id="h1card">` + byName[index]["Your name"] + `</h1></div>
+  <h1 id="h1card">` + byName[index]["Talk/Workshop title"] + `</h1></div>
     <!-- begin of image -->
 	<div class="image-crop">\n`;
                 if (byName[index]["Images"]) {
@@ -904,7 +904,7 @@
                 content += `	</div>
     <!-- end of image -->
 	<div id="abstract">
-        <h2 id="h2card">` + byName[index]["Talk/Workshop title"] + `</h2>
+        <h2 id="h2card">` + byName[index]["Your name"] + `</h2>
 		<p>` + byName[index]["Abstract"] + `</p>
         <p id="abstract">Presentation type: <b>` + byName[index]["Proposal type"] + `</b></p>
         <h3 id="h3card">About speaker</h3>
