@@ -111,6 +111,16 @@
         "Your name": "Artur Sm\u0119t"
     },
     {
+        "Twitter": "https://twitter.com/itsKanishkP",
+        "Images": "images/speakers/Kanishk_Pachauri.jpg",
+        "Your biography": "Kanishk Pachauri is a Computer science and engineering Student from New Delhi India, From high school, he was passionate about Open-Source and Free Software. He loves to Contribute to Open-Source Software and he is actively contributing to psf, Robyn and fosscu, he was also the Google Summer of Code intern for 2022 under the Python Software Foundation and currently, he is an Intern at Google in the Google Cloud Team. He loves to share his knowledge of Open-Source and Free Software. Previously he delivered talks at Pydelhi, Pycon France 2023, Pycon Australia 2023, FOSS United Delhi, and FOSSCU conference, and he hosted many sessions to promote the Knowledge of Open-Source Contributions and Community Work and he loves playing around with open-source projects in his free time.",
+        "Audience knowledge level": "Novice",
+        "Abstract": "Robyn is a fast Python web framework with Rust runtime, growing quickly in popularity with over 500k installs and nearing 2k stars on GitHub. It showcases an architecture of Rust and Python confluence in production to achieve near-native speed, making it an exciting topic for developers.",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "Robyn: An async Python web framework with a Rust runtime",
+        "Your name": "Kanishk Pachauri"
+    },
+    {
         "Twitter": "https://twitter.com/hamatti",
         "Images": "images/speakers/Juha-Matti_Santala.jpg",
         "Your biography": "Juhis is a developer, community builder and programming educator from Finland who loves to help developers become better at building software and figuring out why the computer sometimes says no.",
@@ -119,6 +129,17 @@
         "Proposal type": "Talk",
         "Talk/Workshop title": "Debugging Python",
         "Your name": "Juha-Matti Santala"
+    },
+    {
+        "Twitter": "https://twitter.com/davidvujic",
+        "Mastodon": "https://mastodon.nu/@davidvujic",
+        "Images": "images/speakers/David_Vujic.jpg",
+        "Your biography": "My name is David and I'm a software developer. Colleagues and friends may know me as an early adopter of agile ideas and test driven development. I am passionate about things like that, and share the things I learn to the community and the people I work with. My favorite programming languages are Python and Clojure. On my spare time I practice outdoor Parkour & contribute to Open Source.",
+        "Audience knowledge level": "Intermediate",
+        "Abstract": "Developer Experience? For me, it\u2019s about writing code without the hassle. What about Design decisions? A setup should let you decide that when you have learned about what to build.\n\nPolylith solves this nicely. I\u2019ll walk through the simplistic architecture & developer-friendly tooling for a joyful Developer Experience.",
+        "Proposal type": "Talk",
+        "Talk/Workshop title": "Python Developer Experience with Polylith",
+        "Your name": "David Vujic"
     },
     {
         "Images": "images/speakers/Kamil_Kulig.jpg",
