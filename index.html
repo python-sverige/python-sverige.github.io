@@ -57,72 +57,7 @@
     <link href="css/swiper.css" rel="stylesheet">
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-<style>
-.cookie-banner {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #23374d; /* Darker shade of blue */
-    color: white;
-    text-align: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    display: none; /* Hide it initially */
-    z-index: 1000; /* Ensure it's above other elements */
-}
-
-.cookie-banner p {
-    margin-bottom: 20px;
-    font-size: 16px;
-}
-
-.cookie-banner a {
-    color: #4eb5f1; /* Lighter blue for links */
-    text-decoration: underline;
-}
-
-.cookie-banner button {
-    padding: 10px 20px;
-    font-size: 14px;
-    margin: 0 5px; /* Spacing between buttons */
-    cursor: pointer;
-    border: none;
-    border-radius: 5px; /* Rounded corners */
-}
-
-.cookie-banner button.cookie-accept {
-    background-color: #4CAF50; /* Green */
-    color: white;
-}
-
-.cookie-banner button.cookie-decline {
-    background-color: #f44336; /* Red */
-    color: white;
-}
-
-.cookie-banner button.cookie-settings {
-    background-color: #fdd835; /* Yellow */
-    color: black; /* Dark text for better readability on yellow */
-}
-.heart-button {
-    background-color: transparent; /* Makes the button's background transparent */
-    border: none; /* Removes the border */
-    padding: 2px; /* Provides some spacing around the icon */
-    cursor: pointer; /* Changes the cursor on hover */
-}
-
-.heart-icon {
-    color: red; /* Sets the heart icon color */
-    font-size: 20px; /* Adjusts the size of the icon */
-}
-.heart-button .fa-heart {
-  color: grey;
-}
-.heart-button[data-liked="true"] .fa-heart {
-  color: red;
-}
-</style>
+    <link href="assets/css/cookie.css" rel="stylesheet">
 
     <!-- Favicon  -->
     <link rel="icon" href="images/favicon.ico">
@@ -569,7 +504,11 @@
                           </tr>
                           <tr>
                             <td class="tg-9j5h"><span style="font-weight:normal;color:#000;;background-color:#D0E0E3">14:30-15:00</span></td>
-                            <td class="tg-9j5h"><span style="font-weight:normal;;color:#000;background-color:#D0E0E3"><a href="#" data-toggle="modal" data-target="#harry-potter-and-the-elastic-python-clients">Harry Potter and the Elastic Python Clients</a></span></td>
+                            <td class="tg-9j5h"><span style="font-weight:normal;;color:#000;background-color:#D0E0E3">
+                                <button id="like-harry-potter-and-the-elastic-python-clients" class="heart-button" data-liked="false">
+                                  <i class="far fa-heart"></i>  <!-- This is a Font Awesome heart icon -->
+                                </button>
+                                <a href="#" data-toggle="modal" data-target="#harry-potter-and-the-elastic-python-clients">Harry Potter and the Elastic Python Clients</a></span></td>
                           </tr>
                           <tr>
                             <td class="tg-u4kt"><span style="font-weight:normal;color:#000;">15:00-15:30</span></td>
@@ -578,7 +517,11 @@
                                   <i class="far fa-heart"></i>  <!-- This is a Font Awesome heart icon -->
                                 </button>
                                 <a href="#" data-toggle="modal" data-target="#graphql-as-an-umbrella-for-microservices">GraphQL as an umbrella for microservices</a></span></td>
-                            <td class="tg-u4kt"><a href="#" data-toggle="modal" data-target="#calling-rust-from-python-a-gentle-introduction-to-pyo3">Calling Rust from Python: A Gentle Introduction to PyO3</a></td>
+                            <td class="tg-u4kt">
+                                <button id="like-calling-rust-from-python-a-gentle-introduction-to-pyo3" class="heart-button" data-liked="false">
+                                  <i class="far fa-heart"></i>  <!-- This is a Font Awesome heart icon -->
+                                </button>
+                                <a href="#" data-toggle="modal" data-target="#calling-rust-from-python-a-gentle-introduction-to-pyo3">Calling Rust from Python: A Gentle Introduction to PyO3</a></td>
                           </tr>
                           <tr>
                             <td class="tg-6xtm"><span style="font-weight:normal;;color:#000;background-color:#D9EAD3">15:30-16:00</span></td>
@@ -592,9 +535,6 @@
                               </button>
                               <a href="#" data-toggle="modal" data-target="#debugging-python">Debugging Python</a></td>
                             <td class="tg-u4kt">
-                              <button id="like-calling-rust-from-python-a-gentle-introduction-to-pyo3" class="heart-button" data-liked="false">
-                                <i class="far fa-heart"></i>  <!-- This is a Font Awesome heart icon -->
-                              </button>
                               <a href="#" data-toggle="modal" data-target="#calling-rust-from-python-a-gentle-introduction-to-pyo3">Calling Rust from Python: A Gentle Introduction to PyO3</a></td>
                           </tr>
                           <tr>
@@ -671,7 +611,11 @@
                           </tr>
                           <tr>
                             <td class="tg-5xnr"><span style="font-weight:normal;color:#000;;background-color:#D0E0E3">13:00-14:00</span></td>
-                            <td class="tg-5xnr"><span style="font-weight:normal;color:#000;;background-color:#D0E0E3"><a class="page-scroll" href="#deb">Keynote: Deb Nicholson</a></span></td>
+                            <td class="tg-5xnr"><span style="font-weight:normal;color:#000;;background-color:#D0E0E3">
+                                <button id="like-deb" class="heart-button" data-liked="false">
+                                  <i class="far fa-heart"></i>  <!-- This is a Font Awesome heart icon -->
+                                </button>
+                                <a class="page-scroll" href="#deb">Keynote: Deb Nicholson</a></span></td>
                             <td class="tg-5xnr"></td>
                           </tr>
                           <tr>
@@ -1335,8 +1279,6 @@
 
 
     <!-- Scripts -->
-    <script src="js/likes.js"></script>
-    <script src="js/cookies.js"></script>
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
@@ -1349,6 +1291,8 @@
     <script src="assets/js/speaker.js"></script> <!-- Custom scripts -->
     <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/likes.js"></script>
+    <script src="assets/js/cookies.js"></script>
 </body>
 <script>
     // Set the event date here in format: YYYY-MM-DD
