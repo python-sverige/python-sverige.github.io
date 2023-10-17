@@ -198,9 +198,9 @@
         "Images": "images/speakers/Radovan_Bacovic.jpg",
         "Your biography": "Radovan Bacovic is a Staff Data Engineer at GitLab coming from Serbia.\n\nHe considers Stockholm as a second best city in the world :) \n\nRadovan is an experienced Data Engineer and \u201cwanna-be\u201d the best bad Conference speaker. Forever eager to discover new data technologies in an agile environment. He armoured himself with profound application development background in large international companies around the globe, with a strong focus on the open-source community. \nHe is a passionate data geek delighted to share his long mileage and experience with a broader audience. \n\nHe was trapped in the Data world for almost 20 years. \n\nPassionate Brazilian Jiu-Jitsu practitioner. \n",
         "Audience knowledge level": "Novice",
-        "Abstract": "In this comprehensive tutorial, a GitLab Data veteran will show the power of Data Base Transformer, also known as DBT, a rising star in the Data World. \n\nYou will get the basic knowledge about a use case where, how and why to use DBT. This is an ideal chance to catch the best mutual venture for SQL and Python. \n",
+        "Abstract": "In this comprehensive tutorial, a GitLab Data veteran will show the power of Data Base Transformer, also known as dbt, a rising star in the Data World. \n\nYou will get the basic knowledge about a use case where, how and why to use DBT. This is an ideal chance to catch the best mutual venture for SQL and Python. \n",
         "Proposal type": "Workshop",
-        "Talk/Workshop title": "DBT - from zero to hero in 90 (or 120)  minutes",
+        "Talk/Workshop title": "dbt - from zero to hero in 90 (or 120)  minutes",
         "Your name": "Radovan Bacovic"
     }
 ]
