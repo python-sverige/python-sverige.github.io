@@ -21,6 +21,8 @@ with open(CSVFile) as csvfile:
             continue
         data = {}
         # avoiding personal data like email
+        if row["Talk/Workshop title"] == "":
+            continue
         for row_name in [
                 "Twitter", "Linkedin", "Instagram", "Mastodon", "Images",
                 "Your biography", "Audience knowledge level", "Abstract",
