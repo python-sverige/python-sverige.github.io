@@ -3,11 +3,13 @@ import csv
 import sys
 import json
 import os
+import argparse
 
-if len(sys.argv) != 2:
-    raise Exception(
-        f"Missing csv file as argument. Use: {sys.argv[0]} <csv file> ")
-CSVFile = sys.argv[1]
+parse = argparse.ArgumentParser(description="Script to generate speakers json file")
+parse.add_argument("--csvfile", required=True, help="The CSV file exported with speakers information")
+args = parse.parse_args()
+
+CSVFile = args.csvfile
 
 if not os.path.exists(CSVFile):
     raise Exception(f"File \"{CSVFile}\" not found")
