@@ -173,7 +173,7 @@
     },
     {
         "Twitter": "@gamesbrainiac",
-        "Images": "images/person-dummy.jpg",
+        "Images": "images/speakers/Quazi_Murilo.jpg",
         "Your biography": "<p>Nafiul is the Developer Advocate for Python at Sonar. He is a published author and international speaker. Before going into Developer Relations, Nafiul worked as a Software Engineer and Solutions Architect.</p>\n\n<p>Murilo is a tech lead AI at Dataroots. He takes a pragmatic approach aiming to make AI both impactful and accessible. To that end, Murilo has an emphasis on MLOps when building ML systems. He's passionate about open-source, programming, and knowledge sharing.</p>",
         "Audience knowledge level": "Intermediate",
         "Abstract": "Rust is rapidly gathering momentum in the Developer Ecosystem. Microsoft, Amazon and Google and starting to invest in the language. So, what's in it for us Pythonistas? In this workshop we cover how to call Rust from Python and take advantage of the performance benefits that Rust provides. We will explore some common data structures in Rust that can be easily passed onto Python, create some small applications with notable performance gains and finally we will talk about the limitations of PyO3. We will set up our devices to be able to build and work with Rust and Python and by the end of the workshop, attendees should be able to learn more with the basic foundations covered.",
