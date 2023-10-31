@@ -169,7 +169,7 @@
         "Abstract": "Large Language Models (LLMs) provide a model of the world, through a model of language. In this workshop, we will walk through how to personalize a LLM using prompt-engineering with a feature store. The feature store will provide personalized history and context information for LLMs.",
         "Proposal type": "Workshop",
         "Talk/Workshop title": "Personalized LLMs with Hopsworks Feature Store",
-        "Your name": "Jim Dowling and Fabio Buso"
+        "Your name": "Jim Dowling"
     },
     {
         "Twitter": "@gamesbrainiac",
