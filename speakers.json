@@ -206,7 +206,7 @@
     {
         "Images": "images/speakers/Sebastian_Ramirez.jpg",
         "Your biography": "Sebasti\u00e1n Ram\u00edrez (tiangolo), the creator of FastAPI, Typer, SQLModel, Asyncer, and other open source tools.\nHe's worked with companies and teams across the world, from Latin America to\n the Middle East, going through Europe and USA. Always building \ndifferent types of products and custom solutions involving APIs, data \nprocessing, distributed systems, and Machine Learning. ",
-        "Abstract": "keynote",
+        "Abstract": "Keynote by Sebasti\u00e1n Ram\u00edrez",
         "Proposal type": "Keynote",
         "Talk/Workshop title": "Modern Python through FastAPI and friends",
         "Your name": "Sebasti\u00e1n Ram\u00edrez"
@@ -216,6 +216,7 @@
         "Abstract": "<p>Systems are expected to be both resilient and scalable. However, maintaining such systems often necessitates the introduction of complex architectures and boilerplate code. This often clouds the core business logic, making it more challenging to write, debug, and maintain the actual functionality. Enter Durable Execution. Imagine a world where code execution could withstand interruptions, recover seamlessly from crashes, and yet remain as straightforward as the underlying business requirements. This is not a futuristic dream, but an emerging paradigm shift in how we perceive and structure our applications.</p>\n\n<p>In this talk, we'll dive into the principles of Durable Execution, and how it allows to architect systems that prioritize resilience without compromising on simplicity.</p>",
         "Proposal type": "Sponsored Talk",
         "Talk/Workshop title": "What if your code could be as simple as your business logic, and crashes were nothing but a minor inconvenience?",
-        "Your name": "Rapha\u00ebl Beamonte"
+        "Your name": "Rapha\u00ebl Beamonte",
+        "Your biography": ""
     }
 ]

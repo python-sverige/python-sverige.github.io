@@ -23,6 +23,7 @@ function showSpeakers(data) {
         titleID = titleID.replace(/--*/g, "-");
         titleID = titleID.replace(/^-/, "");
         titleID = titleID.replace(/!/, "-");
+        titleID = titleID.replace(/\?/, "-");
         titleID = titleID.replace(/\(/, "-");
         titleID = titleID.replace(/\)/, "-");
         titleID = titleID.replace(/&/, "-");
