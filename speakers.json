@@ -206,7 +206,7 @@
     {
         "Images": "images/speakers/Sebastian_Ramirez.jpg",
         "Your biography": "Sebasti\u00e1n Ram\u00edrez (tiangolo), the creator of FastAPI, Typer, SQLModel, Asyncer, and other open source tools.\nHe's worked with companies and teams across the world, from Latin America to\n the Middle East, going through Europe and USA. Always building \ndifferent types of products and custom solutions involving APIs, data \nprocessing, distributed systems, and Machine Learning. ",
-        "Abstract": "Keynote by Sebasti\u00e1n Ram\u00edrez",
+        "Abstract": "Explore some of the great features of modern Python and how to use them with FastAPI and friends. We will see how to make code that is less error-prone, simpler, more efficient, and have a great developer experience, all at the same time.And all this while including best practices by default. We will see a bit about type annotations (type hints), async/await, and an overview of FastAPI, Typer, and others. This talk doesn't expect any technical background, just some basic knowledge of Python",
         "Proposal type": "Keynote",
         "Talk/Workshop title": "Modern Python through FastAPI and friends",
         "Your name": "Sebasti\u00e1n Ram\u00edrez"
@@ -218,5 +218,21 @@
         "Talk/Workshop title": "What if your code could be as simple as your business logic, and crashes were nothing but a minor inconvenience?",
         "Your name": "Rapha\u00ebl Beamonte",
         "Your biography": ""
+    },
+    {
+        "Images": "images/speakers/Carol_Willing.jpg",
+        "Abstract": "Learn about Python's future direction as a language, the ecosystem of developers, and the community empowering it.",
+        "Proposal type": "Keynote",
+        "Talk/Workshop title": "Pragmatic Python: Python 3.12 and Beyond",
+        "Your name": "Carol Willing",
+        "Your biography": "Carol Willing is a three-time Python Steering Council member, a Python Core Developer, PSF Fellow, and a Project Jupyter core contributor. In 2019, she was awarded the Frank Willison Award for technical and community contributions to Python. As part of the Jupyter core team, Carol was awarded the  2017 ACM Software System Award for Project Jupyter's lasting influence. She's also a leader in open science and open-source governance serving on Quansight Labs Advisory Board and the CZI Open Science Advisory Board. She's driven to make open science accessible through open tools and learning materials.She recently served as Noteable's VP of Engineering."
+    },
+    {
+        "Images": "images/speakers/Daniel_Stenberg.jpg",
+        "Abstract": "Daniel has taken the curl project to run in some 20 billion installations. He talks about what it might take to succeed with Open Source, patience, cooperation, having fun. You can do it.",
+        "Proposal type": "Keynote",
+        "Talk/Workshop title": "you can do it",
+        "Your name": "Daniel Stenberg",
+        "Your biography": "Daniel Stenberg is a Swedish Internet protocol expert and developer who has participated in and worked with Open Source for 30 years. He is most known for being the founder and lead developer of the curl project since 1998, one of the world's most widely used software components. He participates in protocol development within the IETF and has authored books on curl, HTTP/2, HTTP/3 and more. Frequent public speaker. Daniel is employed by wolfSSL."
     }
 ]
