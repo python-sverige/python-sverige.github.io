@@ -37,7 +37,7 @@ function showSpeakers(data) {
                               <h5 id="h1card">` + byName[index]["Talk/Workshop title"] + `</h5>
 			      <div class="image-crop">\n`;
         if (byName[index]["Images"]) {
-		console.log(byName[index]["Images"]);
+            //console.log(byName[index]["Images"]);
             content += `<img id="avatar" src="` + byName[index]["Images"] + `">`
         }
 	content += `          </div>
