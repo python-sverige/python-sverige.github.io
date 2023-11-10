@@ -234,5 +234,13 @@
         "Talk/Workshop title": "you can do it",
         "Your name": "Daniel Stenberg",
         "Your biography": "Daniel Stenberg is a Swedish Internet protocol expert and developer who has participated in and worked with Open Source for 30 years. He is most known for being the founder and lead developer of the curl project since 1998, one of the world's most widely used software components. He participates in protocol development within the IETF and has authored books on curl, HTTP/2, HTTP/3 and more. Frequent public speaker. Daniel is employed by wolfSSL."
+    },
+    {
+        "Images": "images/speakers/Deb_Nicholson.jpg",
+        "Abstract": "A key piece of creating good software and healthy communities is learning how to do new things, so why are many of us so reluctant to ask for help? This talk will (hopefully!) convince you to ask for help more often, by diving into why to ask, when to ask and how to find the right person to ask. The second part of the talk will cover what the Python Software Foundation does and what you might want to ask us to help you with.",
+        "Proposal type": "Keynote",
+        "Talk/Workshop title": "The Magical Power of Asking for Help",
+        "Your name": "Deb Nicholson",
+        "Your biography": "Deb Nicholson is a free software policy expert and a passionate community advocate. She is the Executive Director at the Python Software Foundation which serves as the non-profit steward of the Python programming language. She has previously served the open source ecosystem through her work at the Open Source Initiative, Software Freedom Conservancy, and the Open Invention Network. She lives with her husband and her lucky black cat in Cambridge, Massachusetts."
     }
 ]
