@@ -173,11 +173,10 @@
     <header id="header" class="header">
         <div class="header-content">
             <div class="container">
-                <div class="row" style="color:white;">
+                <!--<div class="row" style="color:white;">
                     <div class="col-lg-12 col-md-12 col-xs-12">
                         <h3 style="color:white">Meet fellow Pythoners in-person for PyCon SE 2023 in ...</h3>
                     </div> <!-- end of row -->
-                </div> <!-- end of row -->
                 <div class="row" style="color:white;" id="countDown"></div>
                 <br>
                 <div class="row" style="color:white;">
@@ -630,12 +629,11 @@
                           </tr>
                           <tr>
                             <td class="tg-5xnr"><span style="font-weight:normal;color:#000;;background-color:#D0E0E3">13:00-14:00</span></td>
-                            <td class="tg-5xnr"><span style="font-weight:normal;color:#000;;background-color:#D0E0E3">
+                            <td class="tg-5xnr" colspan="2"w><span style="font-weight:normal;color:#000;;background-color:#D0E0E3">
                                 <button id="like-deb" class="heart-button" data-liked="false">
                                   <i class="far fa-heart"></i>  <!-- This is a Font Awesome heart icon -->
                                 </button>
-                                <a class="page-scroll" href="#deb"><b>Keynote: Deb Nicholson</b></a></span></td>
-                            <td class="tg-5xnr"></td>
+                                <a href="#" data-toggle="modal" data-target="#the-magical-power-of-asking-for-help"><b>Keynote: The Magical Power of Asking for Help, by Deb Nicholson</b></a></span></td>
                           </tr>
                           <tr>
                             <td class="tg-7zrl"><span style="font-weight:normal;color:#000;">14:00-14:30</span></td>
@@ -1317,41 +1315,41 @@
 </body>
 <script>
     // Set the event date here in format: YYYY-MM-DD
-    var eventDate = "2023-11-09";
-
-    // Set the date we're counting down to
-    var countDownDate = new Date(eventDate + "T09:00:00.000+02:00").getTime();
-
-    // Update the count down every 1 second
-    var x = setInterval(function () {
-
-        // Get todays date and time
-        var now = new Date().getTime();
-
-        // Find the distance between now an the count down date
-        var distance = countDownDate - now;
-
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        // Display the result in an element with id="countDown"
-        document.getElementById("countDown").innerHTML =
-            "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\"></div>" +
-            "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\">" + days + " Days </div>" +
-            "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\">" + hours + " Hours </div>" +
-            "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\">" + minutes + " Minutes </div>" +
-            "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\">" + seconds + " Seconds</div>" +
-            "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\"></div>";
-
-        // If the count down is finished, write some text
-        if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("countDown").innerHTML = "EXPIRED";
-        }
-    }, 1000);
+//    var eventDate = "2023-11-09";
+//
+//    // Set the date we're counting down to
+//    var countDownDate = new Date(eventDate + "T09:00:00.000+02:00").getTime();
+//
+//    // Update the count down every 1 second
+//    var x = setInterval(function () {
+//
+//        // Get todays date and time
+//        var now = new Date().getTime();
+//
+//        // Find the distance between now an the count down date
+//        var distance = countDownDate - now;
+//
+//        // Time calculations for days, hours, minutes and seconds
+//        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+//        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+//
+//        // Display the result in an element with id="countDown"
+//        document.getElementById("countDown").innerHTML =
+//            "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\"></div>" +
+//            "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\">" + days + " Days </div>" +
+//            "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\">" + hours + " Hours </div>" +
+//            "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\">" + minutes + " Minutes </div>" +
+//            "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\">" + seconds + " Seconds</div>" +
+//            "<div class=\"col-md-2 pb-2 d-flex justify-content-center align-items-center\"></div>";
+//
+//        // If the count down is finished, write some text
+//        if (distance < 0) {
+//            clearInterval(x);
+//            document.getElementById("countDown").innerHTML = "EXPIRED";
+//        }
+//    }, 1000);
 </script>
 
 </html>
