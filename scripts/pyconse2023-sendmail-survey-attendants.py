@@ -3,11 +3,13 @@
 import pickle
 import os
 import base64
+# pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
 import googleapiclient.discovery
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import csv
 import argparse
+import sys
 
 SENTLIST="sentmail.list"
 
@@ -25,23 +27,25 @@ def sendMail(data):
     # Create a message
     my_email = 'info@pycon.se'
     # fields: Order ID,Order Date,Attendee Status,Name,Email,Event Name,Ticket Quantity,Ticket Type,Ticket Price,Buyer Name,Buyer Emaill
-    fullName = data['Name']
-    firstName = fullName.split()[1]
+    try:
+        fullName = row['Name']
+        firstName = fullName.split()[0]
+    except KeyError:
+        fullName = " ".join([ row['First Name'], row['Last Name'] ])
+        firstName = data['First Name']
     email = data['Email']
     msg = MIMEMultipart('alternative')
-    msg['Subject'] = f'Survey regarding PyCon Sweden 2022'
+    msg['Subject'] = f'Survey regarding PyCon Sweden 2023'
     msg['From'] = f'{my_email}'
     msg['To'] = f'{email}'
     #msg['Cc'] = 'board@pycon.se'
     msgPlain = f'''Hej {firstName},
 
-Thank you for joining PyCon Sweden 2022! We hope that you have had
+Thank you for joining PyCon Sweden 2023! We hope that you have had
 a great conference experience! To help us improve, please take a
-few minutes to give us your feedback. As this is our first in person
-conference since 2019, your suggestions will be particularly valuable
-for us to improve our future events.
+few minutes to give us your feedback. 
 
-https://forms.gle/QEh9HqYTe2zMLzMa6
+https://forms.gle/vPXyjWLqsCrPkHKJA
 
 Once again, thank you for your support, and hopefully see you again
 next year!
@@ -71,7 +75,7 @@ if __name__ == '__main__':
     "Parsing command line here"
 
     parser = argparse.ArgumentParser(description="It sends mail notification to talks/workshops authors")
-    parser.add_argument("--csvfile", help="CSV file with forms answers")
+    parser.add_argument("--csvfile", required=True, help="CSV file with forms answers")
     args = parser.parse_args()
 
     if args.csvfile == None:
@@ -91,7 +95,11 @@ if __name__ == '__main__':
         # fields: Order ID,Order Date,Attendee Status,Name,Email,Event Name,Ticket Quantity,Ticket Type,Ticket Price,Buyer Name,Buyer Emaill
         for row in csvreader:
             ticketType = row['Ticket Type']
-            fullName = row['Name']
+            try:
+                fullName = row['Name']
+            except KeyError:
+                fullName = " ".join([ row['First Name'], row['Last Name'] ])
+
             email = row['Email']
             if ticketType in [ 'Sponsors', 'Speakers', 'Volunteers and board']:
                 print(f'{fullName} has ticket type {ticketType} so mail skipped')
@@ -101,10 +109,10 @@ if __name__ == '__main__':
                 continue
 
             try:
+                print(f'sending mail to {email}...')
                 sendMail(row)
-                #print(f'sending mail to {email}...')
-            except:
-                print(f'Failed to send mail to {fullName}')
+            except Exception as error:
+                print(f'Failed to send mail to {fullName}:', error)
                 continue
             print(f'Mail sent to {fullName} at {email} for ticket type {ticketType}')
             already_sent.append(email)
