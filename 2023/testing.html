@@ -1,0 +1,57 @@
+                <div class="col-lg-3">
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="image-wrapper">
+                            <img class="img-fluid" id="board-member-photo" alt="alternative">
+                        </div> <!-- end of image wrapper -->
+                        <p class="p-large" id="board-member-name"></p>
+                        <p class="job-title" id="board-member-title"></p>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+    <script>
+                        // source: https://howtocreateapps.com/fetch-and-display-json-html-javascript/
+                        fetch("board.json")
+                            .then(function (response) {
+                                return response.json();
+                            })
+                            .then(function (data) {
+                                showMember(data);
+                            })
+                            .catch( function (err) {
+                                console.log('ERROR:', err);
+                            });
+                        var memberName = document.getElementById("board-member-name");
+                        var memberTitle = document.getElementById("board-member-title");
+                        var memberPhoto = document.getElementById("board-member-photo");
+
+                        function showMember(data) {
+                            console.log('data:', data);
+                            var members = data.members;
+                            console.log('members:', members);
+                          console.log('length:', members.length);
+    
+                            
+                            for (var i = 0; members.length; i++) {
+                                memberName.append(members[i].name);
+                              memberTitle.append(members[i].title);
+                                console.log(i,')name:', members[i].name);
+                            }
+                        }
+                    </script>
+
+
