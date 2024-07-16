@@ -3,7 +3,7 @@
         {
             "name": "Helio Loureiro",
             "title": "Board Member",
-            "photo": "images/Helio.jpg",
+            "photo": "images/board/Helio.jpg",
             "github": "https://github.com/helioloureiro",
             "mastodon": "https://mastodon.social/@helioloureiro"
         },
@@ -11,12 +11,12 @@
             "name": "Steven Chien",
             "title": "Volunteer",
             "github": "https://github.com/steven-chien",
-            "photo": "images/Steve.png"
+            "photo": "images/board/Steve.png"
         },
         {
             "name": "Vyacheslav Olshevsky (Slavik)",
             "title": "Volunteer",
-            "photo": "images/Slavik.jpg"
+            "photo": "images/board/Slavik.jpg"
         },
         {
             "name": "Alexander Hultner",
@@ -33,18 +33,23 @@
         {
             "name": "Aris Nivorlis",
             "title": "Chairman",
-            "photo": "images/Aris.jpg"
+            "photo": "images/board/Aris.jpg"
         },
         {
             "name": "Soumya Chakraborty",
             "title": "Board Member",
-            "photo": "images/Soumya.jpg"
+            "photo": "images/board/Soumya.jpg"
         },
         {
             "name": "Nikita Churikov",
             "title": "Treasure",
-            "photo": "images/Nikita.jpg",
+            "photo": "images/board/Nikita.jpg",
             "github": "https://github.com/churnikov"
+        },
+        {
+            "name": "Simron Padhi",
+            "title": "Board Member",
+            "photo": "images/board/Simron.jpg"
         }
     ]
 }
