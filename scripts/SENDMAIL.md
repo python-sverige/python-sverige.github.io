@@ -13,3 +13,4 @@ It is designed to read this json as ~/.ssh/pyconse-email-oauth2.json.
 Once the file is there, you can run "pyconse-email-pickle.py" to
 authenticate via browser and save into a pickle file.
 
+Use the script `pyconse-email-pickle.py` to generate the pickle file.
