@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "Images": "images/speakers/Jesper_Larsson.png",
+        "Your biography": "Jesper Larsson is a freelance IT security researcher and penetration tester focused on cloud and infrastructure security. Jesper is a member of the well-renowned penetration testing firm Cure53, where he works for multinational clients spanning several fields, helping companies and foundations implement secure infrastructures worldwide. In addition, Jesper has also made an appearance in the movie industry, with his participation as one of the hackers in the SVT production \"_Hackad\". Furthermore, He is one of the co-founders and organizers of SecurityFest, a technical IT-Security conference on the Swedish west coast, and S\u00e4kerhetspodcasten, Sweden's first IT-Security-focused podcast.",
+        "Proposal type": "Keynote",
+        "Talk/Workshop title": "Keynote",
+        "Your name": "Jesper Larsson"
+    }
+]
