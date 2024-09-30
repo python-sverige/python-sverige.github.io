@@ -7,8 +7,8 @@ function showSpeakers(data) {
     var content = '';
     var byName = members.slice(0);
     byName.sort(function (a, b) {
-        var x = a["Talk/Workshop title"].toLowerCase();
-        var y = b["Talk/Workshop title"].toLowerCase();
+        var x = a["Title"].toLowerCase();
+        var y = b["Title"].toLowerCase();
         return x < y ? -1 : x > y ? 1 : 0;
     });
     //console.log('byName:', byName);
@@ -18,7 +18,7 @@ function showSpeakers(data) {
             continue;
         }
         //console.log(index,') name:', byName[index]["Your name"]);
-        var title = byName[index]["Talk/Workshop title"];
+        var title = byName[index]["Title"];
         var titleID = title.replace(/[ \.,_\"\':]/gi, "-");
         titleID = titleID.replace(/--*/g, "-");
         titleID = titleID.replace(/^-/, "");
@@ -34,19 +34,19 @@ function showSpeakers(data) {
                         <div class="modal-content">
                           <div class="modal-body">
                             <div id="card">
-                              <h5 id="h1card">` + byName[index]["Talk/Workshop title"] + `</h5>
+                              <h5 id="h1card">` + byName[index]["Title"] + `</h5>
 			      <div class="image-crop">\n`;
-        if (byName[index]["Images"]) {
+        if (byName[index]["Image"]) {
             //console.log(byName[index]["Images"]);
-            content += `<img id="avatar" src="` + byName[index]["Images"] + `">`
+            content += `<img id="avatar" src="` + byName[index]["Image"] + `">`
         }
 	content += `          </div>
                               <div id="abstract">
-                                <h3 id="h2card">` + byName[index]["Your name"] + `</h3>
+                                <h3 id="h2card">` + byName[index]["Name"] + `</h3>
                                 <p>` + byName[index]["Abstract"] + `</p>
-                                <p id="abstract">Presentation type: <b>` + byName[index]["Proposal type"] + `</b></p>
+                                <p id="abstract">Presentation type: <b>` + byName[index]["Type"] + `</b></p>
                                 <h3 id="h3card">About speaker</h3>
-                                <p>` + byName[index]["Your biography"] + `</p>
+                                <p>` + byName[index]["Biography"] + `</p>
                               </div>
                             </div>
                           </div>

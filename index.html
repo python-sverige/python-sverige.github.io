@@ -14,7 +14,7 @@
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:title" content="PyCon Sweden" />
-    <meta property="og:description" content="PyCon Sweden 2023 on November 9 - 10 in Stockholm." />
+    <meta property="og:description" content="PyCon Sweden 2024 on November 14 - 15 in Stockholm." />
     <meta property="og:image" content="http://www.pycon.se/images/facebook-thumbnail-resize.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
@@ -24,7 +24,7 @@
     <meta property="og:type" content="website" />
     <meta name="author" content="Python Sverige">
     <meta name="keywords" content="python pycon django conference meetup">
-    <meta name="description" content="PyCon Sweden 2023 on November 9 - 10 in Stockholm." />
+    <meta name="description" content="PyCon Sweden 2024 on November 14 - 15 in Stockholm." />
 
     <meta property="og:image" content="http://www.pycon.se/images/linkedin-thumbnail.png" />
     <meta property="og:image:type" content="image/png" />
@@ -33,8 +33,8 @@
 
     <meta name="mastodon:card" content="summary_large_image">
     <meta name="mastodon:site" content="https://fosstodon.org/@pyconsweden">
-    <meta name="mastodon:title" content="PyCon Sweden 2023">
-    <meta name="mastodon:description" content="PyCon Sweden 2023 on November 9 - 10 in Stockholm.">
+    <meta name="mastodon:title" content="PyCon Sweden 2024">
+    <meta name="mastodon:description" content="PyCon Sweden 2024 on November 14 - 15 in Stockholm.">
     <meta name="mastodon:image" content="http://www.pycon.se/images/facebook-thumbnail-resize.png">
 
 
@@ -102,6 +102,9 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#keynotes">KEYNOTES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#SPEAKERS">SPEAKERS</a>
                 </li>
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link page-scroll" href="#program">PROGRAM</a>-->
@@ -182,8 +185,6 @@
                 <div class="row" style="color:white;">
                     <div class="col-lg-12 col-md-12 col-xs-12">
                         <a class="btn-solid-lg page-scroll" href="https://pretix.eu/pyconse/pycon2024/">Ticket Sales</a>
-                        &nbsp;
-                        <a class="btn-solid-lg page-scroll" href="https://pretalx.com/pyconse-2024/cfp">Call for Proposals</a>
                     </div>
                 </div>
                 <div class="row" style="color:white;">
@@ -395,7 +396,238 @@
     </div><!-- end of container -->
         </div>
         <!-- end of keynotes -->
+    <!-- Speakers -->
+    <style>
+        #card {
+            background-color: #393B45;
+            height: auto;
+            width: 100%;
+            border-radius: 25px;
+            padding-bottom: 1px;
+        }
 
+        #h1card {
+            color: white;
+            text-align: center;
+            width: 100%;
+            background-color: #E6EBEE;
+            border-radius: 25px 25px 0 0;
+            color: #393B45;
+            padding: 30px 0;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        #h2card {
+            color: white;
+            text-align: center;
+            width: 100%;
+            border-radius: 20px 20px 0 0;
+            padding: 10px 0;
+            font-weight: 800;
+            margin: 0;
+        }
+
+
+        #h3card {
+            text-align: center;
+            width: 100%;
+            border-radius: 15px 15px 0 0;
+            color: white;
+            padding: 30px 0;
+            font-weight: 800;
+            margin: 0;
+            }
+
+        .image-crop {
+            display: block;
+            position: relative;
+            background-color: #E6EBEE;
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            margin-top: 30px;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+
+        #avatar {
+            display: inline;
+            height: 200px;
+            width: auto;
+            margin-left: 0px;
+        }
+
+        #abstract {
+            display: block;
+            margin: 30px auto;
+            width: 90%;
+            height: auto;
+        }
+
+        #abstract p {
+            color: #E6EBEE;
+            font-weight: lighter;
+            font-size: 15px;
+            text-align: justify;
+        }
+        #title {
+            display: block;
+            margin: 30px auto;
+            width: 100%;
+            height: auto;
+        }
+
+        #title p {
+            color: #E6EBEE;
+            font-weight: dark;
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        #stats {
+            display: flex;
+            flex-direction: row;
+            height: auto;
+            width: 280px;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            font-weight: 500;
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .stat {
+            font-size: 25px;
+            margin: 0;
+        }
+
+        .label {
+            margin: 0;
+        }
+
+        #msg {
+            background-color: #E6EBEE;
+            color: #393B45;
+        }
+    </style>
+    <div id="SPEAKERS" class="cards-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">SPEAKERS</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-heading">
+                        We are excited to have the following speakers for talks and workshops on our stage this year.
+                        <!-- <h2>Coming soon</h2> -->
+                    </p>
+                </div>
+            </div>
+            <div id="show-speakers-card"></div>
+        </div>
+    </div>
+      <script>
+        function showSpeakersCard(data) {
+            console.log('-= showSpeakers() =-')
+            var members = data;
+            var remainder = 0;
+
+            var content = '';
+            var byName = members.slice(0);
+            byName.sort(function (a, b) {
+                var x = a["Title"].toLowerCase();
+                var y = b["Title"].toLowerCase();
+                return x < y ? -1 : x > y ? 1 : 0;
+            });
+            console.log('byName:', byName);
+            for (var index in byName) {
+                console.log(' * key:', index, byName[index]);
+                if (typeof byName[index] === "undefined") {
+                    continue;
+                }
+
+                // don't render keynotes here
+                if (byName[index]["Type"] == "Keynote") {
+                    continue;
+                }
+                console.log(index,') name:', byName[index]["Name"]);
+                var title = byName[index]["Title"];
+                var titleID = title.replace(/[ \.,_\"\':]/gi, "-");
+                titleID = titleID.replace(/--*/g, "-");
+                titleID = titleID.replace(/^-/, "");
+                titleID = titleID.toLowerCase();
+
+                content += `<div id="card"><div id="` + titleID + `">
+  <h1 id="h1card">` + byName[index]["Title"] + `</h1></div>
+      <!-- begin of image -->
+        <div class="image-crop">\n`;
+                if (byName[index]["Image"]) {
+                    content += '                <img id="avatar" src="' + byName[index]["Image"] + '"></img>';
+                }
+                content += `    </div>
+    <!-- end of image -->
+        <div id="abstract">
+        <h2 id="h2card">`; 
+                if (byName[index]["Name"]) {
+                    content += byName[index]["Name"];
+                }
+                    content += `</h2>
+                <p>`;
+                if (byName[index]["Abstract"]) { 
+                    content += byName[index]["Abstract"];
+                }  
+                content += `</p>
+                <p><b>Description:</b>`; 
+                if (byName[index]["Description"]) {
+                    content += byName[index]["Description"];
+                } 
+                content += `</p>
+        <p id="abstract">Presentation type: <b>`; 
+                if (byName[index]["Type"]) {
+                    content += byName[index]["Type"];
+                }
+                    content += `</b></p>
+        <h3 id="h3card">About speaker</h3>
+        <p>`; 
+                if (byName[index]["Biography"]) {
+                    content += byName[index]["Biography"];
+                } 
+                content += `</p>
+        </div>
+        <div id="buttons">
+
+        </div>
+</div>
+            <p_space><br></p_space>`;
+            }
+            speakersCardHTML.innerHTML += content;
+            console.log('-= end of showSpeakers() =-')
+        }
+
+        // source: https://howtocreateapps.com/fetch-and-display-json-html-javascript/
+        fetch("speakers.json")
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                showSpeakersCard(data);
+            })
+            .catch(function (err) {
+                console.log('ERROR:', err);
+            });
+        var speakersCardHTML = document.getElementById("show-speakers-card");
+    </script>
+    <!-- End of speakers -->
 
         <!-- Sponsorship -->
         <div id="sponsorship" class="cards-2">
