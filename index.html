@@ -592,6 +592,8 @@
         <div class="image-crop">\n`;
                 if (byName[index]["Image"]) {
                     content += '                <img id="avatar" src="' + byName[index]["Image"] + '"></img>';
+                } else {
+                    content += '                <img id="avatar" src="images/person-dummy.jpg"></img>';
                 }
                 content += `    </div>
     <!-- end of image -->
