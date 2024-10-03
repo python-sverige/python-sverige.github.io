@@ -104,7 +104,7 @@
                     <a class="nav-link page-scroll" href="#keynotes">KEYNOTES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#SPEAKERS">SPEAKERS</a>
+                    <a class="nav-link page-scroll" href="#PROGRAM">PROGRAM</a>
                 </li>
 <!--                <li class="nav-item">-->
 <!--                    <a class="nav-link page-scroll" href="#program">PROGRAM</a>-->
@@ -384,286 +384,89 @@
                             <b style="font-size:x-large">Melina Katkic</b>
                         </p>
                         <p align="justify">
-                        Introducing Melina Katkic, a visionary AI
-                        leader with nearly two decades of experience in
-                        delivering cutting-edge tech solutions . As CEO of
-                        NordAxon, she has led AI transformations, guided
-                        companies through AI strategy, value creation
-                        with AI, and built top-performing AI-specialized
-                        teams. With degrees in both computer science and
-                        business, she has forged strategic partnerships
-                        and accelerated AI adoption across industries.
+                            Introducing Melina Katkic, a visionary AI
+                            leader with nearly two decades of experience in
+                            delivering cutting-edge tech solutions . As CEO of
+                            NordAxon, she has led AI transformations, guided
+                            companies through AI strategy, value creation
+                            with AI, and built top-performing AI-specialized
+                            teams. With degrees in both computer science and
+                            business, she has forged strategic partnerships
+                            and accelerated AI adoption across industries.
 
-                        From driving AI initiatives at Danske Bank
-                        and Alfa Laval to lecturing for AI Sweden,
-                        Melina’s influence spans public and private
-                        sectors. Known for her pragmatic leadership, she
-                        advances responsible AI innovation, AI educates
-                        executives, and develops AI-powered tools with
-                        her NordAxon, shaping the future of AI with a
-                        focus on social and environmental value creation.
+                            From driving AI initiatives at Danske Bank
+                            and Alfa Laval to lecturing for AI Sweden,
+                            Melina’s influence spans public and private
+                            sectors. Known for her pragmatic leadership, she
+                            advances responsible AI innovation, AI educates
+                            executives, and develops AI-powered tools with
+                            her NordAxon, shaping the future of AI with a
+                            focus on social and environmental value creation.
 
-                        Privately, Melina proudly devotes most of her
-                        spare time to her 3-year-old son Kevin, whom
-                        she describes as the protagonist of her life.
+                            Privately, Melina proudly devotes most of her
+                            spare time to her 3-year-old son Kevin, whom
+                            she describes as the protagonist of her life.
                         </p>
                     </div>
                 </div>
             </div><!-- end of row -->
-           </ br>
+            </ br>
         </div> <!-- end of row -->
     </div><!-- end of container -->
         </div>
         <!-- end of keynotes -->
-    <!-- Speakers -->
-    <style>
-        #card {
-            background-color: #393B45;
-            height: auto;
-            width: 100%;
-            border-radius: 25px;
-            padding-bottom: 1px;
-        }
-
-        #h1card {
-            color: white;
-            text-align: center;
-            width: 100%;
-            background-color: #E6EBEE;
-            border-radius: 25px 25px 0 0;
-            color: #393B45;
-            padding: 30px 0;
-            font-weight: 800;
-            margin: 0;
-        }
-
-        #h2card {
-            color: white;
-            text-align: center;
-            width: 100%;
-            border-radius: 20px 20px 0 0;
-            padding: 10px 0;
-            font-weight: 800;
-            margin: 0;
-        }
-
-
-        #h3card {
-            text-align: center;
-            width: 100%;
-            border-radius: 15px 15px 0 0;
-            color: white;
-            padding: 30px 0;
-            font-weight: 800;
-            margin: 0;
-            }
-
-        .image-crop {
-            display: block;
-            position: relative;
-            background-color: #E6EBEE;
-            width: 200px;
-            height: 200px;
-            margin: auto;
-            margin-top: 30px;
-            overflow: hidden;
-            border-radius: 50%;
-        }
-
-        #avatar {
-            display: inline;
-            height: 200px;
-            width: auto;
-            margin-left: 0px;
-        }
-
-        #abstract {
-            display: block;
-            margin: 30px auto;
-            width: 90%;
-            height: auto;
-        }
-
-        #abstract p {
-            color: #E6EBEE;
-            font-weight: lighter;
-            font-size: 15px;
-            text-align: justify;
-        }
-        #title {
-            display: block;
-            margin: 30px auto;
-            width: 100%;
-            height: auto;
-        }
-
-        #title p {
-            color: #E6EBEE;
-            font-weight: dark;
-            font-size: 15px;
-            text-align: justify;
-        }
-
-        #stats {
-            display: flex;
-            flex-direction: row;
-            height: auto;
-            width: 280px;
-            justify-content: space-between;
-            align-items: center;
-            margin: 0 auto;
-            font-weight: 500;
-        }
-
-        .col {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-        }
-
-        .stat {
-            font-size: 25px;
-            margin: 0;
-        }
-
-        .label {
-            margin: 0;
-        }
-
-        #msg {
-            background-color: #E6EBEE;
-            color: #393B45;
-        }
-    </style>
-    <div id="SPEAKERS" class="cards-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">SPEAKERS</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-heading">
-                        We are excited to have the following speakers for talks and workshops on our stage this year.
-                        <!-- <h2>Coming soon</h2> -->
-                    </p>
-                </div>
-            </div>
-            <div id="show-speakers-card"></div>
-        </div>
-    </div>
-      <script>
-        function showSpeakersCard(data) {
-            console.log('-= showSpeakers() =-')
-            var members = data;
-            var remainder = 0;
-
-            var content = '';
-            var byName = members.slice(0);
-            byName.sort(function (a, b) {
-                var x = a["Title"].toLowerCase();
-                var y = b["Title"].toLowerCase();
-                return x < y ? -1 : x > y ? 1 : 0;
-            });
-            console.log('byName:', byName);
-            for (var index in byName) {
-                console.log(' * key:', index, byName[index]);
-                if (typeof byName[index] === "undefined") {
-                    continue;
-                }
-
-                // don't render keynotes here
-                if (byName[index]["Type"] == "Keynote") {
-                    continue;
-                }
-                console.log(index,') name:', byName[index]["Name"]);
-                var title = byName[index]["Title"];
-                var titleID = title.replace(/[ \.,_\"\':]/gi, "-");
-                titleID = titleID.replace(/--*/g, "-");
-                titleID = titleID.replace(/^-/, "");
-                titleID = titleID.toLowerCase();
-
-                content += `<div id="card"><div id="` + titleID + `">
-  <h1 id="h1card">` + byName[index]["Title"] + `</h1></div>
-      <!-- begin of image -->
-        <div class="image-crop">\n`;
-                if (byName[index]["Image"]) {
-                    content += '                <img id="avatar" src="' + byName[index]["Image"] + '"></img>';
-                } else {
-                    content += '                <img id="avatar" src="images/person-dummy.jpg"></img>';
-                }
-                content += `    </div>
-    <!-- end of image -->
-        <div id="abstract">
-        <h2 id="h2card">`; 
-                if (byName[index]["Name"]) {
-                    content += byName[index]["Name"];
-                }
-                    content += `</h2>
-                <p>`;
-                if (byName[index]["Abstract"]) { 
-                    content += byName[index]["Abstract"];
-                }  
-                content += `</p>
-                <p><b>Description:</b>`; 
-                if (byName[index]["Description"]) {
-                    content += byName[index]["Description"];
-                } 
-                content += `</p>
-        <p id="abstract">Presentation type: <b>`; 
-                if (byName[index]["Type"]) {
-                    content += byName[index]["Type"];
-                }
-                    content += `</b></p>
-        <h3 id="h3card">About speaker</h3>
-        <p>`; 
-                if (byName[index]["Biography"]) {
-                    content += byName[index]["Biography"];
-                } 
-                content += `</p>
-        </div>
-        <div id="buttons">
-
-        </div>
-</div>
-            <p_space><br></p_space>`;
-            }
-            speakersCardHTML.innerHTML += content;
-            console.log('-= end of showSpeakers() =-')
-        }
-
-        // source: https://howtocreateapps.com/fetch-and-display-json-html-javascript/
-        fetch("speakers.json")
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (data) {
-                showSpeakersCard(data);
-            })
-            .catch(function (err) {
-                console.log('ERROR:', err);
-            });
-        var speakersCardHTML = document.getElementById("show-speakers-card");
-    </script>
-    <!-- End of speakers -->
-
-        <!-- Sponsorship -->
-        <div id="sponsorship" class="cards-2">
+        <!-- Program -->
+        <div id="PROGRAM" class="cards-2">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-lg-12">
-                        <div class="section-title">SPONSORSHIP</div>
+                        <div class="section-title">Program</div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-lg-12">
-                        <p>We are super excited to come back together in person for this year's conference!
-                            <p>We know this is an odd request, but we need your help. We run this organization in our spare time
-                                and we are just regular people doing regular things. In order to keep Pycon Sweden alive and
-                                energize this amazing innovative European country, we kindly ask for your help in sponsorship.
+                        <!-- Pretalx -->
+                        <!--
+                            <script type="text/javascript" src="https://pretalx.com/pyconse-2024/schedule/widget/messages.js"></script>
+                            <script type="text/javascript" src="https://pretalx.com/pyconse-2024/widgets/schedule.js"></script>
+                            <pretalx-schedule 
+                                event-url="https://pretalx.com/pycon-sweden-2024/" 
+                                locale="en" 
+                                format="grid" 
+                                style="--pretalx-clr-primary: #3aa57c"
+                                ></pretalx-schedule>
+                            -->
+                            <!-- Pretalx -->
+                            <script type="text/javascript" src="https://pretalx.com/pycon-sweden-2021/schedule/widget/v2.en.js"></script>
+                            <pretalx-schedule event-url="https://pretalx.com/pyconse-2024/" locale="en" format="grid" style="--pretalx-clr-primary: #3aa57c"></pretalx-schedule>
+                            <noscript>
+                                <div class="pretalx-widget">
+                                    <div class="pretalx-widget-info-message">
+                                        JavaScript is disabled in your browser. To access our schedule without JavaScript,
+                                        please <a target="_blank" href="https://pretalx.com/pycon-sweden-2024/schedule/">click here</a>.
+                                    </div>
+                           </div>
+                       </noscript>
+               </div>
+           </div>
+       </div>
+   </div>
+   <!-- End of program -->
+
+   <!-- Sponsorship -->
+   <div id="sponsorship" class="cards-2">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-12">
+                   <div class="section-title">SPONSORSHIP</div>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-lg-12">
+                   <p>We are super excited to come back together in person for this year's conference!
+                       <p>We know this is an odd request, but we need your help. We run this organization in our spare time
+                           and we are just regular people doing regular things. In order to keep Pycon Sweden alive and
+                           energize this amazing innovative European country, we kindly ask for your help in sponsorship.
                                 Unfortunately, this organization is not possible without its generous sponsors. Even the
                                 smallest
                                 amount makes a huge difference so PyCon Sweden can continue giving back to the community.
