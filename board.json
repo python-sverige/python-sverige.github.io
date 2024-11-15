@@ -47,23 +47,23 @@
         {
             "name": "Anastasiia Potekhina",
             "title": "CoC board",
-            "image": "images/board/anastasia.jpg"
+            "photo": "images/board/anastasia.jpg"
 
         },
         {
             "name": "Jahanzeb Nawaz",
             "title": "Board Member",
-            "image": "images/board/jahanzeb.jpg"
+            "photo": "images/board/jahanzeb.jpg"
         },
         {
-            "name": "Carolina Säll",
+            "name": "Carolina J. Säll",
             "title": "Board Member",
-            "image": "images/board/carolina.jpg"
+            "photo": "images/board/carolina.jpg"
         },
         { 
             "name": "Gabriela Moraes",
             "title": "CoC board",
-            "image": "images/board/gabriela.jpg"
+            "photo": "images/board/gabriela.jpg"
         }
     ]
 }
