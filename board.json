@@ -14,21 +14,14 @@
             "photo": "images/board/Steve.png"
         },
         {
-            "name": "Vyacheslav Olshevsky (Slavik)",
-            "title": "Volunteer",
-            "photo": "images/board/Slavik.jpg"
-        },
-        {
             "name": "Alexander Hultner",
-            "title": "Volunteer"
-        },
-       {
-            "name": "Anwesha Das",
-            "title": "Volunteer"
+            "title": "Volunteer",
+            "photo": "images/board/alexander.jpg"
         },
         {
             "name": "Michael Dovgal",
-            "title": "Volunteer"
+            "title": "Volunteer",
+            "photo": "images/board/michael.jpg"
         },
         {
             "name": "Aris Nivorlis",
@@ -50,6 +43,27 @@
             "name": "Simron Padhi",
             "title": "Board Member",
             "photo": "images/board/Simron.jpg"
+        },
+        {
+            "name": "Anastasiia Potekhina",
+            "title": "CoC board",
+            "image": "images/board/anastasia.jpg"
+
+        },
+        {
+            "name": "Jahanzeb Nawaz",
+            "title": "Board Member",
+            "image": "images/board/jahanzeb.jpg"
+        },
+        {
+            "name": "Carolina Säll",
+            "title": "Board Member",
+            "image": "images/board/carolina.jpg"
+        },
+        { 
+            "name": "Gabriela Moraes",
+            "title": "CoC board",
+            "image": "images/board/gabriela.jpg"
         }
     ]
 }
