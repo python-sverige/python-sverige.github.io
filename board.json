@@ -46,24 +46,29 @@
         },
         {
             "name": "Anastasiia Potekhina",
-            "title": "CoC board",
+            "title": "CoC team",
             "photo": "images/board/anastasia.jpg"
 
         },
         {
             "name": "Jahanzeb Nawaz",
-            "title": "Board Member",
+            "title": "Volunteer",
             "photo": "images/board/jahanzeb.jpg"
         },
         {
             "name": "Carolina J. Säll",
-            "title": "Board Member",
+            "title": "Volunteer",
             "photo": "images/board/carolina.jpg"
         },
         { 
             "name": "Gabriela Moraes",
-            "title": "CoC board",
+            "title": "CoC team",
             "photo": "images/board/gabriela.jpg"
+        },
+        { 
+            "name": "Philippe Mansson-Wee",
+            "title": "Volunteer",
+            "photo": "images/board/philippe.jpg"
         }
     ]
 }
