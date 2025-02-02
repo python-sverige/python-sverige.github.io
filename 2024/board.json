@@ -1,0 +1,74 @@
+{
+    "members": [
+        {
+            "name": "Helio Loureiro",
+            "title": "Board Member",
+            "photo": "images/board/Helio.jpg",
+            "github": "https://github.com/helioloureiro",
+            "mastodon": "https://mastodon.social/@helioloureiro"
+        },
+        {
+            "name": "Steven Chien",
+            "title": "Volunteer",
+            "github": "https://github.com/steven-chien",
+            "photo": "images/board/Steve.png"
+        },
+        {
+            "name": "Alexander Hultner",
+            "title": "Volunteer",
+            "photo": "images/board/alexander.jpg"
+        },
+        {
+            "name": "Michael Dovgal",
+            "title": "Volunteer",
+            "photo": "images/board/michael.jpg"
+        },
+        {
+            "name": "Aris Nivorlis",
+            "title": "Chairman",
+            "photo": "images/board/Aris.jpg"
+        },
+        {
+            "name": "Soumya Chakraborty",
+            "title": "Board Member",
+            "photo": "images/board/Soumya.jpg"
+        },
+        {
+            "name": "Nikita Churikov",
+            "title": "Treasure",
+            "photo": "images/board/Nikita.jpg",
+            "github": "https://github.com/churnikov"
+        },
+        {
+            "name": "Simron Padhi",
+            "title": "Board Member",
+            "photo": "images/board/Simron.jpg"
+        },
+        {
+            "name": "Anastasiia Potekhina",
+            "title": "CoC team",
+            "photo": "images/board/anastasia.jpg"
+
+        },
+        {
+            "name": "Jahanzeb Nawaz",
+            "title": "Volunteer",
+            "photo": "images/board/jahanzeb.jpg"
+        },
+        {
+            "name": "Carolina J. Säll",
+            "title": "Volunteer",
+            "photo": "images/board/carolina.jpg"
+        },
+        { 
+            "name": "Gabriela Moraes",
+            "title": "CoC team",
+            "photo": "images/board/gabriela.jpg"
+        },
+        { 
+            "name": "Philippe Mansson-Wee",
+            "title": "Volunteer",
+            "photo": "images/board/philippe.jpg"
+        }
+    ]
+}
