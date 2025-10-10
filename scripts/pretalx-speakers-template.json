@@ -1,0 +1,41 @@
+[
+  {
+    "ID": "123456",
+    "Name": "Julius Cezar",
+    "Email": "julius_cezar@hl.eng.br",
+    "Proposal IDs": [
+      "ABCDEF",
+      "GHIJKL"
+    ],
+    "Proposal titles": [
+      "Python for emperors",
+      "Using Python to conquer the world"
+    ]
+  },
+  {
+    "ID": "234567",
+    "Name": "Brutus Cezar",
+    "Email": "brutus_cezar@hl.eng.br",
+    "Proposal IDs": [
+      "BCDEFG",
+      "HIJKLM"
+    ],
+    "Proposal titles": [
+      "Python for senators",
+      "Sharping Python as a knife"
+    ]
+  },
+{
+    "ID": "345678",
+    "Name": "Robocop Murphy",
+    "Email": "robocop@hl.eng.br",
+    "Proposal IDs": [
+      "CDEFGH",
+      "IJKLMN"
+    ],
+    "Proposal titles": [
+      "Python for cybercops",
+      "Using Python to protect the public and uphold the law"
+    ]
+  }
+]
