@@ -23,7 +23,7 @@ def sendMail(pretix, pretalx, contactdata, dryrun, service):
     for address in [email]:
         if address == "":
             continue
-        print("Address:", address)
+        print(f"Address: {author}<{email}>")
         msg = MIMEMultipart('alternative')
         msg['Subject'] = 'Information regarding PyCon Sweden 2025'
         msg['From'] = f'{my_email}'
@@ -32,12 +32,15 @@ def sendMail(pretix, pretalx, contactdata, dryrun, service):
         contact_name = contactdata["name"]
         contact_email = contactdata["email"]
         contact_mobile = contactdata["mobile"]
+        print("Subject:", msg['Subject'])
 
         contact_others = ""
         for k, v in contactdata["others"].items():
             contact_others += f" * {k}: {v}\n" 
 
         msgPlain = f'''Hi {author},
+
+
 * Your ticket for the conference: {promocode}.
 
 You can use the link below to enter the shop:
@@ -140,17 +143,19 @@ auditorium when lunch time starts for it.  It will take only 5
 minutes.
 
 
-* Halloween parthy
+* Halloween party
 
 This year we will have a mingle with Halloween themed party.
-So bring your best costume and be scarry 🎃, and have fun.
+It will happen in a bar on Odenplan (reachable by subway)
+on Friday after the conference.
+So bring your best costume,  be scarry 🎃, and have fun.
 Admitance is free of charge for speakers.
 
 
 Best Regards,
 PyCon Sweden 2025 organization board
 '''
-        msg['Cc'] = 'helio@pycon.se'
+        msg['Cc'] = 'board@pycon.se'
         print(msgPlain)
         msg.attach(MIMEText(msgPlain, 'plain'))
         raw = base64.urlsafe_b64encode(msg.as_bytes())
@@ -234,6 +239,8 @@ if __name__ == '__main__':
         csvreader = csv.DictReader(csvfile)
         for row in csvreader:
             # Name,Role,Voucher,Link,Send,Redeem,,Name,Role,Voucher,Link
+            if row['Name'] is None or len(row['Name']) == 0:
+                continue
             data = get_contact(speakersJSON, row['Name'])
             if data is None:
                 print(f"WARNING: {row['Name']} not found")
