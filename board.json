@@ -65,10 +65,15 @@
             "title": "CoC team",
             "photo": "images/board/gabriela.jpg"
         },
-        { 
+        {
             "name": "Philippe Mansson-Wee",
             "title": "Volunteer",
             "photo": "images/board/philippe.jpg"
+        },
+        {
+            "name": "Christine Winter",
+            "title": "Volunteer",
+            "photo": "images/board/Christine.jpg"
         }
     ]
 }
