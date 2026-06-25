@@ -1,0 +1,67 @@
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #23374d; /* Darker shade of blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: none; /* Hide it initially */
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+.cookie-banner p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.cookie-banner a {
+    color: #4eb5f1; /* Lighter blue for links */
+    text-decoration: underline;
+}
+
+.cookie-banner button {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 0 5px; /* Spacing between buttons */
+    cursor: pointer;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.cookie-banner button.cookie-accept {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.cookie-banner button.cookie-decline {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+.cookie-banner button.cookie-settings {
+    background-color: #fdd835; /* Yellow */
+    color: black; /* Dark text for better readability on yellow */
+}
+.heart-button {
+    background-color: transparent; /* Makes the button's background transparent */
+    border: none; /* Removes the border */
+    padding: 2px; /* Provides some spacing around the icon */
+    cursor: pointer; /* Changes the cursor on hover */
+}
+
+.heart-icon {
+    color: red; /* Sets the heart icon color */
+    font-size: 20px; /* Adjusts the size of the icon */
+}
+.heart-button .fa-heart {
+  color: grey;
+}
+.heart-button[data-liked="true"] .fa-heart {
+  color: red;
+}
+</style>
+
+
