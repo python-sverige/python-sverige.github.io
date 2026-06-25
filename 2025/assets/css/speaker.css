@@ -1,0 +1,121 @@
+#card {
+    background-color: #393B45;
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+    padding-bottom: 1px;
+}
+
+#h1card {
+    color: white;
+    text-align: center;
+    width: 100%;
+    background-color: #E6EBEE;
+    border-radius: 25px 25px 0 0;
+    color: #393B45;
+    padding: 30px 0;
+    font-weight: 800;
+    margin: 0;
+}
+
+#h2card {
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 0;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+#h3card {
+    text-align: center;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    color: white;
+    padding: 30px 0;
+    font-weight: 800;
+    margin: 0;
+}
+
+.image-crop {
+    display: block;
+    position: relative;
+    background-color: #E6EBEE;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#avatar {
+    display: inline;
+    height: 200px;
+    width: auto;
+    margin-left: 0px;
+}
+
+#abstract {
+    display: block;
+    margin: 30px auto;
+    width: 90%;
+    height: auto;
+}
+
+#abstract p {
+    color: #E6EBEE;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#title {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    height: auto;
+}
+
+#title p {
+    color: #E6EBEE;
+    font-weight: dark;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#stats {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 280px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.stat {
+    font-size: 25px;
+    margin: 0;
+}
+
+.label {
+    margin: 0;
+}
+
+
+#msg {
+    background-color: #E6EBEE;
+    color: #393B45;
+}
