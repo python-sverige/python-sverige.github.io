@@ -652,7 +652,18 @@
                             </span>
 `;
             }
-            if (!member.hasOwnProperty("facebook") && !member.hasOwnProperty("twitter") && !member.hasOwnProperty("github") && !member.hasOwnProperty("mastodon")) {
+            if (member.codeberg) {
+                response +=
+                    `                            <span class="fa-stack">
+                                <a href="` + member.codeberg + `">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-mastodon fa-stack-1x"></i>
+                                </a>
+                            </span>
+`;
+            }
+
+            if (!member.hasOwnProperty("facebook") && !member.hasOwnProperty("twitter") && !member.hasOwnProperty("github") && !member.hasOwnProperty("mastodon") && !member.hasOwnProperty("codeberg") {
                 response += `<br>`
             }
 

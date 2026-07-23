@@ -5,7 +5,8 @@
             "title": "Board Member",
             "photo": "images/board/Helio.jpg",
             "github": "https://github.com/helioloureiro",
-            "mastodon": "https://bolha.linux-br.org/@helioloureiro"
+            "mastodon": "https://bolha.linux-br.org/@helioloureiro",
+            "codeberg": "https://codeberg.org/helioloureiro"
         },
         {
             "name": "Steven Chien",
