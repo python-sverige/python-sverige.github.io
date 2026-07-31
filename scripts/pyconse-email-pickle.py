@@ -1,4 +1,13 @@
-#! /usr/bin/env python3
+#! /usr/bin/env -S uv run --script
+#
+# /// script
+# dependencies = [
+# "google-api-python-client",
+# "google-auth-httplib2",
+# "google-auth-oauthlib",
+# ]
+# ///
+
 import pickle
 import os
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -30,3 +39,5 @@ creds = flow.run_local_server(port=0)
 pickle_path = os.path.join(home_dir, 'gmail.pickle')
 with open(pickle_path, 'wb') as token:
     pickle.dump(creds, token)
+
+print(f"Created file: {pickle_path}")
