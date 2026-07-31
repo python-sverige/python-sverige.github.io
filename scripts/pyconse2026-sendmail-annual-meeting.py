@@ -5,6 +5,7 @@
 # "google-api-python-client",
 # "google-auth-httplib2",
 # "google-auth-oauthlib",
+# "coloredlogs"
 # ]
 # ///
 
@@ -17,8 +18,10 @@ from email.mime.text import MIMEText
 import csv
 import argparse
 import time
+import logging
 
 import googleapiclient.discovery
+import coloredlogs
 
 # Note: export the result of the PyCon Sverige form
 # from here: https://docs.google.com/forms/d/1UTFIi0saX3o4ebsQDOzqkAC_h4IKSzuaZV81llfVcJA/edit#responses
@@ -29,6 +32,14 @@ DAYS = {
 }
 YEAR = time.strftime("%Y", time.localtime())
 TIME = "20:00"
+
+
+logging.root.setLevel(logging.INFO)
+scriptName = os.path.basename(__file__)
+logger = logging.getLogger(scriptName)
+logger.setLevel('INFO')
+coloredlogs.install(logger=logger)
+
 
 def sendMail(data: dict[str,str], service, dryrun: bool = True):
     # Create a message
@@ -102,24 +113,24 @@ Helio Loureiro
 Board member, Python Sverige
 '''
     #msgHtml = msgPlain
-    print(msgPlain)
+    logger.debug(msgPlain)
     msg.attach(MIMEText(msgPlain, 'plain'))
     raw = base64.urlsafe_b64encode(msg.as_bytes())
     raw = raw.decode()
     body = {'raw': raw}
 
     if not dryrun:
-        print("NOT DRY-RUN")
-        print(f"sending email to {email}")
+        logger.warning("NOT DRY-RUN")
+        logger.info(f"sending email to {email}")
         message1 = body
         message = (service.users().messages().send(userId="me",
                                                    body=message1).execute())
 
-        print(f'Message Id: {message["id"]} to {email} sent')
+        logger.info(f'Message Id: {message["id"]} to {email} sent')
     else:
-        print("Dry-Run mode - nothing sent")
-        print(f"It would send email to {email}")
-    print('====')
+        logger.warning("Dry-Run mode - nothing sent")
+        logger.info(f"It would send email to {email}")
+    logger.info('==== done ====')
 
 
 parse = argparse.ArgumentParser(
@@ -132,8 +143,14 @@ parse.add_argument("--dryrun",
                    action='store_true',
                    help="Set this flag to just print the result")
 parse.add_argument("--pickle", help="Pickle authorization file")
+parse.add_argument("--loglevel", default="info", help="Logging level (default=info)")
 
 args = parse.parse_args()
+
+if args.loglevel != "info":
+    logger.info(f"Changing logging level to: {args.loglevel}")
+    logger.setLevel(args.loglevel.upper())
+    coloredlogs.install(logger=logger)
 
 if args.pickle is None:
     # Get the path to the pickle file
@@ -150,7 +167,15 @@ with open(pickle_path, 'rb') as fh:
 service = googleapiclient.discovery.build('gmail', 'v1', credentials=creds)
 
 
-with open(args.csvfile, newline='', encoding='utf-8') as csvfile:
+error_csv = args.csvfile.replace(".csv", "-error.csv")
+with open(args.csvfile, newline='', encoding='utf-8') as csvfile, open(error_csv, 'w', newline='', encoding='utf-8') as csvwrite:
     csvreader = csv.DictReader(csvfile)
+    csvwriter = csv.writer(csvwrite, delimiter=',',
+                            quotechar='"', quoting=csv.QUOTE_MINIMAL)
     for row in csvreader:
+        try:
             sendMail(row, service, args.dryrun)
+            time.sleep(60)
+        except googleapiclient.errors.HttpError:
+            logger.error(f"Failed to send email to: {row['Email']}")
+            csvwriter.writerow(row)
