@@ -2,7 +2,7 @@
     "members": [
         {
             "name": "Helio Loureiro",
-            "title": "Board Member",
+            "title": "Treasure",
             "photo": "images/board/Helio.jpg",
             "github": "https://github.com/helioloureiro",
             "mastodon": "https://bolha.linux-br.org/@helioloureiro",
@@ -15,18 +15,8 @@
             "photo": "images/board/Steve.png"
         },
         {
-            "name": "Alexander Hultner",
-            "title": "Volunteer",
-            "photo": "images/board/alexander.jpg"
-        },
-        {
-            "name": "Michael Dovgal",
-            "title": "Volunteer",
-            "photo": "images/board/michael.jpg"
-        },
-        {
             "name": "Aris Nivorlis",
-            "title": "Chairman",
+            "title": "Board Member",
             "photo": "images/board/Aris.jpeg"
         },
         {
@@ -36,14 +26,9 @@
         },
         {
             "name": "Nikita Churikov",
-            "title": "Treasure",
+            "title": "Chairman",
             "photo": "images/board/Nikita.jpg",
             "github": "https://github.com/churnikov"
-        },
-        {
-            "name": "Simron Padhi",
-            "title": "Board Member",
-            "photo": "images/board/Simron.jpg"
         },
         {
             "name": "Anastasiia Potekhina",
