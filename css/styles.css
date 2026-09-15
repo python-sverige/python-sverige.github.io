@@ -2085,6 +2085,7 @@ a:hover.back-to-top {
 	}
 	
 	.navbar-custom .fa-stack-1x {
+		width: 1.625rem;
 		font-size: 0.6875rem;
 		line-height: 1.625rem;
 		color: #fff;
