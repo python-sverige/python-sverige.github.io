@@ -162,6 +162,7 @@
         </div>
     </nav> <!-- end of navbar -->
     <!-- end of navbar -->
+
     <!-- Header -->
     <header id="header" class="header">
         <div class="header-content">
@@ -219,16 +220,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <!--<div class="text-container">
+                    <div class="text-container">
                         <p>
-                            Ticket sale has now closed!
+                            Ticket sales remain open.  Don't miss the chance to attend the conference.
                             We look foward to see you all at the conference.
-                            The conference program is now released. Try our conference planning tools to plan your visit!
+                            The conference program is now released.
                         </p>
                         <p>
                             <a class="btn-solid-lg page-scroll" href="#program">Program</a>
                         </p>
-                    </div>-->
+                    </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="text-container">
@@ -388,14 +389,22 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
-                    <div class="section-title" align="center">PROGRAM</div>
+                    <div class="section-title" align="center">PROGRAM &amp; KEYNOTES</div>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-12">
-                    <p class="p-heading">
-                        The full program for PyCon Sweden 2026 will be announced soon.
-                    </p>
+                    <!-- Pretalx -->
+                    <script type="text/javascript" src="https://pretalx.com/pycon-sweden-2026/schedule/widget/v2.en.js"></script>
+                    <pretalx-schedule event-url="https://pretalx.com/pycon-sweden-2026/" locale="en" format="grid" style="--pretalx-clr-primary: #3aa57c"></pretalx-schedule>
+                    <noscript>
+                        <div class="pretalx-widget">
+                            <div class="pretalx-widget-info-message">
+                                JavaScript is disabled in your browser. To access our schedule without JavaScript,
+                                please <a target="_blank" href="https://pretalx.com/pycon-sweden-2026/schedule/">click here</a>.
+                            </div>
+                        </div>
+                    </noscript>
                 </div>
             </div>
         </div>
@@ -642,7 +651,7 @@
                         passport for confirmation.
                     </p>
                     <p>
-                        Due to the high increase of requests, we had to change our policy regarding the
+                        Due to the high increase of requests, we had to change our policy regarding the 
                         letter of invitation.  Now besides the passport picture we also require a copy of
                         the conference's ticket purchase to confirm the participation in the event.
                     </p>
@@ -834,6 +843,12 @@
                             </a>
                         </span>
                         <span class="fa-stack">
+                            <a target="_blank" href="https://twitter.com/pyconse">
+                                <span class="hexagon"></span>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
                             <a target="_blank" href="https://www.linkedin.com/company/pycon-sweden">
                                 <span class="hexagon"></span>
                                 <i class="fab fa-linkedin-in fa-stack-1x"></i>
@@ -897,6 +912,9 @@
                         <ul class="list-unstyled li-space-lg">
                             <li>
                                 <a class="white" target="_blank" href="https://www.facebook.com/pyconse">Facebook</a>
+                            </li>
+                            <li>
+                                <a class="white" target="_blank" href="https://twitter.com/pyconse">Twitter</a>
                             </li>
                             <li class="media">
                                 <a class="white" target="_blank"
