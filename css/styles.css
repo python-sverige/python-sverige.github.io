@@ -871,6 +871,61 @@ input[type='checkbox'] {
 /* end of hover animation */
 
 
+/*********************/
+/*     05a. Venue     */
+/*********************/
+.venue {
+	padding-top: 6.5rem;
+	padding-bottom: 6.5rem;
+	background-color: #fbfbfb;
+}
+
+.venue .section-title,
+.venue h2 {
+	text-align: center;
+}
+
+.venue .section-title {
+	margin-bottom: 0.5rem;
+}
+
+.venue h2 {
+	margin-bottom: 3.25rem;
+}
+
+.venue-details {
+	margin-bottom: 2rem;
+}
+
+.venue address {
+	margin-bottom: 1.5rem;
+	color: #484a46;
+	font: 600 1rem/1.5625rem "Open Sans", sans-serif;
+	font-style: normal;
+}
+
+.venue-directions {
+	display: block;
+	width: 17.25rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.75rem;
+}
+
+.venue-map {
+	overflow: hidden;
+	min-height: 20rem;
+	border-radius: 0.25rem;
+	box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.12);
+}
+
+.venue-map iframe {
+	display: block;
+	width: 100%;
+	min-height: 20rem;
+	border: 0;
+}
+
+
 /***************************/
 /*     06. Description     */
 /***************************/
